@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+title: Søg
+permalink: /soeg/
+bodyClass: search
+---
+<h1 class="page-title">Søg</h1>
+<link rel="stylesheet" href="{{ '/pagefind/pagefind-ui.css' | url }}">
+<div id="search"></div>
+<script src="{{ '/pagefind/pagefind-ui.js' | url }}"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const ui = new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+    const q = new URLSearchParams(location.search).get("q");
+    if (q) ui.triggerSearch(q);
+  });
+</script>

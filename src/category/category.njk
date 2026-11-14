@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+bodyClass: archive category
+pagination:
+  data: wp.categories
+  size: 1
+  alias: cat
+  before: function(cats) { return cats.filter(c => c.count > 0); }
+permalink: "/category/{{ cat.slug }}/"
+eleventyComputed:
+  title: "Kategoriarkiv: {{ cat.name }}"
+---
+<h1 class="page-title">Kategoriarkiv: <span>{{ cat.name }}</span></h1>
+{%- for p in collections.posts | postsInCategory(cat.id) %}
+{% include "partials/entry.njk" %}
+{%- endfor %}

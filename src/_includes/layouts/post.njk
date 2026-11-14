@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+bodyClass: single
+---
+{%- set prev = collections.posts | getNextCollectionItem(page) %}
+{%- set next = collections.posts | getPreviousCollectionItem(page) %}
+<div id="nav-above" class="navigation">
+	<div class="nav-previous">{% if prev %}<a href="{{ prev.url | url }}" rel="prev"><span class="meta-nav">&larr;</span> {{ prev.data.title }}</a>{% endif %}</div>
+	<div class="nav-next">{% if next %}<a href="{{ next.url | url }}" rel="next">{{ next.data.title }} <span class="meta-nav">&rarr;</span></a>{% endif %}</div>
+</div>
+<div id="post-{{ wpId }}" class="post-{{ wpId }} post type-post status-publish hentry" data-pagefind-body>
+	<h1 class="entry-title">{{ title }}</h1>
+	<div class="entry-meta">
+		<span class="meta-prep meta-prep-author">Udgivet den</span> <span class="entry-date" title="{{ page.date | wpTime }}">{{ page.date | wpDate }}</span>{% if author %} <span class="meta-sep">af</span> <span class="author vcard">{{ author }}</span>{% endif %}
+	</div>
+	<div class="entry-content">
+{{ content | safe }}
+	</div>
+	<div class="entry-utility">
+		{%- set cats = wp.categories | categoriesFor(categories) %}
+		{%- if cats.length %}Dette indlæg blev udgivet i {% for c in cats %}<a href="{{ ('/category/' + c.slug + '/') | url }}" rel="category tag">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.{% endif %}
+	</div>
+</div>
+<div id="nav-below" class="navigation">
+	<div class="nav-previous">{% if prev %}<a href="{{ prev.url | url }}" rel="prev"><span class="meta-nav">&larr;</span> {{ prev.data.title }}</a>{% endif %}</div>
+	<div class="nav-next">{% if next %}<a href="{{ next.url | url }}" rel="next">{{ next.data.title }} <span class="meta-nav">&rarr;</span></a>{% endif %}</div>
+</div>
+{% include "partials/comments.njk" %}

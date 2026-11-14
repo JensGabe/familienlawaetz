@@ -1,0 +1,55 @@
+{%- from "partials/menu.njk" import menu -%}
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title and not isHome %}{{ title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.description }}{% endif %}</title>
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="{{ '/feed/index.xml' | url }}">
+<link rel="stylesheet" href="{{ '/css/twentyten.css' | url }}">
+<link rel="stylesheet" href="{{ '/css/block-library.css' | url }}">
+<link rel="stylesheet" href="{{ '/css/block-library-theme.css' | url }}">
+<link rel="stylesheet" href="{{ '/css/twentyten-blocks.css' | url }}">
+<link rel="stylesheet" href="{{ '/css/wp-inline.css' | url }}">
+<link rel="stylesheet" href="{{ '/css/site.css' | url }}">
+{%- block head %}{% endblock %}
+</head>
+<body class="custom-background {{ bodyClass }}">
+<div id="wrapper" class="hfeed">
+	<a href="#content" class="screen-reader-text skip-link">Hop til indhold</a>
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+				{% if isHome %}<h1 id="site-title">{% else %}<div id="site-title">{% endif %}
+					<span><a href="{{ '/' | url }}" rel="home">{{ site.title }}</a></span>
+				{% if isHome %}</h1>{% else %}</div>{% endif %}
+				<div id="site-description">{{ site.description }}</div>
+				<img src="{{ site.headerImage | url }}" width="940" height="198" alt="{{ site.title }}" fetchpriority="high">
+			</div>
+			<div id="access" role="navigation">
+				<button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-menu">Menu</button>
+				<div class="menu" id="site-menu"><ul>
+<li class="{% if page.url == '/' %}current_page_item{% endif %}"><a href="{{ '/' | url }}">Forside</a></li>{{ menu(collections.wpPages | navTree, page.url) }}
+				</ul></div>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div id="container">
+			<div id="content" role="main">
+{{ content | safe }}
+			</div>
+		</div>
+		{% include "partials/sidebar.njk" %}
+	</div>
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+			<div id="site-info"><a href="{{ '/' | url }}" rel="home">{{ site.title }}</a></div>
+		</div>
+	</div>
+</div>
+<script src="{{ '/js/menu.js' | url }}" defer></script>
+{%- block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,18 @@
+{%- set itemComments = wp.comments | commentsFor(wpId) -%}
+<div id="comments">
+{%- if itemComments.length %}
+	<h3 id="comments-title">{{ itemComments.length }} svar til <em>{{ title }}</em></h3>
+	<ol class="commentlist">
+	{%- for c in itemComments %}
+		<li class="comment" id="li-comment-{{ c.id }}">
+			<div id="comment-{{ c.id }}">
+				<div class="comment-author vcard"><cite class="fn">{{ c.author }}</cite> <span class="says">siger:</span></div>
+				<div class="comment-meta commentmetadata"><a href="#comment-{{ c.id }}">{{ c.date | wpDate }} kl. {{ c.date | wpTime }}</a></div>
+				<div class="comment-body">{{ c.content | safe }}</div>
+			</div>
+		</li>
+	{%- endfor %}
+	</ol>
+{%- endif %}
+	<p class="nocomments">Kommentarer er lukket.</p>
+</div>

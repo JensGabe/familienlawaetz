@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+isHome: true
+bodyClass: home blog
+pagination:
+  data: collections.posts
+  size: 10
+  alias: pagePosts
+permalink: "{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}/{% else %}/{% endif %}"
+---
+{%- for p in pagePosts %}
+{% include "partials/entry.njk" %}
+{%- endfor %}
+{%- if pagination.pages.length > 1 %}
+<div id="nav-below" class="navigation">
+	<div class="nav-previous">{% if pagination.href.next %}<a href="{{ pagination.href.next | url }}"><span class="meta-nav">&larr;</span> Ældre indlæg</a>{% endif %}</div>
+	<div class="nav-next">{% if pagination.href.previous %}<a href="{{ pagination.href.previous | url }}">Nyere indlæg <span class="meta-nav">&rarr;</span></a>{% endif %}</div>
+</div>
+{%- endif %}

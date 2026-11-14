@@ -1,0 +1,21 @@
+{#- One post as it appears in a listing (home page, category archive). Expects `p`. -#}
+<div id="post-{{ p.data.wpId }}" class="post-{{ p.data.wpId }} post type-post status-publish hentry">
+	<h2 class="entry-title"><a href="{{ p.url | url }}" rel="bookmark">{{ p.data.title }}</a></h2>
+	<div class="entry-meta">
+		<span class="meta-prep meta-prep-author">Udgivet den</span> <a href="{{ p.url | url }}" title="{{ p.date | wpTime }}" rel="bookmark"><span class="entry-date">{{ p.date | wpDate }}</span></a>{% if p.data.author %} <span class="meta-sep">af</span> <span class="author vcard">{{ p.data.author }}</span>{% endif %}
+	</div>
+	<div class="entry-content">
+{{ p.content | safe }}
+	</div>
+	<div class="entry-utility">
+		{%- set cats = wp.categories | categoriesFor(p.data.categories) %}
+		{%- if cats.length %}
+		<span class="cat-links"><span class="entry-utility-prep entry-utility-prep-cat-links">Udgivet i</span> {% for c in cats %}<a href="{{ ('/category/' + c.slug + '/') | url }}" rel="category tag">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</span>
+		{%- endif %}
+		{%- set n = (wp.comments | commentsFor(p.data.wpId)).length %}
+		{%- if n %}
+		<span class="meta-sep">|</span>
+		<span class="comments-link"><a href="{{ p.url | url }}#comments">{{ n }} kommentar{% if n > 1 %}er{% endif %}</a></span>
+		{%- endif %}
+	</div>
+</div>
