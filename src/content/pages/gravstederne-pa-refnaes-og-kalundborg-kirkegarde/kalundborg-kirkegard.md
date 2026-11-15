@@ -11,4 +11,7 @@ permalink: "/gravstederne-pa-refnaes-og-kalundborg-kirkegarde/kalundborg-kirkega
 
 Billederne er taget den 19.juli 2011, da legatbestyrelsen var på rundtur til gravstederne.
 
- <a href="/wp-content/uploads/2011/10/20110713-billeder-0071.jpg">![](/wp-content/uploads/2011/10/20110713-billeder-0071.jpg){width=150}&nbsp;</a>   <a href="/wp-content/uploads/2011/10/20110713-billeder-0051.jpg">![](/wp-content/uploads/2011/10/20110713-billeder-0051.jpg){width=150}&nbsp;</a>  [![](/wp-content/uploads/2011/10/20110713-billeder-008.jpg){width=150}](/wp-content/uploads/2011/10/20110713-billeder-008.jpg)   [![](/wp-content/uploads/2011/10/20110713-billeder-006.jpg){width=150}](/wp-content/uploads/2011/10/20110713-billeder-006.jpg)
+[![](/wp-content/uploads/2011/10/20110713-billeder-0071.jpg){width=150}](/wp-content/uploads/2011/10/20110713-billeder-0071.jpg)
+[![](/wp-content/uploads/2011/10/20110713-billeder-0051.jpg){width=150}](/wp-content/uploads/2011/10/20110713-billeder-0051.jpg)
+[![](/wp-content/uploads/2011/10/20110713-billeder-008.jpg){width=150}](/wp-content/uploads/2011/10/20110713-billeder-008.jpg)
+[![](/wp-content/uploads/2011/10/20110713-billeder-006.jpg){width=150}](/wp-content/uploads/2011/10/20110713-billeder-006.jpg)
