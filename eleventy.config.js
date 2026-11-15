@@ -12,7 +12,12 @@ const pad = (n) => String(n).padStart(2, "0");
 const asDate = (d) => (d instanceof Date ? d : new Date(d));
 
 export default function (eleventyConfig) {
-  // Imported WordPress HTML is plain HTML: never run it through a template engine.
+  // "production" (FTP deploy), "test" (GitHub Pages) or unset (local). Templates see it too.
+  eleventyConfig.addGlobalData("ELEVENTY_ENV", process.env.ELEVENTY_ENV || "");
+  if (process.env.ELEVENTY_ENV === "production") {
+    eleventyConfig.addPassthroughCopy("src/.htaccess");
+  }
+    // Imported WordPress HTML is plain HTML: never run it through a template engine.
   eleventyConfig.setTemplateFormats(["njk", "html", "md"]);
 
   // ---------- links and images ----------

@@ -3,6 +3,11 @@ permalink: /robots.txt
 eleventyExcludeFromCollections: true
 ---
 User-agent: *
+{% if ELEVENTY_ENV == "test" -%}
+Disallow: /
+{%- else -%}
+Allow: /
 Disallow: {{ "/pagefind/" | htmlBaseUrl }}
+{%- endif %}
 
 Sitemap: {{ "/sitemap.xml" | htmlBaseUrl(site.url) }}

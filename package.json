@@ -8,14 +8,15 @@
     "build": "eleventy && pagefind --site _site --silent",
     "start": "eleventy --serve",
     "serve": "npm run build && npx @11ty/eleventy-dev-server --dir=_site",
-    "build:eleventy:github-pages": "eleventy --pathprefix=/familienlawaetz/ && pagefind --site _site --silent",
-    "build:eleventy:prod": "npm run build"
+    "build:eleventy:github-pages": "cross-env ELEVENTY_ENV=test eleventy --pathprefix=/familienlawaetz/ && pagefind --site _site --silent",
+    "build:eleventy:prod": "cross-env ELEVENTY_ENV=production npm run build"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.8",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@fontsource-variable/source-serif-4": "^5.3.1",
+    "cross-env": "^10.1.0",
     "markdown-it-attrs": "^4.5.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-image-figures": "^2.1.1",
