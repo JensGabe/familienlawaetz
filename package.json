@@ -5,16 +5,17 @@
   "description": "Familien Lawaetz – static 11ty site migrated from WordPress",
   "type": "module",
   "scripts": {
-    "import": "node scripts/import-wp.mjs && node scripts/html-to-md.mjs",
-    "convert": "node scripts/html-to-md.mjs",
     "build": "eleventy && pagefind --site _site --silent",
     "start": "eleventy --serve",
     "serve": "npm run build && npx @11ty/eleventy-dev-server --dir=_site"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.8",
+    "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "pagefind": "^1.6.0",
-    "turndown": "^7.2.5"
+    "markdown-it-attrs": "^4.5.0",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-image-figures": "^2.1.1",
+    "pagefind": "^1.6.0"
   }
 }

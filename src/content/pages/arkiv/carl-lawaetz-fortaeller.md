@@ -9,7 +9,7 @@ modified: "2019-02-16T22:31:49"
 permalink: "/arkiv/carl-lawaetz-fortaeller/"
 ---
 
-<span style="text-decoration: underline;">Carl Lawaetz f. 27. Marts 1868 fortæller</span>
+<u>Carl Lawaetz f. 27. Marts 1868 fortæller</u>
 
 Det første, jeg kan huske gaar tilbage til Aaret 1871, og da husker jeg kun to Tildragelser, nemlig, at jeg var ude at gaa med min Mor og en af mine Tanter fra Trællebakken hjemad mod Gaarden, og at jeg blev staaende ved den Vej, der gaar ned til Nordstranden. Hvad Tid paa Aaret, det var, erindrer jeg ikke, men jeg erindrer Dagene omkring 14. December, den dag, da min Mor døde.
 

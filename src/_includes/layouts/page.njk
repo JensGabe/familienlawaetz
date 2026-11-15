@@ -1,8 +1,7 @@
 ---
 layout: layouts/base.njk
-bodyClass: page
 ---
-<div id="post-{{ wpId }}" class="post-{{ wpId }} page type-page status-publish hentry" data-pagefind-body>
+<div id="post-{{ wpId }}" class="hentry" data-pagefind-body>
 	<h1 class="entry-title">{{ title }}</h1>
 	<div class="entry-content">
 {{ content | safe }}

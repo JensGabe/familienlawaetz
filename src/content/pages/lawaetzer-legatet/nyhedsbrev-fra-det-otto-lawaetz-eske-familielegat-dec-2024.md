@@ -17,7 +17,7 @@ Legatbestyrelsen har lovet det festudvalg, der igennem nu en hel del år har arr
 
 Det særlige ved året og ved Falkensteen må I læse om i indbydelsen til sammenkomsten…
 
-Festudvalget vil sende indbydelserne ud til alle kendte familie-mailadresser. De samme mailadresser, der modtager dette nyhedsbrev. (Synes I, at indbydelserne og nyhedsbrevet skal sendes til flere familie-mailadresser, eller kender I til forandrede mailadresser, kan samlingen af mailadresser udvides via familiens hjemmeside: **familien-lawaetz.dk** og mailadressen:  stamtavle@familien-lawaetz.dk)
+Festudvalget vil sende indbydelserne ud til alle kendte familie-mailadresser. De samme mailadresser, der modtager dette nyhedsbrev. (Synes I, at indbydelserne og nyhedsbrevet skal sendes til flere familie-mailadresser, eller kender I til forandrede mailadresser, kan samlingen af mailadresser udvides via familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** og mailadressen: [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk))
 
 Indbydelserne kommer ud den 23. januar 2025, og en bindende tilmelding med betaling skal foretages senest 1. marts.
 
@@ -35,7 +35,7 @@ Skulle nogen fra familien have lyst til at fortsætte den smukke tradition med a
 
 Alle bidrag vil som netop omtalt være særdeles nyttige for legatets fortsatte virke og modtages med stor tak.
 
-Opgiver man ved indbetalingen sin mailadresse, har vi mulighed for at sende en bekræftelse på modtagelse af bidraget<strong><em>. </em></strong> Samtidig vil vi, for fortsat at styrke familiefællesskabet, foranledige, at giveren får tilsendt en opdateret stamtavle i PDF-format.
+Opgiver man ved indbetalingen sin mailadresse, har vi mulighed for at sende en bekræftelse på modtagelse af bidraget. Samtidig vil vi, for fortsat at styrke familiefællesskabet, foranledige, at giveren får tilsendt en opdateret stamtavle i PDF-format.
 
 Nyt om legatets bogsalg:
 
@@ -49,15 +49,15 @@ Da første- og andenudgaven af slægtsbogen udkom med en trykt stamtavle indlagt
 
 Endnu en familiebog (et hæfte på 72 sider) – om en af Ottos sønner (Carl A.8) – har legatets bogsalg stadig få eksemplarer af: **”Carl Lawaetz, Kaalund Kloster, 1868-1944”**. Denne bog kan købes for 100 kr.
 
-Senest har legatet fået mulighed for at tilbyde endnu et hæfte (på 85 sider): <strong>Ludolph Gabe. Københavns Valgmenigheds første formand. Hans selvbiografi. </strong> Kort genfortalt af pastor emer. N.A. Jensen. Dette hæfte kan erhverves for 50 kr.
+Senest har legatet fået mulighed for at tilbyde endnu et hæfte (på 85 sider): **Ludolph Gabe. Københavns Valgmenigheds første formand. Hans selvbiografi.** Kort genfortalt af pastor emer. N.A. Jensen. Dette hæfte kan erhverves for 50 kr.
 
-Bøgerne kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte min direkte mail: <a href="mailto:mariannelawaetz@gmail.com"><strong>mariannelawaetz@gmail.com</strong></a><strong>.</strong> **Ved bogbestillinger bedes foruden postadresse oplyst både mailadresse og telefonnummer.**
+Bøgerne kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte min direkte mail: **[mariannelawaetz@gmail.com](mailto:mariannelawaetz@gmail.com)**. **Ved bogbestillinger bedes foruden postadresse oplyst både mailadresse og telefonnummer.**
 
 Ved bestilling af bøger inden 16.december skulle der være god mulighed for, at bøgerne når frem inden jul. Jeg sender så vidt muligt bøgerne samme dag eller dagen efter modtaget bestilling.
 
 Lidt mere om Lawaetz-bøger (som skal rekvireres andre steder):
 
-Legatbestyrelsen er for nylig blevet gjort opmærksom på, at slægtsbogen ”Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaets’s Historie” er **oversat til tysk** af Ulf Lawaetz (A.6.1.1.) i 1973. Har nogen interesse i at få denne oversættelse tilsendt, kan man henvende sig til Gerd Sigel (A.6.1.4.4.) på mail <a href="mailto:gerd.sigel@googlemail.com">gerd.sigel@googlemail.com</a>
+Legatbestyrelsen er for nylig blevet gjort opmærksom på, at slægtsbogen ”Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaets’s Historie” er **oversat til tysk** af Ulf Lawaetz (A.6.1.1.) i 1973. Har nogen interesse i at få denne oversættelse tilsendt, kan man henvende sig til Gerd Sigel (A.6.1.4.4.) på mail [gerd.sigel@googlemail.com](mailto:gerd.sigel@googlemail.com)
 
 Ny bog om Hans Lawaetz (C.5.3.), St. Croix:
 
@@ -67,7 +67,7 @@ Bogen er på mange måder en fortsættelse af historien om hans far, Fritz (C.5.
 
 ”Memoir of a Crucian Cowboy” kan købes via Amazon.
 
-Vi minder om, at stamtavlen og e-mailadresserne fortsat opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **familien-lawaetz.dk** og mailadressen stamtavle@familien-lawaetz.dk, så går der direkte besked til Nikolaj.
+Vi minder om, at stamtavlen og e-mailadresserne fortsat opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** og mailadressen [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk), så går der direkte besked til Nikolaj.
 
 Er man i øvrigt interesseret i historier om familien, vil det være en god ide at besøge samme familie-hjemmeside, hvor der også for nylig er lagt mange billeder ind fra sidste familiesammenkomst på Refsnæs.
 

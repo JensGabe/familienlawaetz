@@ -11,19 +11,20 @@ permalink: "/lawaetzer-legatet/nyhedsbrev-2013/"
 
 **Kære familiemedlem**
 
-<span style="text-decoration: underline;"><b>Hermed nyt fra Det Otto Lawaetz’eske Familielegat:</b></span>
+**<u>Hermed nyt fra Det Otto Lawaetz’eske Familielegat:</u>**
 
 Først lidt historie – kort fortalt:
 
 _Legatet blev stiftet i anledning af Otto Lawaetz’s 75-årige fødselsdag 1904._
 
-<i>L</i><i>egatets formål er ”stedse at lade vedligeholde i god Stand det nuværende Familiegravsted på Refsnæs Kirkegård, hvor O. Lawaetz ligger begravet, O. Lawaetz’ Faders gravsted på Gjellerup Kirkegård og O. Lawaetz’ Moders gravsted på Kalundborg Kirkegård. – <b>gravstederne skal fornys på længst mulig Tid, om muligt for bestandigt.”</b></i>
+_Legatets formål er ”stedse at lade vedligeholde i god Stand det nuværende Familiegravsted på Refsnæs Kirkegård, hvor O. Lawaetz ligger begravet, O. Lawaetz’ Faders gravsted på Gjellerup Kirkegård og O. Lawaetz’ Moders gravsted på Kalundborg Kirkegård. – **gravstederne skal fornys på længst mulig Tid, om muligt for bestandigt.”**_
 
 _Legatets andet formål er at uddele legatportioner til ”unge Menneskers Uddannelse samt til familiemedlemmer, der af andre Årsager kan have Understøttelse behov.”_
 
-Vi i legatbestyrelsen håber meget, at dette brev læses af mange, der kan tilslutte sig fundatsens § 9, der siger:  <i>”De af Familiens Medlemmer, der måtte have Evne og Vilje dertil, <b>tilskyder</b> <b>aarligt</b> til Legatets Formaal mindst&nbsp; ….&nbsp; Kroner at indbetale…”&nbsp;&nbsp;</i>  
+Vi i legatbestyrelsen håber meget, at dette brev læses af mange, der kan tilslutte sig fundatsens § 9, der siger: 
+_”De af Familiens Medlemmer, der måtte have Evne og Vilje dertil, **tilskyder aarligt** til Legatets Formaal mindst \_\_\_ Kroner at indbetale…”_
 
-eller at mange af læserne vil ”<b><i>tilskyde</i></b> <i> <b>et engangsbeløb”</b></i>, der kan bidrage til at få gang i alle legatets opgaver og sikre, at vore fælles forfædres og –mødres gravsteder og minder bevares også til vore efterkommere.
+eller at mange af læserne vil ”**_tilskyde et engangsbeløb”_**, der kan bidrage til at få gang i alle legatets opgaver og sikre, at vore fælles forfædres og –mødres gravsteder og minder bevares også til vore efterkommere.
 
 **Økonomi og gravsteder:**
 
@@ -41,9 +42,10 @@ Der har endnu ikke været midler til også at forlænge gravstedet på Gjellerup
 
 Bestyrelsen stiler mod at samle så mange penge ind, at vi kan sikre alle gravstederne for lang tid – og meget gerne 30 eller 60 år ad gangen.
 
- <b><i>&nbsp;Husk ”mange bække små”…</i></b>
+&nbsp;**_Husk ”mange bække små”..._**
 
-<b><i>Bidrag til legatet kan indbetales direkte via en bankoverførsel til bankkonto: </i></b> <strong><i>Reg. nr. 2045 Konto nr. 8680 210 692. </i></strong> <b><i>Opgiver du ved indbetalingen din mailadresse (og naturligvis også gerne stamtavlenummer), har vi mulighed for at sende dig en bekræftelse på modtagelse af bidraget.</i></b>
+**_Bidrag til legatet kan indbetales direkte via en bankoverførsel til bankkonto: Reg. nr. 2045 Konto nr. 8680 210 692.
+Opgiver du ved indbetalingen din mailadresse (og naturligvis også gerne stamtavlenummer), har vi mulighed for at sende dig en bekræftelse på modtagelse af bidraget._**
 
 **Slægtsbogen**
 
@@ -63,9 +65,9 @@ De sidste eksemplarer af andet oplag er til salg for 300 kr. pr. stk. og kan kø
 
 På samme link kan man også for 100 kr. erhverve sig bogen  ”Herman Lawaetz, et tidsbillede”, udgivet i anledning af Bagsværd Kostskoles 100 års jubilæum. Af denne bog har vi 17 eksemplarer til salg.
 
-<b>55.000 kr. er mange penge at skulle samle ind, så hvis projektet skal blive til noget,&nbsp; håber vi, at ALLE, der synes, at det er godt, at vi genoptrykker slægtsbogen til de kommende generationer, også vil sende et bidrag&nbsp; til legatkontoen – stort eller lille. –</b><b><i>MÅSKE SKULLE DU GØRE DET MED DET SAMME, SÅ DU HUSKER DET!!!</i></b>
+**55.000 kr. er mange penge at skulle samle ind, så hvis projektet skal blive til noget,&nbsp; håber vi, at ALLE, der synes, at det er godt, at vi genoptrykker slægtsbogen til de kommende generationer, også vil sende et bidrag&nbsp; til legatkontoen – stort eller lille. –_MÅSKE SKULLE DU GØRE DET MED DET SAMME, SÅ DU HUSKER DET!!!_**
 
-<a href="http://www.familiem-lawaetz.dk"><b>www.familien-lawaetz.dk</b></a>
+**[www.familien-lawaetz.dk](https://www.familien-lawaetz.dk)**
 
 er familiens hjemmeside, hvor legatbestyrelse og festudvalg forsøger at holde alle familiemedlemmer orienteret om nyt såvel som gammelt … f. eks. kan man læse, at **næste familiesammenkomst bliver på Refsnæsgården  lørdag den 21. maj 2016**.  Man kan også få oplysninger om at opdatere stamtavlen, og at erhverve sig en stamtavle, – om at søge legat  osv.
 
@@ -81,7 +83,7 @@ Erik Anders Lawaetz har stadig det store og vigtige hverv med at opdatere stamta
 
 **Har du opdateringer, så send meddelelserne til Erik** – for eksempel gennem hjemmesidens skrivefelt.
 
-En komplet stamtavle i pdf-format kan rekvireres mod et beskedent beløb ved at sende en meddelelse til Erik på mail: **stamtavle(at)familien-lawaetz.dk**
+En komplet stamtavle i pdf-format kan rekvireres mod et beskedent beløb ved at sende en meddelelse til Erik på mail: **[stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk)**
 
 **Ændring i legatbestyrelsens sammensætning:**
 

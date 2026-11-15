@@ -6,13 +6,13 @@ Static version of https://familien-lawaetz.dk, migrated from WordPress (Twenty T
 
 ```bash
 npm install
-npm start          # dev server with live reload (no search index)
-npm run build      # build to _site/ and generate the Pagefind search index
-npm run import     # re-import content from the WordPress REST API and convert it to Markdown
-npm run convert    # convert any *.html files under src/content to Markdown
+npm start          # dev server with live reload (no search index; images generated on request)
+npm run build      # build to _site/ (incl. optimised images in /img/) and the Pagefind search index
 ```
 
-Deploy by uploading the contents of `_site/` to any static host.
+Deploy by uploading the contents of `_site/` to any static host. **Always run `npm run build` right before
+uploading:** while `npm start` runs, `_site/` contains development-only image URLs (`/.11ty/image/…`) that only
+work with the dev server. Set `SKIP_IMAGES=1` to skip image processing entirely (faster while writing).
 
 ## Structure
 
@@ -23,28 +23,63 @@ Deploy by uploading the contents of `_site/` to any static host.
 | `src/_data/site.json` | Site title, tagline, header image, Facebook group link. |
 | `src/_data/wp.json` | Categories, tags and approved comments from WordPress. |
 | `src/_includes/` | Layouts (Twenty Ten markup) and partials (menu, sidebar, comments). |
-| `src/css/` | Twenty Ten + WordPress block CSS, and `site.css` for local additions (responsive layout, mobile menu). |
+| `src/css/` | `twentyten.css` (the theme) and `site.css` (the few WordPress base rules still needed, plus local additions: responsive layout, mobile menu, images, footnotes). Both are trimmed to what the site uses, plus element styles (tables, lists, quotes …), the `.alignleft/.alignright/.aligncenter` image classes and footnotes. WordPress block styles are gone: content is plain Markdown, so block markup (`wp-block-…` classes) pasted from WordPress will render unstyled. |
 | `src/wp-content/uploads/`, `src/pics/` | All media, at the same URLs as on the WordPress site. |
-| `scripts/import-wp.mjs` | The importer. **Re-running it overwrites `src/content/` and `src/_data/wp.json`**, so edit content either in WordPress or here, not both. |
-| `scripts/html-to-md.mjs` | Converts imported HTML to Markdown. Elements whose look depends on attributes (captioned images, galleries, tables, centred text, sized images, underline, links opening in a new tab) are kept as inline HTML. |
 
 ### Content and links
 
-Content files are Markdown, pre-processed by Nunjucks. Internal links and media use the 11ty `url` filter
-so the site also works under a path prefix:
+Content files are Markdown, pre-processed by Nunjucks. Write internal links and media as plain root-relative
+paths. Eleventy's built-in `HtmlBasePlugin` adds the path prefix (if one is ever configured) to every `href`/`src`
+in the generated HTML, so no `url` filter is needed:
 
 ```md
-[Legatbestyrelsen]({{ '/lawaetzer-legatet/legatbestyrelsen/' | url }})
-<img src="{{ '/wp-content/uploads/2013/01/kaaludkloster.jpg' | url }}" width="640" height="382" alt="">
+[Legatbestyrelsen](/lawaetzer-legatet/legatbestyrelsen/)
 ```
 
-The templates in `src/_includes/` do the same (`{{ item.url | url }}` etc.).
+### Images
+
+```md
+![Kaalund Kloster](/wp-content/uploads/2013/01/kaaludkloster.jpg)                       plain image
+![Kaalund Kloster](/wp-content/uploads/2013/01/kaaludkloster.jpg "Kaalund Kloster ca. 1935")   with caption
+![Charlotte Burcardi](/wp-content/uploads/2013/05/Charlotte-Burcardi.png){.alignleft width=150}  floated left, shown 150 px wide
+[![Brevkort](/wp-content/uploads/2015/02/poskort.jpg)](/wp-content/uploads/2015/02/poskort.jpg)  click opens the original
+```
+
+- An image on its own line becomes a `<figure>`; the quoted title becomes the caption ([markdown-it-image-figures](https://github.com/Antonio-Laguna/markdown-it-image-figures)).
+- `{…}` after an image adds classes/attributes ([markdown-it-attrs](https://github.com/arve0/markdown-it-attrs)): `.alignleft`, `.alignright`, `.aligncenter` and `width=…`. Avoid `{#id}`: `{#` starts a Nunjucks comment.
+- Every image is processed by [@11ty/eleventy-img](https://www.11ty.dev/docs/plugins/image/): width/height, lazy loading, and WebP + original format at up to 640 and 1280 px (never upscaled). Without `width=` the image is shown at its natural size, at most the 640 px column.
+- Several images in one paragraph are shown inline, side by side.
+
+### Footnotes
+
+Footnotes use [markdown-it-footnote](https://github.com/markdown-it/markdown-it-footnote) (standard Markdown footnote syntax):
+
+```md
+Otto Lawaetz købte Refsnæsgården[^1] i 1866, og legatet blev stiftet i 1904[^legat].
+Inline-fodnoter skrives sådan^[Fodnotens tekst direkte i teksten.].
+
+[^1]: Refsnæsgården ligger på Røsnæs ved Kalundborg. Se [stamtavlen](/stamtavlen/).
+[^legat]: Det Otto Lawaetz’ske familielegat.
+```
+
+Footnotes are numbered in order of first use (labels like `legat` are only names) and listed under "Fodnoter" at the end
+of the page or post. Footnote ids are prefixed with the page's `wpId`, so posts shown together on the front page don't clash.
+Footnotes only work in Markdown text, not inside kept HTML blocks (e.g. inside a `<p style="…">`).
 
 ### Adding content
 
 - **New page:** add a `.md` file under `src/content/pages/` with front matter
   `layout: layouts/page.njk`, `title`, `wpId` (any unique number), `parent` (the `wpId` of the parent page, or 0), `menuOrder`, `permalink`.
 - **New post:** add a file under `src/content/posts/` with `layout: layouts/post.njk`, `title`, `date`, `wpId`, `categories: [1]`, `permalink`.
+- Set `modified: "2026-11-15T10:00:00"` when you change a page; it becomes the page's `<lastmod>` in the sitemap.
+
+### Sitemap and robots.txt
+
+`/sitemap.xml` (from `src/sitemap.njk`) lists every page and post, the front page and category pages that have posts,
+with `<lastmod>` from `modified`. Add `sitemap: false` to a page's front matter to leave it out (the 404 and search
+pages do). `/robots.txt` (from `src/robots.njk`) allows everything except the Pagefind index and points to the sitemap.
+Both use absolute URLs built from `site.url` in `src/_data/site.json` plus any path prefix. Note that crawlers only
+read `robots.txt` at the root of a domain, so it only takes effect when the site is served without a path prefix.
 
 ## What changed compared to WordPress
 

@@ -4,33 +4,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if title and not isHome %}{{ title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.description }}{% endif %}</title>
-<link rel="canonical" href="{{ site.url }}{{ page.url }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="{{ '/feed/index.xml' | url }}">
-<link rel="stylesheet" href="{{ '/css/twentyten.css' | url }}">
-<link rel="stylesheet" href="{{ '/css/block-library.css' | url }}">
-<link rel="stylesheet" href="{{ '/css/block-library-theme.css' | url }}">
-<link rel="stylesheet" href="{{ '/css/twentyten-blocks.css' | url }}">
-<link rel="stylesheet" href="{{ '/css/wp-inline.css' | url }}">
-<link rel="stylesheet" href="{{ '/css/site.css' | url }}">
+<title>{% if title and not isHome %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<link rel="canonical" href="{{ page.url | htmlBaseUrl(site.url) }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="/feed/index.xml">
+<link rel="stylesheet" href="/css/twentyten.css">
+<link rel="stylesheet" href="/css/site.css">
 {%- block head %}{% endblock %}
 </head>
-<body class="custom-background {{ bodyClass }}">
-<div id="wrapper" class="hfeed">
+<body class="custom-background{% if bodyClass %} {{ bodyClass }}{% endif %}">
+<div id="wrapper">
 	<a href="#content" class="screen-reader-text skip-link">Hop til indhold</a>
 	<div id="header">
 		<div id="masthead">
 			<div id="branding" role="banner">
 				{% if isHome %}<h1 id="site-title">{% else %}<div id="site-title">{% endif %}
-					<span><a href="{{ '/' | url }}" rel="home">{{ site.title }}</a></span>
+					<span><a href="/" rel="home">{{ site.title }}</a></span>
 				{% if isHome %}</h1>{% else %}</div>{% endif %}
-				<div id="site-description">{{ site.description }}</div>
-				<img src="{{ site.headerImage | url }}" width="940" height="198" alt="{{ site.title }}" fetchpriority="high">
+				<img src="{{ site.headerImage }}" width="940" height="198" alt="{{ site.title }}" fetchpriority="high">
 			</div>
 			<div id="access" role="navigation">
 				<button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-menu">Menu</button>
 				<div class="menu" id="site-menu"><ul>
-<li class="{% if page.url == '/' %}current_page_item{% endif %}"><a href="{{ '/' | url }}">Forside</a></li>{{ menu(collections.wpPages | navTree, page.url) }}
+<li class="{% if page.url == '/' %}current_page_item{% endif %}"><a href="/">Forside</a></li>{{ menu(collections.wpPages | navTree, page.url) }}
 				</ul></div>
 			</div>
 		</div>
@@ -45,11 +40,11 @@
 	</div>
 	<div id="footer" role="contentinfo">
 		<div id="colophon">
-			<div id="site-info"><a href="{{ '/' | url }}" rel="home">{{ site.title }}</a></div>
+			<div id="site-info"><a href="/" rel="home">{{ site.title }}</a></div>
 		</div>
 	</div>
 </div>
-<script src="{{ '/js/menu.js' | url }}" defer></script>
+<script src="/js/menu.js" defer></script>
 {%- block scripts %}{% endblock %}
 </body>
 </html>

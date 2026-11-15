@@ -17,6 +17,6 @@ Det Otto Lawaetz’ske familielegat bestyres af:
 -   Som suppleant:
 -   Carl Lawaetz Gabe (arkiv) A.8.6.2
 
-Legatbestyrelsen kan kontaktes på email: **<a href="legat@familien-lawaetz.dk">legat@familien-lawaetz.dk</a>**
+Legatbestyrelsen kan kontaktes på email: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**
 
-Stamtavlen føres på legatets vegne af Nikolaj Lorentzen A.8.3.4.1, som kan kontaktes på: **<a href="mailto:stamtavle@familien-lawaetz.dk">stamtavle@familien-lawaetz.dk</a>**
+Stamtavlen føres på legatets vegne af Nikolaj Lorentzen A.8.3.4.1, som kan kontaktes på: **[stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk)**

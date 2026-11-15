@@ -9,7 +9,7 @@ modified: "2026-05-07T16:19:50"
 permalink: "/lawaetzer-legatet/nyhedsbrev-2023/"
 ---
 
-<div class="wp-block-image"><figure class="alignleft is-resized"><img loading="lazy" decoding="async" width="141" height="269" src="{{ '/wp-content/uploads/2024/01/vaabenskjold.png' | url }}" alt="" class="wp-image-2062" style="width:47px;height:auto"></figure></div>
+![](/wp-content/uploads/2024/01/vaabenskjold.png){.alignleft width=40}
 
 **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat dec. 2023**
 
@@ -21,7 +21,7 @@ STOR TAK TIL ALLE JER, DER PÅ DENNE MÅDE HAR VÆRET MED TIL AT BEVARE DET FYSI
 Alle donationer til legatet og til gravstederne har vi kvitteret med at sende en opdateret stamtavle til giverne.
 
 Stamtavlen og e-mailadresserne opdateres stadig af Nikolaj Lorentzen A.8.3.4.1.\
-<strong>I opfordres til fortsat at sende rettelser til stamtavlen samt opdateringer af mailadresser </strong> gennem familiens hjemmeside: **familien-lawaetz.dk** plus linket stamtavle@familien-lawaetz.dk, så går der direkte besked til Nikolaj.
+**I opfordres til fortsat at sende rettelser til stamtavlen samt opdateringer af mailadresser** gennem familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** plus linket [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk), så går der direkte besked til Nikolaj.
 
 Er man i øvrigt interesseret i fortællinger om familien samt diverse billeder, vil det være en god ide at besøge samme familie-hjemmeside.
 
@@ -32,14 +32,14 @@ Også det nye oplag er nummereret, og det er med samme fornemme format som førs
 
 _Slægtsbogen er en enestående mulighed for at formidle slægtshistorie, så næste generation også ad denne vej kan få øje på deres rødder og fortællinger om dem, der er gået forud. Af samme grund er bogen også af flere familiemedlemmer benyttet som bedsteforældregave til nyfødte Lawaetz’ere. Måske er bogen en endnu mere oplagt gave til konfirmander, til 18-års fødselsdage – eller som bryllupsgave! – eller nu som julegave!_
 
-<span style="text-decoration: underline;">Da første og andet oplag af slægtsbogen udkom med en trykt stamtavle indlagt, vil der med køb af en bog fra tredje oplag blive tilsendt en opdateret stamtavle i PDF-format.</span>
+<u>Da første og andet oplag af slægtsbogen udkom med en trykt stamtavle indlagt, vil der med køb af en bog fra tredje oplag blive tilsendt en opdateret stamtavle i PDF-format.</u>
 
 Endnu en familiebog (et hæfte på 72 sider) – om en af Ottos sønner (Carl A.8) – har legatets bogsalg stadig få eksemplarer af: ”**Carl Lawaetz, Kaalund Kloster, 1868-1944**”. Denne bog kan købes for 100 kr.
 
 Senest har legatet fået mulighed for at tilbyde endnu et hæfte (på 85 sider): **Ludolph Gabe. Københavns Valgmenigheds første formand. Hans selvbiografi.** Kort genfortalt af pastor emer. N.A. Jensen. Dette hæfte kan erhverves for 50 kr.
 
-Bøgerne kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **legat@familien-lawaetz.dk**\
-<span style="text-decoration: underline;">Ved bogbestillinger bedes foruden postadresse oplyst både mailadresse og telefonnummer.</span>
+Bøgerne kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**\
+<u>Ved bogbestillinger bedes foruden postadresse oplyst både mailadresse og telefonnummer.</u>
 
 Det festudvalg, der gennem de sidste mange år har arrangeret familiesammenkomsterne, har bedt Legatbestyrelsen om atter at minde om, at **næste familiesammenkomst bliver på Falkensteen lørdag den 24. maj 2025**. Herom meget mere senere.\
 Måske var det en god ide at sætte kryds i kalenderen allerede nu!
@@ -50,7 +50,7 @@ Mange hilsener
 
 Marianne Lawaetz
 
-<span style="text-decoration: underline;">Legatbestyrelsen:</span>\
+<u>Legatbestyrelsen:</u>\
 Marianne Lawaetz (formand, hjemmeside og salg af bøger) A.10.4.5\
 Erik Anders Lawaetz (kasserer) A.8.3.1.2\
 Carl Martin Gabe A.8.6.5.2

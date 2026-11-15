@@ -21,13 +21,13 @@ Det er som bekendt ud af afkastet fra legatets værdipapirer sammen med donation
 
 Vi er i bestyrelsen glade for, at vi således havde mulighed for at imødekomme en enkelt ansøgning og uddele en legatportion på 3.000 kr. til opmuntring og støtte til en af familiens unge, der med stor flid og sparsommelighed er i færd med at fuldføre en uddannelse, der hverken udløser løn eller er SU-berettiget.
 
-Skulle nogen fra familien have lyst til at fortsætte den smukke tradition med at donere et beløb til familielegatet, er legatets kontonummeri Jyske Bank: **5066  1521091**. 
+Skulle nogen fra familien have lyst til at fortsætte den smukke tradition med at donere et beløb til familielegatet, er legatets kontonummeri Jyske Bank: **5066 1521091**. 
 
 Alle bidrag vil være særdeles nyttige for legatets fortsatte virke og modtages med stor tak.
 
-Opgiver man ved indbetalingen sin mailadresse, har vi mulighed for at sende en bekræftelse på modtagelse af bidraget<strong><em>. </em></strong> Samtidig vil vi, for fortsat at styrke familiefællesskabet, foranledige, at giveren får tilsendt en opdateret stamtavle i PDF-format.
+Opgiver man ved indbetalingen sin mailadresse, har vi mulighed for at sende en bekræftelse på modtagelse af bidraget. Samtidig vil vi, for fortsat at styrke familiefællesskabet, foranledige, at giveren får tilsendt en opdateret stamtavle i PDF-format.
 
-Vi minder om, at stamtavlen og e-mailadresserne fortsat opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **familien-lawaetz.dk** og linket stamtavle@familien-lawaetz.dk, så går der direkte besked til Nikolaj.
+Vi minder om, at stamtavlen og e-mailadresserne fortsat opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** og linket [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk), så går der direkte besked til Nikolaj.
 
 Er man i øvrigt interesseret i historier om familien, vil det være en god ide at besøge samme familie-hjemmeside.
 
@@ -39,7 +39,7 @@ Også den nye udgave er nummereret, og den er med samme fornemme format som før
 
 _Slægtsbogen er en enestående mulighed for at formidle slægtshistorie, så næste generation blandt andet ad denne vej kan få øje på deres rødder og historier om dem, der er gået forud. Af samme grund er bogen også af flere familiemedlemmer benyttet som bedsteforældregave til nyfødte Lawaetz’ere. Måske er bogen en endnu mere oplagt gave til konfirmander, til 18-års fødselsdage – eller til bryllupsgave! – eller julegave!_
 
-Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: <a href="mailto:legat@familien-lawaetz.dk"><strong>legat@familien-lawaetz.dk</strong></a> eller min mail: <a href="mailto:mariannelawaetz@gmail.com">mariannelawaetz@gmail.com</a>
+Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)** eller min mail: [mariannelawaetz@gmail.com](mailto:mariannelawaetz@gmail.com)
 
 Da første- og andenudgaven af slægtsbogen udkom med en trykt stamtavle indlagt, vil der med køb af den nye udgave blive tilsendt en opdaterede stamtavle i PDF-format.
 
@@ -47,7 +47,7 @@ Endnu en familiebog – om en af Ottos sønner (Carl A.8) – er kommet i legate
 
 HVIS BØGERNE SKAL VÆRE JULEGAVE, SÅ BESTIL I GOD TID!
 
-Det festudvalg, der arrangerer familiesammenkomst på Refsnæsgården, har som så meget andet arbejdet på lavt blus i det forløbne år. Indtil videre holder udvalget heldigvis stadig fast ved, at <strong> den næste familiesammenkomst bliver <u>lørdag den 11.juni 2022.</u></strong>
+Det festudvalg, der arrangerer familiesammenkomst på Refsnæsgården, har som så meget andet arbejdet på lavt blus i det forløbne år. Indtil videre holder udvalget heldigvis stadig fast ved, at **den næste familiesammenkomst bliver <u>lørdag den 11.juni 2022.</u>**
 
 Med disse ord vil jeg på legatbestyrelsens vegne sende jer alle de varmeste og bedste ønsker om en glædelig jul og et godt 2021.
 

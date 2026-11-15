@@ -9,7 +9,7 @@ tags: []
 permalink: "/slaegtsbogen-kan-nu-atter-koebes/"
 ---
 
-**Slægtsbogen** <strong>“Otto Lawaetz, hans Liv og Gerning </strong> <strong>tillige med Blade af Slægten Lawaetz’s Historie”</strong><strong>er nu genoptrykt for anden gang<br></strong>
+**Slægtsbogen “Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaetz’s Historie” er nu genoptrykt for anden gang**
 
 Denne tredje udgave af slægtsbogen fremstår – som den oprindelige – meget, meget smukt indbundet i gedigent lærredsbind med guldtryk. Også denne udgave vil være nummereret. Der er genoptrykt 500 eksemplarer.
 
@@ -17,9 +17,9 @@ Denne tredje udgave af slægtsbogen fremstår – som den oprindelige – meget,
 
 Da de to forrige udgaver af slægtsbogen udkom med en trykt og opdateret **stamtavle** indlagt, har vi i legatbestyrelsen besluttet, at man ved køb af den aktuelle udgave af slægtsbogen også får tilsendt en nu efterhånden ret omfangsrig og digital udgave af den nyest opdaterede stamtavle.
 
-Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan maile til legatet: **legat@familien-lawaetz.dk**
+Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan maile til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**
 
-<em>Slægtsbogen </em> <strong><em>“Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaetz’s Historie”</em></strong><em>, udkom første gang i 500 nummererede eksemplarer på Ottos 100 års dag i 1929.</em>
+_Slægtsbogen **“Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaetz’s Historie”**, udkom første gang i 500 nummererede eksemplarer på Ottos 100 års dag i 1929._
 
 _Bogen er en enestående mulighed for at formidle slægtshistorie, så næste generation blandt andet ad denne vej kan få øje på deres rødder og historier om dem, der er gået forud. Af samme grund er bogen også af flere familiemedlemmer benyttet som bedsteforældregave til nyfødte Lawaetz’ere. Måske er bogen en endnu mere oplagt gave til konfirmander, til 18-års fødselsdage – eller til bryllupsgave!_
 

@@ -9,9 +9,9 @@ modified: "2026-02-11T08:11:17"
 permalink: "/familiesammenkomster/"
 ---
 
-<h2 style="text-align: center;"><strong>Lawaetz familiesammenkomst på Refsnæsgård</strong></h2>
+## Lawaetz familiesammenkomst på Refsnæsgård
 
-<h3 style="text-align: center;"><strong>Lørdag den 20. maj 2028</strong></h3>
+### Lørdag den 20. maj 2028
 
 Vi glæder os til at se dig og din familie til endnu en dejlig familiesammenkomst på Refsnæsgård.
 
@@ -20,20 +20,20 @@ Datoen er sat, Sæt allerede nu X i kalenderen!
 Indbydelser sendes ud i januar 2028.
 
 <!--
-<a href="{{ '/wp-content/uploads/2025/01/Indbydelse-Lawaetz-familiesammenkomst-24.5.2025.pdf' | url }}">Hent invitationen som PDF</a>
+[Hent invitationen som PDF](/wp-content/uploads/2025/01/Indbydelse-Lawaetz-familiesammenkomst-24.5.2025.pdf)
 
 Du tilmelder dig til dagen ved at trykke på nedenstående tilmeldings link. Husk at opgive fulde navn, alder og MEGET gerne familienummer på ALLE tilmeldte.
 
 Husk samtidig betaling for deltagelse jf. vejledning i indbydelsen.
 
-<a href="{{ '/familiesammenkomster/tilmelding/' | url }}">Tilmelding</a>
+[Tilmelding](/familiesammenkomster/tilmelding/)
 -->
 
-———
+---
 
 Festudvalget er fortsat meget interesseret i at modtage mailadresser fra familiemedlemmer. Jo flere mailadresser vi har, jo flere kan modtage indbydelsen.
 
-<a href="{{ '/familiesammenkomster/e-mail-indsamling/' | url }}">Tryk her for at gå til E-mail indsamling.</a>
+[Tryk her for at gå til E-mail indsamling.](/familiesammenkomster/e-mail-indsamling/)
 
 **Festudvalgsmedlemmer er:**
 
@@ -47,4 +47,4 @@ Festudvalget er fortsat meget interesseret i at modtage mailadresser fra familie
 
 **Har du lyst til at være en del af dette hyggelige og arbejdsomme udvalg, skal du være hjertelig velkommen!**
 
-Du kan kontakte udvalget på email: <a href="mailto:festudvalg@familien-lawaetz.dk">festudvalg@familien-lawaetz.dk</a>
+Du kan kontakte udvalget på email: [festudvalg@familien-lawaetz.dk](mailto:festudvalg@familien-lawaetz.dk)

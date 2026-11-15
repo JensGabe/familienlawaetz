@@ -1,6 +1,6 @@
 ---
 layout: "layouts/page.njk"
-title: "Lawaetzerdag 2010"
+title: "Familiesammenkomst 2010"
 wpId: 7
 parent: 5
 menuOrder: 100
@@ -15,6 +15,11 @@ Niels Henrik Nøjgaard og Charlotte Westen tog en masse fine billeder, som alle 
 
 Her er et par udvalgte billeder fra dagen:
 
-<img loading="lazy" decoding="async" alt="" src="{{ '/pics/IMG_2370.JPG' | url }}" width="288" height="192">   <img loading="lazy" decoding="async" alt="" src="{{ '/pics/IMG_2395.JPG' | url }}" width="288" height="192"><img loading="lazy" decoding="async" alt="" src="{{ '/pics/IMG_2405.JPG' | url }}" width="288" height="192">   <img loading="lazy" decoding="async" alt="" src="{{ '/pics/IMG_2425.JPG' | url }}" width="288" height="192"><img loading="lazy" decoding="async" alt="" src="{{ '/pics/IMG_2431.JPG' | url }}" width="288" height="192">   <img loading="lazy" decoding="async" alt="" src="{{ '/pics/IMG_2466.JPG' | url }}" width="288" height="192">
+![](/pics/IMG_2370.JPG){width=288}
+![](/pics/IMG_2395.JPG){width=288}
+![](/pics/IMG_2405.JPG){width=288}
+![](/pics/IMG_2425.JPG){width=288}
+![](/pics/IMG_2431.JPG){width=288}
+![](/pics/IMG_2466.JPG){width=288}
 
-Du kan kontakte festudvalget på email: <a href="mailto:festudvalg@familien-lawaetz.dk">festudvalg@familien-lawaetz.dk</a>
+Du kan kontakte festudvalget på email: [festudvalg@familien-lawaetz.dk](mailto:festudvalg@familien-lawaetz.dk)

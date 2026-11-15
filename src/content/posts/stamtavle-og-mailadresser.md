@@ -9,5 +9,5 @@ tags: []
 permalink: "/stamtavle-og-mailadresser/"
 ---
 
-Under fanebladet <a href="{{ '/stamtavlen/' | url }}" data-type="page" data-id="119">Stamtavlen </a> findes en mailkontakt til Nikolaj Lorentzen, der står for Lawaetzfamiliens stamtavle samt for indsamling af E-mail adresser.\
+Under fanebladet [Stamtavlen](/stamtavlen/) findes en mailkontakt til Nikolaj Lorentzen, der står for Lawaetzfamiliens stamtavle samt for indsamling af E-mail adresser.\
 Derfor: Hvis du ønsker at modtage indbydelse til næste familiesammenkomst på E-mail eller har du tilføjelser og rettelser til stamtavlen, så send endelig en mail til Nikolaj. Uden jeres input ift. kærester, giftemål, fødsler og dødsfald kan vi ikke holde stamtavlen up to date :-).

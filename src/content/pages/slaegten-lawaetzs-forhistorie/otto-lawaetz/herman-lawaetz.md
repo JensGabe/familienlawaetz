@@ -13,7 +13,7 @@ _Hermann Carl Johannes Lawaetz_,  1864-1949, dr. theo., præst.
 
 Født på Kalundborg Slots Ladegård. Herman Lawaetz blev cand.teol. i 1888 og præst i Christianssted på Sct. Croix året efter. Hermann Lawaetz rejste hjem til Danmark i 1890 for at gifte sig med Ingeborg Wahl.
 
-<img loading="lazy" decoding="async" class=" wp-image-166 alignleft" title="Hermann Lawaetz og Ingeborg Wahl" src="{{ '/wp-content/uploads/2011/10/Hermann-Lawaetz-og-Ingeborg-Wahl.jpg' | url }}" alt="" width="160" height="155"><a href="{{ '/wp-content/uploads/2011/10/Hermann-Lawaetz.jpg' | url }}"><img loading="lazy" decoding="async" class="alignnone  wp-image-167" title="Hermann Lawaetz" src="{{ '/wp-content/uploads/2011/10/Hermann-Lawaetz.jpg' | url }}" alt="" width="159" height="156"></a>
+![](/wp-content/uploads/2011/10/Hermann-Lawaetz-og-Ingeborg-Wahl.jpg){.alignleft width=160}[![](/wp-content/uploads/2011/10/Hermann-Lawaetz.jpg){width=159}](/wp-content/uploads/2011/10/Hermann-Lawaetz.jpg)
 
 I perioden 1893–1902 var han kongevalgt medlem af øens kolonialråd. Han var en bestemt modstander af De vestindiske øers salg og udgav 1900–01 bladet _The Danish West-Indian_ hvori han bekæmpede salget. H. Lawaetz’s interesse for Vestindien førte ham også ind på studier over øernes historie: “_Brødremenighedens Mission i dansk Vestindien 1769–1848″,_ der 1899 blev antaget til forsvar for den teologiske doktorgrad, og som udkom 1902. H. Lawaetz vendte tilbage til Danmark i 1904.
 

@@ -19,9 +19,9 @@ Hermed kunne vi opmuntre og støtte en af de unge i familien, der i sin uddannel
 
 Lidt nostalgi:
 
-I ”_FUNDATSEN FOR DET OTTO LAWAETZ-ESKE FAMILIELEGAT”_ lyder teksten i post 9: <strong><em>”De af Familiens Medlemmer, der måtte have Evne og Vilje dertil, tilskyder aarligt til Legatets Formaal mindst 5 – fem – Kroner, at indbetale…”</em></strong>
+I ”_FUNDATSEN FOR DET OTTO LAWAETZ-ESKE FAMILIELEGAT”_ lyder teksten i post 9: **_”De af Familiens Medlemmer, der måtte have Evne og Vilje dertil, tilskyder aarligt til Legatets Formaal mindst 5 – fem – Kroner, at indbetale…”_**
 
-Og post 10 siger: <strong><em>”Legatet kan foruden ved Bestemmelsen i Post 9 stedse forøges ved Arv, Gave m.m. …”</em></strong>
+Og post 10 siger: **_”Legatet kan foruden ved Bestemmelsen i Post 9 stedse forøges ved Arv, Gave m.m. …”_**
 
 Legatet blev som bekendt stiftet i anledning af Otto Lawaetz’s 75-årige fødselsdag i 1904. Deraf beløbet på ”mindst 5 – fem – kroner”.
 
@@ -29,7 +29,8 @@ Skulle nogen fra familien i dag have evne og vilje til at donere et 2019-beløb,
 
 Alle bidrag vil være særdeles nyttige for legatets fortsatte virke og modtages med tak. Naturligvis også arv!!
 
-Opgiver man ved indbetalingen sin mailadresse, har vi mulighed for at sende en bekræftelse på modtagelse af bidraget<strong><em>. </em></strong> Samtidig vil vi foranledige, at giveren får tilsendt en opdateret stamtavle i PDF-format.
+Opgiver man ved indbetalingen sin mailadresse, har vi mulighed for at sende en bekræftelse på modtagelse af bidraget.
+Samtidig vil vi foranledige, at giveren får tilsendt en opdateret stamtavle i PDF-format.
 
 Vi minder om, at stamtavlen og e-mailadresserne fortsat opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **stamtavle@familien-lawaetz.dk**, så går der direkte besked til Nikolaj.
 
@@ -41,7 +42,7 @@ Også den nye udgave er nummereret, og den er med samme fornemme format som før
 
 _Slægtsbogen er en enestående mulighed for at formidle slægtshistorie, så næste generation blandt andet ad denne vej kan få øje på deres rødder og historier om dem, der er gået forud. Af samme grund er bogen også af flere familiemedlemmer benyttet som bedsteforældregave til nyfødte Lawaetz’ere. Måske er bogen en endnu mere oplagt gave til konfirmander, til 18-års fødselsdage – eller til bryllupsgave! – eller julegave!_
 
-Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: <a href="mailto:legat@familien-lawaetz.dk"><strong>legat@familien-lawaetz.dk</strong></a>
+Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**
 
 Da første- og andenudgaven af slægtsbogen udkom med en trykt stamtavle indlagt, vil der med køb af den nye udgave blive tilsendt den opdaterede stamtavle i PDF-format.
 
@@ -49,7 +50,7 @@ Endnu en familiebog – om en af Ottos sønner (Carl A.8) – er kommet i legate
 
 HVIS BØGERNE SKAL VÆRE JULEGAVE, SÅ BESTIL I GOD TID!
 
-På familiens hjemmeside **familien-lawaetz.dk** kan man snart se billeder fra **den store Lawaetz’er-sammenkomst på Refsnæs den 25. maj 2019**. Muligvis lægges der også et link til nogle gamle smalfilm om Falkensteen på hjemmesiden. Se selv efter!
+På familiens hjemmeside **[familien-lawaetz.dk](https://familien-lawaetz.dk)** kan man snart se billeder fra **den store Lawaetz’er-sammenkomst på Refsnæs den 25. maj 2019**. Muligvis lægges der også et link til nogle gamle smalfilm om Falkensteen på hjemmesiden. Se selv efter!
 
 Også i år kunne festudvalget glæde sig over en stor tilslutning til sammenkomsten på Refsnæs. 150 personer deltog, og mange sendte siden varme tilbagemeldinger på en god familiedag. Udvalget takker – og vil hjertens gerne udvides med nye og måske også yngre kræfter.
 

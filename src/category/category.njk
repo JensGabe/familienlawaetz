@@ -1,11 +1,10 @@
 ---
 layout: layouts/base.njk
-bodyClass: archive category
 pagination:
   data: wp.categories
   size: 1
   alias: cat
-  before: function(cats) { return cats.filter(c => c.count > 0); }
+  addAllPagesToCollections: true
 permalink: "/category/{{ cat.slug }}/"
 eleventyComputed:
   title: "Kategoriarkiv: {{ cat.name }}"

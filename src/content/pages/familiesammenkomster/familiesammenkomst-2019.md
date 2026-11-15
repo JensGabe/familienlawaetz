@@ -9,10 +9,12 @@ modified: "2023-01-02T08:11:08"
 permalink: "/familiesammenkomster/familiesammenkomst-2019/"
 ---
 
-<h2 style="text-align: left;"><strong>Lawaetz familiesammenkomst på Refsnæsgård<br></strong><strong>Lørdag den 25. maj 2019</strong></h2>
+## Lawaetz familiesammenkomst på Refsnæsgård
+### Lørdag den 25. maj 2019
 
 **Festudvalget takker for den store tilslutning til dagen.**
 
-Niels Henrik Nøjgaard tog en masse fine billeder, som alle kan ses her:  <a href="https://photos.app.goo.gl/px39UqifaQh73inn8" target="_blank" rel="noopener">Google Photos album</a>
+Niels Henrik Nøjgaard tog en masse fine billeder, som alle kan ses her:
+<a href="https://photos.app.goo.gl/px39UqifaQh73inn8" target="_blank" rel="noopener">Google Photos album</a>
 
-<a href="{{ '/wp-content/uploads/2019/02/Indbydelse-Lawaetz-familiesammenkomst-25.5.2019.pdf' | url }}" data-type="attachment" data-id="1312" target="_blank" rel="noreferrer noopener">Den originale invitation kan hentes her som PDF</a>
+<a href="/wp-content/uploads/2019/02/Indbydelse-Lawaetz-familiesammenkomst-25.5.2019.pdf" data-type="attachment" data-id="1312" target="_blank" rel="noreferrer noopener">Den originale invitation kan hentes her som PDF</a>

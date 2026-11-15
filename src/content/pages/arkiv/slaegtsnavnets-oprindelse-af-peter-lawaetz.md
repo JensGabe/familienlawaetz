@@ -31,4 +31,5 @@ Min forfader Christian Otte Lawätz var imidlertid længe forinden ”udvandret�
 
 Mængdeforskellen skyldes som bekendt de mange drengebørn som Otto Lawaetz opdrog, sine egne og broderens. Lawætz-grenen har derimod været meget enstrenget på mandssiden.
 
-<em>Skrevet af Peter Lawætz (F 2.2)<br>revideret august 2013</em>
+_Skrevet af Peter Lawætz (F 2.2)  
+revideret august 2013_

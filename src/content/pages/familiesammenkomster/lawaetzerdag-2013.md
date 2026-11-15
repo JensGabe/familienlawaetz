@@ -15,6 +15,11 @@ Niels Henrik Nøjgaard tog en masse fine billeder, som alle kan ses her:  <a hr
 
 Her er et par udvalgte billeder fra dagen:
 
-<img loading="lazy" decoding="async" src="{{ '/wp-content/uploads/2013/06/IMG_5410_resize.jpg' | url }}" alt="" width="288" height="192"> <img loading="lazy" decoding="async" src="{{ '/wp-content/uploads/2013/06/IMG_5400_resize.jpg' | url }}" alt="" width="288" height="192"> <img loading="lazy" decoding="async" src="{{ '/wp-content/uploads/2013/06/IMG_5449_resize.jpg' | url }}" alt="" width="288" height="192"> <img loading="lazy" decoding="async" src="{{ '/wp-content/uploads/2013/06/IMG_5340_resize.jpg' | url }}" alt="" width="288" height="192"> <img loading="lazy" decoding="async" src="{{ '/wp-content/uploads/2013/06/IMG_5452_resize.jpg' | url }}" alt="" width="288" height="192"> <img loading="lazy" decoding="async" src="{{ '/wp-content/uploads/2013/06/IMG_5476_resize.jpg' | url }}" alt="" width="288" height="192">
+![](/wp-content/uploads/2013/06/IMG_5410_resize.jpg){width=288}
+![](/wp-content/uploads/2013/06/IMG_5400_resize.jpg){width=288}
+![](/wp-content/uploads/2013/06/IMG_5449_resize.jpg){width=288}
+![](/wp-content/uploads/2013/06/IMG_5340_resize.jpg){width=288}
+![](/wp-content/uploads/2013/06/IMG_5452_resize.jpg){width=288}
+![](/wp-content/uploads/2013/06/IMG_5476_resize.jpg){width=288}
 
-Du kan kontakte festudvalget på email: <a href="mailto:festudvalg@familien-lawaetz.dk">festudvalg@familien-lawaetz.dk</a>
+Du kan kontakte festudvalget på email: [festudvalg@familien-lawaetz.dk](mailto:festudvalg@familien-lawaetz.dk)
