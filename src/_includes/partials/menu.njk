@@ -1,8 +1,0 @@
-{%- macro menu(items, pageUrl) -%}
-{%- for item in items %}
-<li{% if item.url == pageUrl %} class="current_page_item"{% elif item.url | isAncestorUrl(pageUrl) %} class="current_page_ancestor"{% endif %}><a href="{{ item.url }}">{{ item.title }}</a>
-{%- if item.children.length %}
-<ul>{{ menu(item.children, pageUrl) }}</ul>
-{%- endif %}</li>
-{%- endfor %}
-{%- endmacro -%}

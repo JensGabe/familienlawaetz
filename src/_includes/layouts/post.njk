@@ -1,28 +1,26 @@
 ---
 layout: layouts/base.njk
-bodyClass: single
 ---
 {%- set prev = collections.posts | getNextCollectionItem(page) %}
 {%- set next = collections.posts | getPreviousCollectionItem(page) %}
-<div id="nav-above" class="navigation">
-	<div class="nav-previous">{% if prev %}<a href="{{ prev.url }}" rel="prev">&larr; {{ prev.data.title }}</a>{% endif %}</div>
-	<div class="nav-next">{% if next %}<a href="{{ next.url }}" rel="next">{{ next.data.title }} &rarr;</a>{% endif %}</div>
-</div>
-<div id="post-{{ wpId }}" class="hentry" data-pagefind-body>
-	<h1 class="entry-title">{{ title }}</h1>
-	<div class="entry-meta">
-		Udgivet den <span title="{{ page.date | wpTime }}">{{ page.date | wpDate }}</span>{% if author %} <span class="meta-sep">af</span> <span class="author">{{ author }}</span>{% endif %}
-	</div>
-	<div class="entry-content">
+{%- set cats = wp.categories | categoriesFor(categories) %}
+<article class="entry" data-pagefind-body>
+  <header class="entry-header">
+    <nav class="crumbs" aria-label="Du er her" data-pagefind-ignore><ol><li><a href="/">Nyt fra familien</a></li></ol></nav>
+    <h1 class="entry-title">{{ title }}</h1>
+    <p class="meta"><time datetime="{{ page.date | sitemapDate }}">{{ page.date | daDate }}</time>{% if author %}<span class="sep">·</span>{{ author }}{% endif %}</p>
+  </header>
+  <div class="prose">
 {{ content | safe }}
-	</div>
-	<div class="entry-utility">
-		{%- set cats = wp.categories | categoriesFor(categories) %}
-		{%- if cats.length %}Dette indlæg blev udgivet i {% for c in cats %}<a href="/category/{{ c.slug }}/" rel="category tag">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.{% endif %}
-	</div>
-</div>
-<div id="nav-below" class="navigation">
-	<div class="nav-previous">{% if prev %}<a href="{{ prev.url }}" rel="prev">&larr; {{ prev.data.title }}</a>{% endif %}</div>
-	<div class="nav-next">{% if next %}<a href="{{ next.url }}" rel="next">{{ next.data.title }} &rarr;</a>{% endif %}</div>
-</div>
+  </div>
+  {%- if cats.length %}
+  <p class="entry-footer" data-pagefind-ignore>Kategori: {% for c in cats %}<a href="/category/{{ c.slug }}/" rel="category tag">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
+  {%- endif %}
+</article>
+{%- if prev or next %}
+<nav class="post-nav" aria-label="Andre indlæg">
+  <div>{% if prev %}<a class="prev" href="{{ prev.url }}" rel="prev"><span>← Ældre</span><span class="post-nav-title">{{ prev.data.title }}</span></a>{% endif %}</div>
+  <div>{% if next %}<a class="next" href="{{ next.url }}" rel="next"><span>Nyere →</span><span class="post-nav-title">{{ next.data.title }}</span></a>{% endif %}</div>
+</nav>
+{%- endif %}
 {% include "partials/comments.njk" %}

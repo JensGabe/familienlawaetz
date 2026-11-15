@@ -7,9 +7,20 @@ pagination:
   addAllPagesToCollections: true
 permalink: "/category/{{ cat.slug }}/"
 eleventyComputed:
-  title: "Kategoriarkiv: {{ cat.name }}"
+  title: "Kategori: {{ cat.name }}"
 ---
-<h1 class="page-title">Kategoriarkiv: <span>{{ cat.name }}</span></h1>
-{%- for p in collections.posts | postsInCategory(cat.id) %}
+{%- set catPosts = collections.posts | postsInCategory(cat.id) %}
+<header class="entry-header">
+  <nav class="crumbs" aria-label="Du er her"><ol><li><a href="/">Nyt fra familien</a></li></ol></nav>
+  <h1 class="page-title">{{ cat.name }}</h1>
+  <p class="meta">Kategori · {{ catPosts.length }} indlæg</p>
+</header>
+{%- if catPosts.length %}
+<div class="post-list">
+{%- for p in catPosts %}
 {% include "partials/entry.njk" %}
 {%- endfor %}
+</div>
+{%- else %}
+<p class="empty">Der er ingen indlæg i denne kategori.</p>
+{%- endif %}

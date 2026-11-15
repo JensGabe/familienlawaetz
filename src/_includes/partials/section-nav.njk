@@ -1,0 +1,11 @@
+{#- Nested list of a section's pages; the current page is marked with aria-current. -#}
+{%- macro sectionList(items, pageUrl) -%}
+<ul>
+  {%- for item in items %}
+  <li>
+    <a class="nav-item" href="{{ item.url }}"{% if item.url == pageUrl %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {%- if item.children.length %}{{ sectionList(item.children, pageUrl) }}{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endmacro -%}

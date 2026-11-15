@@ -1,6 +1,7 @@
 ---
 layout: "layouts/page.njk"
 title: "Familiegravstederne"
+navTitle: "Gravsteder"
 wpId: 68
 parent: 0
 menuOrder: 0

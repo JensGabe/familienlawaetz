@@ -1,6 +1,7 @@
 ---
 layout: "layouts/page.njk"
 title: "Det Otto Lawaetz’ske familielegat"
+navTitle: "Legatet"
 wpId: 18
 parent: 0
 menuOrder: 0

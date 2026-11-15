@@ -1,18 +1,15 @@
 {%- set itemComments = wp.comments | commentsFor(wpId) -%}
-<div id="comments">
+<section class="comments" id="kommentarer" aria-label="Kommentarer">
 {%- if itemComments.length %}
-	<h3 id="comments-title">{{ itemComments.length }} svar til <em>{{ title }}</em></h3>
-	<ol class="commentlist">
-	{%- for c in itemComments %}
-		<li class="comment" id="li-comment-{{ c.id }}">
-			<div id="comment-{{ c.id }}">
-				<div class="comment-author"><cite>{{ c.author }}</cite> <span class="says">siger:</span></div>
-				<div class="comment-meta"><a href="#comment-{{ c.id }}">{{ c.date | wpDate }} kl. {{ c.date | wpTime }}</a></div>
-				<div class="comment-body">{{ c.content | safe }}</div>
-			</div>
-		</li>
-	{%- endfor %}
-	</ol>
+  <h2 class="comments-title">{{ itemComments.length }} svar til <em>{{ title }}</em></h2>
+  <ol class="comment-list">
+  {%- for c in itemComments %}
+    <li class="comment" id="comment-{{ c.id }}">
+      <p class="comment-header"><cite class="comment-author">{{ c.author }}</cite><span class="sep"> · </span><a href="#comment-{{ c.id }}"><time datetime="{{ c.date | sitemapDate }}">{{ c.date | daDate }} kl. {{ c.date | wpTime }}</time></a></p>
+      <div class="comment-body">{{ c.content | safe }}</div>
+    </li>
+  {%- endfor %}
+  </ol>
 {%- endif %}
-	<p class="nocomments">Kommentarer er lukket.</p>
-</div>
+  <p class="comments-closed">Kommentarer er lukket.</p>
+</section>

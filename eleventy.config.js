@@ -71,7 +71,10 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/js");
+  // Self-hosted Source Serif 4 (OFL), Latin subset incl. æøå — no requests to Google Fonts
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-*.woff2": "fonts",
+  });
   eleventyConfig.addPassthroughCopy("src/wp-content");
   eleventyConfig.addPassthroughCopy("src/pics");
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
@@ -83,15 +86,16 @@ export default function (eleventyConfig) {
   );
 
   // ---------- filters ----------
-  eleventyConfig.addFilter("wpDate", (d) => {
-    d = asDate(d);
-    return `${d.getUTCFullYear()}/${pad(d.getUTCMonth() + 1)}/${pad(d.getUTCDate())}`;
-  });
   eleventyConfig.addFilter("wpTime", (d) => {
     d = asDate(d);
     return `${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`;
   });
-  eleventyConfig.addFilter("isoDate", (d) => asDate(d).toISOString());
+  // "15. oktober 2026" (UTC, matching how 11ty parses the WordPress dates)
+  const daFormat = new Intl.DateTimeFormat("da-DK", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+  eleventyConfig.addFilter("daDate", (d) => {
+    if (!(d instanceof Date)) d = new Date(String(d).slice(0, 19) + "Z");
+    return daFormat.format(d);
+  });
 
   // ---------- sitemap ----------
   // Pages for sitemap.xml: every HTML page except those with `sitemap: false` in front matter.
@@ -117,6 +121,7 @@ export default function (eleventyConfig) {
       parent: p.data.parent || 0,
       order: p.data.menuOrder || 0,
       title: p.data.title,
+      navTitle: p.data.navTitle || p.data.title, // short label for the top menu
       url: p.url,
       children: [],
     }));
@@ -133,8 +138,20 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.on("eleventy.before", () => (navCache = undefined));
 
-  // Ancestor chain helper (used to mark the current menu branch).
-  eleventyConfig.addFilter("isAncestorUrl", (url, pageUrl) => url !== "/" && pageUrl.startsWith(url) && url !== pageUrl);
+  // Top-level section (from navTree) that contains the page, e.g. "Arkiv" for /arkiv/carl-lawaetz-fortaeller/
+  eleventyConfig.addFilter("sectionFor", (tree, url) => tree.find((s) => url.startsWith(s.url)) || null);
+  // Breadcrumb trail: the pages above the current one, top-level first
+  eleventyConfig.addFilter("ancestorsOf", (tree, url) => {
+    const walk = (items, trail) => {
+      for (const i of items) {
+        if (i.url === url) return trail;
+        const found = walk(i.children, [...trail, i]);
+        if (found) return found;
+      }
+      return null;
+    };
+    return walk(tree, []) || [];
+  });
 
   eleventyConfig.addFilter("commentsFor", (comments, id) => comments.filter((c) => c.post === id));
   eleventyConfig.addFilter("categoriesFor", (cats, ids = []) => cats.filter((c) => ids.includes(c.id)));

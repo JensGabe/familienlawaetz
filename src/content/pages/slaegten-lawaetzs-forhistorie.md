@@ -1,6 +1,7 @@
 ---
 layout: "layouts/page.njk"
 title: "Slægten Lawaetz’s historie"
+navTitle: "Historie"
 wpId: 25
 parent: 0
 menuOrder: 0

@@ -7,12 +7,15 @@ pagination:
   alias: pagePosts
 permalink: "{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}/{% else %}/{% endif %}"
 ---
+<h1 class="label">Nyt fra familien</h1>
+<div class="post-list">
 {%- for p in pagePosts %}
 {% include "partials/entry.njk" %}
 {%- endfor %}
-{%- if pagination.pages.length > 1 %}
-<div id="nav-below" class="navigation">
-	<div class="nav-previous">{% if pagination.href.next %}<a href="{{ pagination.href.next }}">&larr; Ældre indlæg</a>{% endif %}</div>
-	<div class="nav-next">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Nyere indlæg &rarr;</a>{% endif %}</div>
 </div>
+{%- if pagination.pages.length > 1 %}
+<nav class="post-nav" aria-label="Flere indlæg">
+  <div>{% if pagination.href.next %}<a class="prev" href="{{ pagination.href.next }}"><span>← Ældre indlæg</span></a>{% endif %}</div>
+  <div>{% if pagination.href.previous %}<a class="next" href="{{ pagination.href.previous }}"><span>Nyere indlæg →</span></a>{% endif %}</div>
+</nav>
 {%- endif %}

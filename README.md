@@ -22,9 +22,19 @@ work with the dev server. Set `SKIP_IMAGES=1` to skip image processing entirely 
 | `src/content/posts/*.md` | WordPress posts (shown on the front page, newest first). |
 | `src/_data/site.json` | Site title, tagline, header image, Facebook group link. |
 | `src/_data/wp.json` | Categories, tags and approved comments from WordPress. |
-| `src/_includes/` | Layouts (Twenty Ten markup) and partials (menu, sidebar, comments). |
-| `src/css/` | `twentyten.css` (the theme) and `site.css` (the few WordPress base rules still needed, plus local additions: responsive layout, mobile menu, images, footnotes). Both are trimmed to what the site uses, plus element styles (tables, lists, quotes …), the `.alignleft/.alignright/.aligncenter` image classes and footnotes. WordPress block styles are gone: content is plain Markdown, so block markup (`wp-block-…` classes) pasted from WordPress will render unstyled. |
+| `src/_includes/` | Layouts (`base`, `page`, `post`) and partials (section navigation, post listing entry, comments). |
+| `src/css/theme.css` | The "Slægtsbog" theme: colours and fonts as variables at the top, then layout, text, images, footnotes, footer. |
+| `src/static/images/vaaben.svg` | Coat of arms, used as logo and favicon. |
 | `src/wp-content/uploads/`, `src/pics/` | All media, at the same URLs as on the WordPress site. |
+
+### Theme
+
+- Warm paper background, dark ink and one green accent (`--accent`); all colours are variables at the top of `theme.css`.
+- Text in Source Serif 4, self-hosted from the `@fontsource-variable/source-serif-4` package (copied to `/fonts/`, no
+  Google Fonts); navigation, dates and captions in the visitor's system sans-serif.
+- The top menu lists the top-level pages; `navTitle` in a page's front matter sets a shorter menu label.
+  Pages inside a section get the section's page list beside the text (after it on phones) and a breadcrumb.
+- The former sidebar lives in the footer (latest posts, Facebook group, search, RSS); search is also in the top menu.
 
 ### Content and links
 
@@ -86,5 +96,6 @@ read `robots.txt` at the root of a domain, so it only takes effect when the site
 - All URLs are unchanged (pages, posts, `/category/…/`, `/wp-content/uploads/…`). The RSS feed is at `/feed/index.xml`.
 - Search uses [Pagefind](https://pagefind.app/) at `/soeg/` (built by `npm run build`).
 - Comments are shown read-only; new comments are closed.
-- The Facebook widget is a plain link (no Facebook SDK/tracking). Jetpack, CampTix, Wordfence and WPtouch are gone; the layout is now responsive instead.
+- The Twenty Ten theme is replaced by a new, responsive theme (see Theme above).
+- The Facebook widget is a plain link (no Facebook SDK/tracking). Jetpack, CampTix, Wordfence and WPtouch are gone.
 - Drafts, private pages, unapproved comments and CampTix attendee records were not migrated.

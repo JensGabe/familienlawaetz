@@ -1,6 +1,7 @@
 ---
 layout: "layouts/page.njk"
 title: "Familiesammenkomster"
+navTitle: "Sammenkomster"
 wpId: 5
 parent: 0
 menuOrder: 0

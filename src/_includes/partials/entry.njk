@@ -1,21 +1,17 @@
-{#- One post as it appears in a listing (home page, category archive). Expects `p`. -#}
-<div id="post-{{ p.data.wpId }}" class="hentry">
-	<h2 class="entry-title"><a href="{{ p.url }}" rel="bookmark">{{ p.data.title }}</a></h2>
-	<div class="entry-meta">
-		Udgivet den <a href="{{ p.url }}" title="{{ p.date | wpTime }}" rel="bookmark">{{ p.date | wpDate }}</a>{% if p.data.author %} <span class="meta-sep">af</span> <span class="author">{{ p.data.author }}</span>{% endif %}
-	</div>
-	<div class="entry-content">
+{#- One post as it appears in a listing (front page, category archive). Expects `p`. -#}
+{%- set cats = wp.categories | categoriesFor(p.data.categories) %}
+{%- set n = (wp.comments | commentsFor(p.data.wpId)).length %}
+<article class="entry">
+  <h2 class="entry-title"><a href="{{ p.url }}" rel="bookmark">{{ p.data.title }}</a></h2>
+  <p class="meta"><time datetime="{{ p.date | sitemapDate }}">{{ p.date | daDate }}</time>{% if p.data.author %}<span class="sep">·</span>{{ p.data.author }}{% endif %}</p>
+  <div class="prose">
 {{ p.content | safe }}
-	</div>
-	<div class="entry-utility">
-		{%- set cats = wp.categories | categoriesFor(p.data.categories) %}
-		{%- if cats.length %}
-		Udgivet i {% for c in cats %}<a href="/category/{{ c.slug }}/" rel="category tag">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
-		{%- endif %}
-		{%- set n = (wp.comments | commentsFor(p.data.wpId)).length %}
-		{%- if n %}
-		<span class="meta-sep">|</span>
-		<span class="comments-link"><a href="{{ p.url }}#comments">{{ n }} kommentar{% if n > 1 %}er{% endif %}</a></span>
-		{%- endif %}
-	</div>
-</div>
+  </div>
+  {%- if cats.length or n %}
+  <p class="entry-footer">
+    {%- if cats.length %}Kategori: {% for c in cats %}<a href="/category/{{ c.slug }}/" rel="category tag">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
+    {%- if cats.length and n %}<span class="sep"> · </span>{% endif %}
+    {%- if n %}<a href="{{ p.url }}#kommentarer">{{ n }} kommentar{% if n > 1 %}er{% endif %}</a>{% endif %}
+  </p>
+  {%- endif %}
+</article>

@@ -10,7 +10,7 @@ sitemap: false
 <script src="/pagefind/pagefind-ui.js"></script>
 <script>
   window.addEventListener("DOMContentLoaded", () => {
-    const ui = new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+    const ui = new PagefindUI({ element: "#search", showSubResults: true, showImages: false, autofocus: true });
     const q = new URLSearchParams(location.search).get("q");
     if (q) ui.triggerSearch(q);
   });

@@ -1,4 +1,7 @@
-{%- from "partials/menu.njk" import menu -%}
+{%- from "partials/section-nav.njk" import sectionList -%}
+{%- set tree = collections.wpPages | navTree -%}
+{%- set section = tree | sectionFor(page.url) -%}
+{%- set hasSection = section and section.children.length -%}
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 <head>
@@ -6,45 +9,68 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if title and not isHome %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="canonical" href="{{ page.url | htmlBaseUrl(site.url) }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="/feed/index.xml">
-<link rel="stylesheet" href="/css/twentyten.css">
-<link rel="stylesheet" href="/css/site.css">
-{%- block head %}{% endblock %}
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed/index.xml">
+<link rel="icon" href="/images/vaaben.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/theme.css">
 </head>
-<body class="custom-background{% if bodyClass %} {{ bodyClass }}{% endif %}">
-<div id="wrapper">
-	<a href="#content" class="screen-reader-text skip-link">Hop til indhold</a>
-	<div id="header">
-		<div id="masthead">
-			<div id="branding" role="banner">
-				{% if isHome %}<h1 id="site-title">{% else %}<div id="site-title">{% endif %}
-					<span><a href="/" rel="home">{{ site.title }}</a></span>
-				{% if isHome %}</h1>{% else %}</div>{% endif %}
-				<img src="{{ site.headerImage }}" width="940" height="198" alt="{{ site.title }}" fetchpriority="high">
-			</div>
-			<div id="access" role="navigation">
-				<button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-menu">Menu</button>
-				<div class="menu" id="site-menu"><ul>
-<li class="{% if page.url == '/' %}current_page_item{% endif %}"><a href="/">Forside</a></li>{{ menu(collections.wpPages | navTree, page.url) }}
-				</ul></div>
-			</div>
-		</div>
-	</div>
-	<div id="main">
-		<div id="container">
-			<div id="content" role="main">
-{{ content | safe }}
-			</div>
-		</div>
-		{% include "partials/sidebar.njk" %}
-	</div>
-	<div id="footer" role="contentinfo">
-		<div id="colophon">
-			<div id="site-info"><a href="/" rel="home">{{ site.title }}</a></div>
-		</div>
-	</div>
+<body>
+<a class="skip-link screen-reader-text" href="#indhold">Hop til indhold</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" rel="home">
+      <img src="/images/vaaben.svg" alt="" width="26" height="48" eleventy:ignore>
+      <span>{{ site.title }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Hovedmenu">
+      <ul>
+        {%- for item in tree %}
+        <li><a href="{{ item.url }}"{% if section and section.url == item.url %} aria-current="{{ 'page' if page.url == item.url else 'true' }}"{% endif %}>{{ item.navTitle }}</a></li>
+        {%- endfor %}
+        <li><a class="nav-search" href="/soeg/"{% if page.url == "/soeg/" %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Søg</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap hero{% if not isHome %} hero--small{% endif %}">
+  <img src="{{ site.headerImage }}" alt="" width="940" height="198" fetchpriority="high" loading="eager">
 </div>
-<script src="/js/menu.js" defer></script>
-{%- block scripts %}{% endblock %}
+
+<div class="wrap layout{% if hasSection %} has-section{% endif %}">
+  <main id="indhold" class="content">
+{{ content | safe }}
+  </main>
+  {%- if hasSection %}
+  <nav class="section-nav" aria-label="{{ section.navTitle }}">
+    <p class="label"><a href="{{ section.url }}"{% if page.url == section.url %} aria-current="page"{% endif %}>{{ section.title }}</a></p>
+    {{ sectionList(section.children, page.url) }}
+  </nav>
+  {%- endif %}
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <section>
+      <h2 class="label">Nyt fra familien</h2>
+      <ul>
+        {%- for p in collections.posts | head(5) %}
+        <li><a href="{{ p.url }}">{{ p.data.title }}</a><span class="date">{{ p.date | daDate }}</span></li>
+        {%- endfor %}
+      </ul>
+    </section>
+    <section>
+      <h2 class="label">Følg familien</h2>
+      <p><a href="{{ site.facebookGroup }}">Facebook-gruppen Familien-Lawaetz</a></p>
+      <p><a href="/soeg/">Søg på siden</a></p>
+      <p><a href="/feed/index.xml">Nyheder som RSS-feed</a></p>
+    </section>
+    <section class="footer-brand">
+      <img src="/images/vaaben.svg" alt="Familien Lawaetz’ våben" width="38" height="72" loading="lazy" eleventy:ignore>
+      <div><strong>{{ site.title }}</strong>Slægten efter Otto Lawaetz, Refsnæsgården</div>
+    </section>
+  </div>
+</footer>
 </body>
 </html>

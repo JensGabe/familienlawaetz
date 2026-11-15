@@ -1,12 +1,20 @@
 ---
 layout: layouts/base.njk
 ---
-<div id="post-{{ wpId }}" class="hentry" data-pagefind-body>
-	<h1 class="entry-title">{{ title }}</h1>
-	<div class="entry-content">
+{%- set crumbs = collections.wpPages | navTree | ancestorsOf(page.url) %}
+<article class="entry" data-pagefind-body>
+  <header class="entry-header">
+    {%- if crumbs.length %}
+    <nav class="crumbs" aria-label="Du er her" data-pagefind-ignore>
+      <ol>{% for c in crumbs %}<li><a href="{{ c.url }}">{{ c.navTitle }}</a></li>{% endfor %}</ol>
+    </nav>
+    {%- endif %}
+    <h1 class="entry-title">{{ title }}</h1>
+  </header>
+  <div class="prose">
 {{ content | safe }}
-	</div>
-</div>
+  </div>
+</article>
 {%- if (wp.comments | commentsFor(wpId)).length %}
 {% include "partials/comments.njk" %}
 {%- endif %}
