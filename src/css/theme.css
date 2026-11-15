@@ -111,7 +111,7 @@ img, video { max-width: 100%; height: auto; }
   object-fit: cover; object-position: center 60%;
   border-radius: 6px;
 }
-.hero--small img { height: clamp(4.5rem, 9vw, 7rem); }
+x.hero--small img { height: clamp(4.5rem, 9vw, 7rem); }
 
 /* ---------- Layout ---------- */
 .layout {

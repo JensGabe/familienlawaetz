@@ -7,11 +7,4 @@
   <div class="prose">
 {{ p.content | safe }}
   </div>
-  {%- if cats.length or n %}
-  <p class="entry-footer">
-    {%- if cats.length %}Kategori: {% for c in cats %}<a href="/category/{{ c.slug }}/" rel="category tag">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
-    {%- if cats.length and n %}<span class="sep"> · </span>{% endif %}
-    {%- if n %}<a href="{{ p.url }}#kommentarer">{{ n }} kommentar{% if n > 1 %}er{% endif %}</a>{% endif %}
-  </p>
-  {%- endif %}
 </article>

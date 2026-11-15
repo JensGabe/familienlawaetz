@@ -2,7 +2,7 @@ name: Build and GH Pages Deploy
 
 on:
   push:
-    branches: ['main'] 
+    branches: ['theme-slaegtsbog'] 
 
 jobs:
   build:
