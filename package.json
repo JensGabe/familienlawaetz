@@ -8,7 +8,8 @@
     "build": "eleventy && pagefind --site _site --silent",
     "start": "eleventy --serve",
     "serve": "npm run build && npx @11ty/eleventy-dev-server --dir=_site",
-    "build:eleventy:github-pages": "cross-env ELEVENTY_ENV=test eleventy --pathprefix='/familienlawaetz/'"
+    "build:eleventy:github-pages": "eleventy --pathprefix=/familienlawaetz/ && pagefind --site _site --silent",
+    "build:eleventy:prod": "npm run build"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.8",
