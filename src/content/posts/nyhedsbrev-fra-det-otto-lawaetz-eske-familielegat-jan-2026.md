@@ -4,12 +4,10 @@ title: "Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat jan. 2026"
 wpId: 2432
 date: "2026-05-07T16:28:03"
 modified: "2026-05-07T16:28:05"
-categories: [1]
-tags: []
 permalink: "/nyhedsbrev-fra-det-otto-lawaetz-eske-familielegat-jan-2026/"
 ---
 
-[![](/wp-content/uploads/2026/05/image.png)](/wp-content/uploads/2026/05/image.png)
+![](/wp-content/uploads/2026/05/image.png)
 
 Kære familiemedlemmer\
 Rigtig mange af jer læsere af dette nyhedsbrev var deltagere til familiesammenkomsten på Falkensteen den 24. maj 2025. En festlig dag med 170 deltagere. Tak for de mange dejlige tilbagemeldinger til festudvalget. Og EN STOR TAK til Ida og Carl Aage på Falkensteen, fordi vi måtte være gæster hos jer. Tak for jeres store forarbejde og det dejlige samarbejde med festudvalget. Man følte sig meget velkommen på jeres smukke Falkensteen.\
@@ -45,7 +43,7 @@ Desværre har Legatet ikke aktuelt midlerne (8.000 kr.) til at få sat nyt marmo
 Legatet må spare sammen… Stenen er rejst op og tager ikke yderligere skade (sidste billede).\
 Hvem er nu lige Sophie? Ja, hun og hendes ægtemand, Carl Wilhelm var de første Lawaetz’ere med ae, der sammen med deres fire sønner kom til kongeriget. 
 De kom i 1838 fra Holsten og ernærede sig ved mejeriforpagtninger på forskellige store herregårde.\
-Holstenere var på den tid kendte for deres særlige dygtighed omkring mejeridrift, og Carl Wilhelm, Sophie og siden deres ældste søn, Otto, var ingen undtagelse. (Da der år senere i Danmark blev oprettet andelsmejerier, byggede man bl.a. på den viden, som de holstenske mejerister bragte med til landet). En af Carl Wilhelms mejeriforpagtninger var på Herningsholm, og hans forpagtningskontrakt eksisterer faktisk endnu. Den kan om kort tid læses i sin fulde udstrækning på familiens hjemmeside ([familien-lawaetz.dk](https://familien-lawaetz.dk)), hvis nogen skulle have lyst til at gå i dybden med forholdene hos en mejeriforpagterfamilie i 1844-47. I Otto Lawaetz-bogen på siderne 57-59 fortæller den da 15-årige Ottos om sin oplevelse af forholdene på Herningsholm den første sommer.\
+Holstenere var på den tid kendte for deres særlige dygtighed omkring mejeridrift, og Carl Wilhelm, Sophie og siden deres ældste søn, Otto, var ingen undtagelse. (Da der år senere i Danmark blev oprettet andelsmejerier, byggede man bl.a. på den viden, som de holstenske mejerister bragte med til landet). En af Carl Wilhelms mejeriforpagtninger var på Herningsholm, og hans forpagtningskontrakt eksisterer faktisk endnu. Den kan om kort tid læses i sin fulde udstrækning på familiens hjemmeside (familien-lawaetz.dk), hvis nogen skulle have lyst til at gå i dybden med forholdene hos en mejeriforpagterfamilie i 1844-47. I Otto Lawaetz-bogen på siderne 57-59 fortæller den da 15-årige Ottos om sin oplevelse af forholdene på Herningsholm den første sommer.\
 Da Sophie ganske få år senere blev enke, fortsatte hun med mejeriforpagtning med den ældste søns hjælp.\
 Mange år senere i 1871, da Ottos første hustru, Charlotte, døde i barselssengen med det 10.\
 barn, flyttede den gamle farmor Sophie på nu 63 år, ind på Refsnæsgården og passede både de 10 børn og den store husholdning.\
@@ -56,7 +54,7 @@ Nu har jeg nævnt slægtsbogen “Otto Lawaetz, hans Liv og Gerning tillige med 
 ”Ludolph Gabe. Københavns Valgmenigheds første formand. Hans selvbiografi.” Dette hæfte kan erhverves for 50 kr.\
 Ved bogbestillinger bedes foruden postadresse oplyst både mailadresse og telefonnummer. Og gerne stamtavlenummer. Som noget nyt fra sidste år sendes bøgerne nu fragtfrit.\
 Så mangler jeg vist kun at minde jer om, at nogle af jer af og til har nævnt, at I mangler at opdatere stamtavlen med nye børn, børnebørn, svigerbørn, dødsfald osv. Måske er det nu, en opdatering af stamtavlen skal foretages…\
-Nikolaj Lorentzen A.8.3.4.1. står stadig for rettelser til stamtavlen samt opdateringer af mailadresser. Det kan ske gennem familiens hjemmeside: [familien-lawaetz.dk](https://familien-lawaetz.dk) og mailadressen [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk), så går der direkte besked til Nikolaj.\
+Nikolaj Lorentzen A.8.3.4.1. står stadig for rettelser til stamtavlen samt opdateringer af mailadresser. Det kan ske gennem familiens hjemmeside: familien-lawaetz.dk og mailadressen stamtavle@familien-lawaetz.dk, så går der direkte besked til Nikolaj.\
 Måske skal jeg også lige her til sidst minde om, at gaver til Det Otto Lawaetz-eske Familielegat modtages med stor tak – og at gaver lige nu falder på et temmelig tørt sted.\
 Legatets kontonummer i Jyske Bank: 5066 1521091.\
 Ved overførsel fra udland tillige: IBAN kontonr.: DK 6450660001521091 og SWIFT/BIC address: JYBADKKK (Angiv gerne navn og mailadresse, så vil vi kvittere med at sende en opdateret stamtavle.)\

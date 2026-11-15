@@ -21,7 +21,7 @@ STOR TAK TIL ALLE JER, DER PÅ DENNE MÅDE HAR VÆRET MED TIL AT BEVARE DET FYSI
 Alle donationer til legatet og til gravstederne har vi kvitteret med at sende en opdateret stamtavle til giverne.
 
 Stamtavlen og e-mailadresserne opdateres stadig af Nikolaj Lorentzen A.8.3.4.1.\
-**I opfordres til fortsat at sende rettelser til stamtavlen samt opdateringer af mailadresser** gennem familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** plus linket [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk), så går der direkte besked til Nikolaj.
+**I opfordres til fortsat at sende rettelser til stamtavlen samt opdateringer af mailadresser** gennem familiens hjemmeside: **familien-lawaetz.dk** plus linket stamtavle@familien-lawaetz.dk, så går der direkte besked til Nikolaj.
 
 Er man i øvrigt interesseret i fortællinger om familien samt diverse billeder, vil det være en god ide at besøge samme familie-hjemmeside.
 
@@ -38,7 +38,7 @@ Endnu en familiebog (et hæfte på 72 sider) – om en af Ottos sønner (Carl A.
 
 Senest har legatet fået mulighed for at tilbyde endnu et hæfte (på 85 sider): **Ludolph Gabe. Københavns Valgmenigheds første formand. Hans selvbiografi.** Kort genfortalt af pastor emer. N.A. Jensen. Dette hæfte kan erhverves for 50 kr.
 
-Bøgerne kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**\
+Bøgerne kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **legat@familien-lawaetz.dk**\
 <u>Ved bogbestillinger bedes foruden postadresse oplyst både mailadresse og telefonnummer.</u>
 
 Det festudvalg, der gennem de sidste mange år har arrangeret familiesammenkomsterne, har bedt Legatbestyrelsen om atter at minde om, at **næste familiesammenkomst bliver på Falkensteen lørdag den 24. maj 2025**. Herom meget mere senere.\

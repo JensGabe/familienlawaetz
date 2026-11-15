@@ -33,7 +33,7 @@ De 6 slægtsbøger er til salg for 300 kr. pr. stk. og kan købes hos legatets f
 
 Endnu en familiebog om en af Ottos sønner (Carl A.8) er kommet i legatets bogsalg: **”Carl Lawaetz, Kaalund Kloster, 1868-1944”**. Legatet har for nylig fået doneret 30 eksemplarer, som ligeledes sælges for 100 kr. Tak til Carls børnebørn for denne boggave, som legatet med glæde sælger videre.
 
-En ny og nutidig opgave, som bestyrelsen arbejder med – og i tråd med de forrige opgaver – er gennem de digitale medier at formidle slægtshistorierne samt at bidrage til at være bindeled og en samlende faktor i familien. Her arbejdes især med familiens hjemmeside ([familien-lawaetz.dk](https://familien-lawaetz.dk)) og nyhedsmails; men snart er muligvis også Facebook i spil…
+En ny og nutidig opgave, som bestyrelsen arbejder med – og i tråd med de forrige opgaver – er gennem de digitale medier at formidle slægtshistorierne samt at bidrage til at være bindeled og en samlende faktor i familien. Her arbejdes især med familiens hjemmeside (familien-lawaetz.dk) og nyhedsmails; men snart er muligvis også Facebook i spil…
 
 Legatbestyrelsen samarbejder med festudvalget (delvis personsammenfald; <u>men totalt adskilt økonomi</u>!), der for tiden arbejder på højtryk for at arrangere næste familiesammenkomst, som bliver afholdt
 
@@ -43,7 +43,7 @@ Legatbestyrelsen samarbejder med festudvalget (delvis personsammenfald; <u>men t
 
 Til slut vil vi også i år minde familien om vores **stamtavle**. Er der sket forandringer hos jer i den nære familie, bedes I sende Erik Anders Lawaetz opdateringerne – gerne gennem hjemmesidens skrivefelt.
 
-Vi minder også om, at en komplet og – i det omfang oplysningerne er indgået – opdateret stamtavle i pdf-format kan købes for 50 kr. ved at sende en meddelelse til Erik på mail: **[stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk)**
+Vi minder også om, at en komplet og – i det omfang oplysningerne er indgået – opdateret stamtavle i pdf-format kan købes for 50 kr. ved at sende en meddelelse til Erik på mail: **stamtavle@familien-lawaetz.dk**
 
 Med disse ord vil vi sende jer alle de bedste ønsker for en glædelig jul og et godt 2016. På gensyn på Refsnæs til maj.
 

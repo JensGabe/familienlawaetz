@@ -13,7 +13,7 @@ permalink: "/lawaetzer-legatet/nyhedsbrev-2017/"
 
 Kære familiemedlemmer
 
-I forlængelse af legatets nyhedsbrev fra juni 2017 kan vi meddele, at der nu arbejdes aktivt på at få genudgivet den udsolgte slægtsbog\*.(Er man ny læser af legatets nyhedsbrev, kan de forrige 5 års nyhedsbreve findes på familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)**. Her findes bl.a. omtale af diverse familiebøger, der endnu er til salg.)
+I forlængelse af legatets nyhedsbrev fra juni 2017 kan vi meddele, at der nu arbejdes aktivt på at få genudgivet den udsolgte slægtsbog\*.(Er man ny læser af legatets nyhedsbrev, kan de forrige 5 års nyhedsbreve findes på familiens hjemmeside: **familien-lawaetz.dk**. Her findes bl.a. omtale af diverse familiebøger, der endnu er til salg.)
 
 Vi har kontakt til en forlægger, som først i det nye år vil give os en aktuel pris på at få slægtsbogen genoptrykt. Vi har begrundet forhåbning om, at prisen ikke er steget siden 2013, hvor prisen var 55.000 kr.
 
@@ -25,7 +25,7 @@ Faktisk er der også jævnligt spurgt til en engelsk udgave af slægtsbogen – 
 
 Da vi i legatbestyrelsen også gerne vil fremme muligheden for at familiens stamtavle løbende får tilsendt opdateringer, har vi besluttet, **at alle, der donerer min. 100 kr. til legatet, som kvittering og tak automatisk får tilsendt en opdateret stamtavle i pdf-format. Større donationer modtages naturligvis med glæde!** (Takkesvar med stamtavle forudsætter, at man ved bankindbetalingen opgiver sin mailadresse.)
 
-Stamtavlen og e-mailadresserne opdateres af Nikolaj Lorentzen A.8.3.4.1. Rettelser til stamtavlen samt opdateringer af mailadresser kan ske gennem familiens hjemmeside: **[stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk)**, så går der direkte besked til Nikolaj.
+Stamtavlen og e-mailadresserne opdateres af Nikolaj Lorentzen A.8.3.4.1. Rettelser til stamtavlen samt opdateringer af mailadresser kan ske gennem familiens hjemmeside: **stamtavle@familien-lawaetz.dk**, så går der direkte besked til Nikolaj.
 
 **Legatets nye kontonummer** i Jyske bank er **5066 1521091**.
 

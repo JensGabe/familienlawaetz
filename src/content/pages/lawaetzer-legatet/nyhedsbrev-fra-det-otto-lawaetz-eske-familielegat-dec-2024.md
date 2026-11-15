@@ -17,7 +17,7 @@ Legatbestyrelsen har lovet det festudvalg, der igennem nu en hel del år har arr
 
 Det særlige ved året og ved Falkensteen må I læse om i indbydelsen til sammenkomsten…
 
-Festudvalget vil sende indbydelserne ud til alle kendte familie-mailadresser. De samme mailadresser, der modtager dette nyhedsbrev. (Synes I, at indbydelserne og nyhedsbrevet skal sendes til flere familie-mailadresser, eller kender I til forandrede mailadresser, kan samlingen af mailadresser udvides via familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** og mailadressen: [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk))
+Festudvalget vil sende indbydelserne ud til alle kendte familie-mailadresser. De samme mailadresser, der modtager dette nyhedsbrev. (Synes I, at indbydelserne og nyhedsbrevet skal sendes til flere familie-mailadresser, eller kender I til forandrede mailadresser, kan samlingen af mailadresser udvides via familiens hjemmeside: **familien-lawaetz.dk** og mailadressen: stamtavle@familien-lawaetz.dk)
 
 Indbydelserne kommer ud den 23. januar 2025, og en bindende tilmelding med betaling skal foretages senest 1. marts.
 
@@ -51,13 +51,13 @@ Endnu en familiebog (et hæfte på 72 sider) – om en af Ottos sønner (Carl A.
 
 Senest har legatet fået mulighed for at tilbyde endnu et hæfte (på 85 sider): **Ludolph Gabe. Københavns Valgmenigheds første formand. Hans selvbiografi.** Kort genfortalt af pastor emer. N.A. Jensen. Dette hæfte kan erhverves for 50 kr.
 
-Bøgerne kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte min direkte mail: **[mariannelawaetz@gmail.com](mailto:mariannelawaetz@gmail.com)**. **Ved bogbestillinger bedes foruden postadresse oplyst både mailadresse og telefonnummer.**
+Bøgerne kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte min direkte mail: **mariannelawaetz@gmail.com**. **Ved bogbestillinger bedes foruden postadresse oplyst både mailadresse og telefonnummer.**
 
 Ved bestilling af bøger inden 16.december skulle der være god mulighed for, at bøgerne når frem inden jul. Jeg sender så vidt muligt bøgerne samme dag eller dagen efter modtaget bestilling.
 
 Lidt mere om Lawaetz-bøger (som skal rekvireres andre steder):
 
-Legatbestyrelsen er for nylig blevet gjort opmærksom på, at slægtsbogen ”Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaets’s Historie” er **oversat til tysk** af Ulf Lawaetz (A.6.1.1.) i 1973. Har nogen interesse i at få denne oversættelse tilsendt, kan man henvende sig til Gerd Sigel (A.6.1.4.4.) på mail [gerd.sigel@googlemail.com](mailto:gerd.sigel@googlemail.com)
+Legatbestyrelsen er for nylig blevet gjort opmærksom på, at slægtsbogen ”Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaets’s Historie” er **oversat til tysk** af Ulf Lawaetz (A.6.1.1.) i 1973. Har nogen interesse i at få denne oversættelse tilsendt, kan man henvende sig til Gerd Sigel (A.6.1.4.4.) på mail gerd.sigel@googlemail.com
 
 Ny bog om Hans Lawaetz (C.5.3.), St. Croix:
 
@@ -67,7 +67,7 @@ Bogen er på mange måder en fortsættelse af historien om hans far, Fritz (C.5.
 
 ”Memoir of a Crucian Cowboy” kan købes via Amazon.
 
-Vi minder om, at stamtavlen og e-mailadresserne fortsat opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** og mailadressen [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk), så går der direkte besked til Nikolaj.
+Vi minder om, at stamtavlen og e-mailadresserne fortsat opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **familien-lawaetz.dk** og mailadressen stamtavle@familien-lawaetz.dk, så går der direkte besked til Nikolaj.
 
 Er man i øvrigt interesseret i historier om familien, vil det være en god ide at besøge samme familie-hjemmeside, hvor der også for nylig er lagt mange billeder ind fra sidste familiesammenkomst på Refsnæs.
 

@@ -17,7 +17,7 @@ Kære familiemedlemmer
 
 Det er således med stor taknemmelighed og glæde – og også med lidt stolthed, at vi i bestyrelsen hermed har fået mulighed for på fornemste vis at leve op til fundatsens ord om at vedligeholde i god stand og forny familiegravstederne[^1] på længst mulig tid.
 
-Takket være især den helt enestående donation på 120.000 kroner fik vi mulighed for at ”fremtidssikre” alle tre gravsteder helt frem til henholdsvis 2066 og 2057. Med denne donation kunne vi desuden gennemføre en restaurering af de to flotte og bevaringsværdige sandstens- og marmorgravmæler på Kalundborg Kirkegård og på Refsnæs Kirkegård i Ulstrup. (Se evt. billedserien på hjemmesiden **[familien-lawaetz.dk](https://familien-lawaetz.dk)**)
+Takket være især den helt enestående donation på 120.000 kroner fik vi mulighed for at ”fremtidssikre” alle tre gravsteder helt frem til henholdsvis 2066 og 2057. Med denne donation kunne vi desuden gennemføre en restaurering af de to flotte og bevaringsværdige sandstens- og marmorgravmæler på Kalundborg Kirkegård og på Refsnæs Kirkegård i Ulstrup. (Se evt. billedserien på hjemmesiden **familien-lawaetz.dk**)
 
 <u>Familiesammenkomst</u>
 
@@ -25,7 +25,7 @@ Resultatet af istandsættelserne af gravstederne var afsluttet 15. maj og kunne 
 
 Festudvalget fik mange positive tilbagemeldinger fra deltagerne på Lawaetz’er-dagen, så det blev kort efter besluttet, at næste familiesammenkomst bliver **lørdag den 25. maj 2019 ligeledes på Refsnæsgården.**
 
- Om kort tid vil det være muligt at se billeder fra Lawaetz’er-dagen på familiens hjemmeside **[familien-lawaetz.dk](https://familien-lawaetz.dk)**
+ Om kort tid vil det være muligt at se billeder fra Lawaetz’er-dagen på familiens hjemmeside **familien-lawaetz.dk**
 
 <u>Slægtsbogen</u> **“Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaetz’s Historie”**, som første gang udkom i 500 nummererede eksemplarer på Ottos 100 års dag i 1929, blev i 1979 genoptrykt i endnu 500 eksemplarer. Nu er 2. oplag også udsolgt, så tiden nærmer sig for alvor til endnu en genoptrykning.
 
@@ -41,7 +41,7 @@ Skal en genoptrykning af slægtsbogen blive en realitet, må det være vores fæ
 
 <u>Bogsalg</u>
 
-Andre familiebøger kan stadig købes hos legatets formand, Marianne Lawaetz, Sorø. Købere kan benytte hjemmesidens link til legatet. (**[familien-lawaetz.dk](https://familien-lawaetz.dk)**)
+Andre familiebøger kan stadig købes hos legatets formand, Marianne Lawaetz, Sorø. Købere kan benytte hjemmesidens link til legatet. (**familien-lawaetz.dk**)
 
 Her kan man for 100 kr. erhverve sig bogen  **”Herman** **Lawaetz, et tidsbillede”**, udgivet i anledning af Bagsværd Kostskoles 100 års jubilæum. Herman var søn af Otto, forfatter til bl.a. omtalte slægtsbog om faderen, og han var en årrække præst på St .Croix. Af denne bog har vi nu 8 eksemplarer til salg.
 
@@ -49,9 +49,9 @@ Endnu en familiebog om en af Ottos sønner er kommet i legatets bogsalg: **”Ca
 
 <u>Hjemmesiden</u>
 
-På omtalte hjemmeside **[familien-lawaetz.dk](https://familien-lawaetz.dk)** kan man foruden nyheder læse om en del familiemedlemmers liv, og man kan få indblik i andet historisk stof, der drejer sig om familien. Går man for eksempel ind på linket ”Familiegravsteder”, er der en fyldig og rigt illustreret beretning om de personer, der er begravet på familiegravstedet på Kalundborg Kirkegård.
+På omtalte hjemmeside **familien-lawaetz.dk** kan man foruden nyheder læse om en del familiemedlemmers liv, og man kan få indblik i andet historisk stof, der drejer sig om familien. Går man for eksempel ind på linket ”Familiegravsteder”, er der en fyldig og rigt illustreret beretning om de personer, der er begravet på familiegravstedet på Kalundborg Kirkegård.
 
-Skulle du have lyst til at bidrage med historisk materiale, billeder eller lignende, så er du meget velkommen til at kontakte Marianne Lawaetz ved at benytte legatets mailadresse: [legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk).
+Skulle du have lyst til at bidrage med historisk materiale, billeder eller lignende, så er du meget velkommen til at kontakte Marianne Lawaetz ved at benytte legatets mailadresse: legat@familien-lawaetz.dk.
 
 Hjemmesidens tekniske bistand ydes stadig af Jens Henrik Gabe, og det er vi meget taknemmelige for.
 
@@ -67,7 +67,7 @@ Indtil en afløser er fundet, er det stadig Erik Anders Lawaetz, der har det sto
 
 **Har du opdateringer eller mailadresseændringer, så send meddelelserne til Erik –** for eksempel gennem hjemmesidens skrivefelt.
 
-En komplet stamtavle i pdf-format kan rekvireres for 50 kr. ved at sende en meddelelse til Erik på mail **[stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk)**
+En komplet stamtavle i pdf-format kan rekvireres for 50 kr. ved at sende en meddelelse til Erik på mail **stamtavle@familien-lawaetz.dk**
 
  <u>Ændringer i legatbestyrelsens sammensætning</u>
 

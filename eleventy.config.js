@@ -43,7 +43,37 @@ export default function (eleventyConfig) {
   // Markdown images:  ![alt](/wp-content/uploads/x.jpg "Caption"){.alignleft width=150}
   // - a standalone image becomes <figure>, its title becomes <figcaption>
   // - {…} adds classes/attributes (markdown-it-attrs); classes are copied to the <figure>
+  //
+  // Bare web addresses and e-mails become links automatically (markdown-it's linkify):
+  //   https://example.dk/side   www.example.dk   navn@example.dk
+  // Bare domains ("example.dk") are deliberately NOT linked: linkify's fuzzy matching would
+  // also turn amounts and abbreviations like "7.000.kr" or "1.th" into links.
+  // The one exception is the site's own domain: familien-lawaetz.dk (optionally with a path).
   eleventyConfig.amendLibrary("md", (md) => {
+    md.set({ linkify: true });
+    md.linkify
+      .set({ fuzzyLink: false })
+      .add("www.", {
+        validate(text, pos, self) {
+          self.wwwRe ||= new RegExp("^" + self.re.src_host_port_strict + self.re.src_path, "i");
+          const m = text.slice(pos).match(self.wwwRe);
+          return m ? m[0].length : 0;
+        },
+        normalize(match) {
+          match.url = "https://" + match.url;
+        },
+      })
+      // linkify needs a non-empty tail after the prefix, so the prefix stops before "dk".
+      .add("familien-lawaetz.", {
+        validate(text, pos, self) {
+          self.siteRe ||= new RegExp("^dk(?![\\w-])(?:" + self.re.src_path + ")?", "i");
+          const m = text.slice(pos).match(self.siteRe);
+          return m ? m[0].length : 0;
+        },
+        normalize(match) {
+          match.url = "https://" + match.url;
+        },
+      });
     md.use(markdownItAttrs);
     md.use(markdownItImageFigures, { figcaption: "title", copyAttrs: "class" });
   });

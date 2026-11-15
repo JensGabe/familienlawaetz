@@ -15,7 +15,7 @@ Først skal I have den største og mest aktuelle nyhed:
 
 Legatbestyrelsen har lovet det festudvalg, der igennem nu en hel del år har arrangeret familiesammenkomsterne på Refsnæsgården, at meddele jer alle, at **datoen for næste familiesammenkomst er** **lørdag den 11. juni 2022, og at sammenkomsten også denne gang bliver på Refsnæsgården** **og i Fiskerhuset.**
 
-Festudvalget vil sende indbydelserne ud til alle kendte familie-mailadresser. (De samme mailadresser, der modtager dette nyhedsbrev. Synes I, at indbydelserne og nyhedsbrevet skal sendes til flere familie-mailadresser, kan samlingen af mailadresser udvides via familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** og linket [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk))
+Festudvalget vil sende indbydelserne ud til alle kendte familie-mailadresser. (De samme mailadresser, der modtager dette nyhedsbrev. Synes I, at indbydelserne og nyhedsbrevet skal sendes til flere familie-mailadresser, kan samlingen af mailadresser udvides via familiens hjemmeside: **familien-lawaetz.dk** og linket stamtavle@familien-lawaetz.dk)
 
 Indbydelserne kommer ud omkring 1. februar, og en bindende tilmelding med betaling skal foretages senest 1. april.
 
@@ -35,7 +35,7 @@ Alle bidrag vil være særdeles nyttige for legatets fortsatte virke og modtages
 
 Opgiver man ved indbetalingen sin mailadresse, har vi mulighed for at sende en bekræftelse på modtagelse af bidraget. Samtidig vil vi, for fortsat at styrke familiefællesskabet, foranledige, at giveren får tilsendt en opdateret stamtavle i PDF-format.
 
-Vi minder om, at stamtavlen og e-mailadresserne fortsat opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** og linket [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk), så går der direkte besked til Nikolaj.
+Vi minder om, at stamtavlen og e-mailadresserne fortsat opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **familien-lawaetz.dk** og linket stamtavle@familien-lawaetz.dk, så går der direkte besked til Nikolaj.
 
 Er man i øvrigt interesseret i historier om familien, vil det være en god ide at besøge samme familie-hjemmeside.
 
@@ -47,7 +47,7 @@ Også den nye udgave er nummereret, og den er med samme fornemme format som før
 
 _Slægtsbogen er en enestående mulighed for at formidle slægtshistorie, så næste generation blandt andet ad denne vej kan få øje på deres rødder og historier om dem, der er gået forud. Af samme grund er bogen også af flere familiemedlemmer benyttet som bedsteforældregave til nyfødte Lawaetz’ere. Måske er bogen en endnu mere oplagt gave til konfirmander, til 18-års fødselsdage – eller til bryllupsgave! – eller julegave!_
 
-Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)** eller min mail: [mariannelawaetz@gmail.com](mailto:mariannelawaetz@gmail.com)
+Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **legat@familien-lawaetz.dk** eller min mail: mariannelawaetz@gmail.com
 
 Da første- og andenudgaven af slægtsbogen udkom med en trykt stamtavle indlagt, vil der med køb af den nye udgave blive tilsendt en opdaterede stamtavle i PDF-format.
 

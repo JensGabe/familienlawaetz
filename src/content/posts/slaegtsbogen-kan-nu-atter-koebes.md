@@ -4,8 +4,6 @@ title: "Som noget nyt sendes slægtsbogen nu fragtfrit til familiemedlemmer."
 wpId: 1292
 date: "2019-01-26T19:43:48"
 modified: "2024-11-24T16:19:09"
-categories: [1]
-tags: []
 permalink: "/slaegtsbogen-kan-nu-atter-koebes/"
 ---
 
@@ -17,7 +15,7 @@ Denne tredje udgave af slægtsbogen fremstår – som den oprindelige – meget,
 
 Da de to forrige udgaver af slægtsbogen udkom med en trykt og opdateret **stamtavle** indlagt, har vi i legatbestyrelsen besluttet, at man ved køb af den aktuelle udgave af slægtsbogen også får tilsendt en nu efterhånden ret omfangsrig og digital udgave af den nyest opdaterede stamtavle.
 
-Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan maile til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**
+Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan maile til legatet: **legat@familien-lawaetz.dk**
 
 _Slægtsbogen **“Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaetz’s Historie”**, udkom første gang i 500 nummererede eksemplarer på Ottos 100 års dag i 1929._
 

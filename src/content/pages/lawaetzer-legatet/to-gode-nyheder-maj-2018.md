@@ -19,7 +19,7 @@ Nu er der præcis et år til, at vi alle igen skal samles til en Lawaetz-familie
 
 Alle kan deltage, så sæt allerede nu kryds i kalenderen: Lørdag den 25.maj 2019 fra kl. 10.00 til ca 17.00.
 
-Omkring nytår sendes den endelige invitation ud med tilmelding til jer pr mail. Invitationen kan også til den tid læses på Lawaetz-hjemmesiden: **[familien-lawaetz.dk](https://familien-lawaetz.dk)**.
+Omkring nytår sendes den endelige invitation ud med tilmelding til jer pr mail. Invitationen kan også til den tid læses på Lawaetz-hjemmesiden: **familien-lawaetz.dk**.
 
 Måske har I allerede set, at der på denne hjemmeside under ”Familiesammenkomster” ligger billeder fra den forrige sammenkomst i 2016.
 
@@ -37,7 +37,7 @@ Bogen, som udkommer med samme fornemme format som første- og andenudgaven – f
 
 Legatbestyrelsen har imidlertid besluttet, at bogen kan erhverves til **en kampagnepris på 200 kr. til og med familiedagen den 25. maj 2019.**
 
-Allerede nu kan I bestille slægtsbogen hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**
+Allerede nu kan I bestille slægtsbogen hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **legat@familien-lawaetz.dk**
 
 _Slægtsbogen **“Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaetz’s Historie”**, udkom første gang i 500 nummererede eksemplarer på Ottos 100 års dag i 1929, og den blev i 1979 genoptrykt i endnu 500 eksemplarer._
 
@@ -45,7 +45,7 @@ _Slægtsbogen er en enestående mulighed for at formidle slægtshistorie, så n�
 
 <u>Yderligere bogsalg</u>
 
-Andre familiebøger kan stadig købes hos legatets formand, Marianne Lawaetz, Sorø. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**
+Andre familiebøger kan stadig købes hos legatets formand, Marianne Lawaetz, Sorø. Købere kan benytte hjemmesidens link til legatet: **legat@familien-lawaetz.dk**
 
 Her kan man for 100 kr. erhverve sig bogen  **”Herman** **Lawaetz, et tidsbillede”**, udgivet i anledning af Bagsværd Kostskoles 100 års jubilæum. Herman (A.6) var søn af Otto (A), forfatter til bl.a. omtalte slægtsbog om faderen, og han var en årrække præst på St.Croix. Af denne bog har vi stadig 8 eksemplarer til salg.
 

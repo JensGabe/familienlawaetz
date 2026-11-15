@@ -22,7 +22,7 @@ Det Otto Lawaet’ske Familielegatet er i disse tider stærkt afhængig af famil
 
 Bidrag til legatet kan indbetales direkte via en bankoverførsel til bankkonto: **Reg. nr. 5066 Konto nr. 152 10 91**. Opgiver du ved indbetalingen din mailadresse (og naturligvis også gerne stamtavlenummer), har vi mulighed for at sende dig en bekræftelse på modtagelse af bidraget.
 
-Legatbestyrelsen kan kontaktes på email: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**
+Legatbestyrelsen kan kontaktes på email: **legat@familien-lawaetz.dk**
 
 > **LEGATANSØGNING**  
 > **Det Otto Lawaetz’eske Familielegat**  

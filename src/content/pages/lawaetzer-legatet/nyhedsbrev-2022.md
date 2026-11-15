@@ -21,7 +21,7 @@ En smuk opgave, som legatets bestyrelse med glæde og efter bedste evne lægger 
 
 Gravstederne er efterhånden temmelig gamle. Det ældste, det på Gjellerup kirkegård, er fra 1849.
 
-Takket være en helt enestående donation på 120.000 kr. i 2016 fra et anonymt familiemedlem, fik legatet dengang mulighed for at ”fremtidssikre” alle tre gravsteder med legat-aftaler helt frem til 2057 0g 2066. Samtidig fik vi mulighed for at gennemføre en meget tiltrængt, professionel restaurering af de to bevaringsværdige og meget smukke sandstens- og marmorgravmæler på Kalundborg Kirkegård og på Refsnæs Kirkegård. (Se evt. billedserien på hjemmesiden _[familien-lawaetz.dk](https://familien-lawaetz.dk)_ )
+Takket være en helt enestående donation på 120.000 kr. i 2016 fra et anonymt familiemedlem, fik legatet dengang mulighed for at ”fremtidssikre” alle tre gravsteder med legat-aftaler helt frem til 2057 0g 2066. Samtidig fik vi mulighed for at gennemføre en meget tiltrængt, professionel restaurering af de to bevaringsværdige og meget smukke sandstens- og marmorgravmæler på Kalundborg Kirkegård og på Refsnæs Kirkegård. (Se evt. billedserien på hjemmesiden _familien-lawaetz.dk_ )
 
 I det forløbne år har det vist sig, at der nu venter legatet endnu en stor restaurerings-opgave.
 
@@ -43,7 +43,7 @@ Opgiver man ved indbetalingen sin mailadresse, har vi mulighed for at sende en b
 
 —————
 
-Vi minder om, at stamtavlen og e-mailadresserne opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **[familien-lawaetz.dk](https://familien-lawaetz.dk)** plus linket [stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk), så går der direkte besked til Nikolaj.
+Vi minder om, at stamtavlen og e-mailadresserne opdateres af Nikolaj Lorentzen A.8.3.4.1. **Rettelser til stamtavlen samt opdateringer af mailadresser** kan ske gennem familiens hjemmeside: **familien-lawaetz.dk** plus linket stamtavle@familien-lawaetz.dk, så går der direkte besked til Nikolaj.
 
 Er man i øvrigt interesseret i fortællinger om familien, vil det være en god ide at besøge samme familie-hjemmeside.
 
@@ -53,7 +53,7 @@ Også det nye oplag er nummereret, og det er med samme fornemme format som førs
 
 _Slægtsbogen er en enestående mulighed for at formidle slægtshistorie, så næste generation også ad denne vej kan få øje på deres rødder og fortællinger om dem, der er gået forud. Af samme grund er bogen også af flere familiemedlemmer benyttet som bedsteforældregave til nyfødte Lawaetz’ere. Måske er bogen en endnu mere oplagt gave til konfirmander, til 18-års fødselsdage – eller som bryllupsgave! – eller julegave!_
 
-Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)** eller min mail: [mariannelawaetz@gmail.com](mailto:mariannelawaetz@gmail.com)
+Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **legat@familien-lawaetz.dk** eller min mail: mariannelawaetz@gmail.com
 
 Da første og andet oplag af slægtsbogen udkom med en trykt stamtavle indlagt, vil der med køb af en bog fra tredje oplag blive tilsendt en opdateret stamtavle i PDF-format.
 

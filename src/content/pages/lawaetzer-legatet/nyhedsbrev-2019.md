@@ -42,7 +42,7 @@ Også den nye udgave er nummereret, og den er med samme fornemme format som før
 
 _Slægtsbogen er en enestående mulighed for at formidle slægtshistorie, så næste generation blandt andet ad denne vej kan få øje på deres rødder og historier om dem, der er gået forud. Af samme grund er bogen også af flere familiemedlemmer benyttet som bedsteforældregave til nyfødte Lawaetz’ere. Måske er bogen en endnu mere oplagt gave til konfirmander, til 18-års fødselsdage – eller til bryllupsgave! – eller julegave!_
 
-Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**
+Bogen kan bestilles hos mig, legatets formand, Marianne Lawaetz. Købere kan benytte hjemmesidens link til legatet: **legat@familien-lawaetz.dk**
 
 Da første- og andenudgaven af slægtsbogen udkom med en trykt stamtavle indlagt, vil der med køb af den nye udgave blive tilsendt den opdaterede stamtavle i PDF-format.
 
@@ -50,7 +50,7 @@ Endnu en familiebog – om en af Ottos sønner (Carl A.8) – er kommet i legate
 
 HVIS BØGERNE SKAL VÆRE JULEGAVE, SÅ BESTIL I GOD TID!
 
-På familiens hjemmeside **[familien-lawaetz.dk](https://familien-lawaetz.dk)** kan man snart se billeder fra **den store Lawaetz’er-sammenkomst på Refsnæs den 25. maj 2019**. Muligvis lægges der også et link til nogle gamle smalfilm om Falkensteen på hjemmesiden. Se selv efter!
+På familiens hjemmeside **familien-lawaetz.dk** kan man snart se billeder fra **den store Lawaetz’er-sammenkomst på Refsnæs den 25. maj 2019**. Muligvis lægges der også et link til nogle gamle smalfilm om Falkensteen på hjemmesiden. Se selv efter!
 
 Også i år kunne festudvalget glæde sig over en stor tilslutning til sammenkomsten på Refsnæs. 150 personer deltog, og mange sendte siden varme tilbagemeldinger på en god familiedag. Udvalget takker – og vil hjertens gerne udvides med nye og måske også yngre kræfter.
 

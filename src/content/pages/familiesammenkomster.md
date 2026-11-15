@@ -48,4 +48,4 @@ Festudvalget er fortsat meget interesseret i at modtage mailadresser fra familie
 
 **Har du lyst til at være en del af dette hyggelige og arbejdsomme udvalg, skal du være hjertelig velkommen!**
 
-Du kan kontakte udvalget på email: [festudvalg@familien-lawaetz.dk](mailto:festudvalg@familien-lawaetz.dk)
+Du kan kontakte udvalget på email: festudvalg@familien-lawaetz.dk

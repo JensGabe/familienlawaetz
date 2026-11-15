@@ -46,6 +46,11 @@ in the generated HTML, so no `url` filter is needed:
 [Legatbestyrelsen](/lawaetzer-legatet/legatbestyrelsen/)
 ```
 
+Web addresses and e-mails don't need link syntax: `https://…`, `www.…` and `navn@example.dk` are linked
+automatically, and so is the site's own domain written bare: `familien-lawaetz.dk` (optionally with a path).
+Other bare domains like `example.dk` are not (that would also catch "7.000.kr"); write them with
+`www.`/`https://` or as a normal Markdown link.
+
 ### Images
 
 ```md
@@ -80,7 +85,7 @@ Footnotes only work in Markdown text, not inside kept HTML blocks (e.g. inside a
 
 - **New page:** add a `.md` file under `src/content/pages/` with front matter
   `layout: layouts/page.njk`, `title`, `wpId` (any unique number), `parent` (the `wpId` of the parent page, or 0), `menuOrder`, `permalink`.
-- **New post:** add a file under `src/content/posts/` with `layout: layouts/post.njk`, `title`, `date`, `wpId`, `categories: [1]`, `permalink`.
+- **New post:** add a file under `src/content/posts/` with `layout: layouts/post.njk`, `title`, `date`, `wpId`, `permalink`.
 - Set `modified: "2026-11-15T10:00:00"` when you change a page; it becomes the page's `<lastmod>` in the sitemap.
 
 ### Sitemap and robots.txt

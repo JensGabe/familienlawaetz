@@ -31,7 +31,7 @@ Skal en genoptrykning af slægtsbogen blive en realitet, må det være vores fæ
 
 <u>Bogsalg</u>
 
-Andre familiebøger kan stadig købes hos legatets formand, Marianne Lawaetz, Sorø. Købere kan benytte hjemmesidens link til legatet: **[legat@familien-lawaetz.dk](mailto:legat@familien-lawaetz.dk)**
+Andre familiebøger kan stadig købes hos legatets formand, Marianne Lawaetz, Sorø. Købere kan benytte hjemmesidens link til legatet: **legat@familien-lawaetz.dk**
 
 Her kan man for 100 kr. erhverve sig bogen  **”Herman Lawaetz, et tidsbillede”**, udgivet i anledning af Bagsværd Kostskoles 100 års jubilæum. Herman (A.6) var søn af Otto (A), forfatter til bl.a. omtalte slægtsbog om faderen, og han var en årrække præst på St .Croix. Af denne bog har vi stadig 8 eksemplarer til salg.
 
@@ -43,7 +43,7 @@ Et lille legat, som var oprettet af samme Carl Lawaetz og som skulle gives til t
 
 <u>Som det sidste skal meddeles, at der er sket endnu en ændringer i legatbestyrelsens opgavefordeling:</u>
 
- Som nævnt i nyhedsbrevet for 2016 er Erik Anders Lawaetz A.8.3.1.2 blevet legatets kasserer. Vi har derfor fundet ham en afløser til stamtavlen og e-mailadresserne, som fremover opdateres af Nikolaj Lorentzen A.8.3.4.1. Rettelser til stamtavlen samt opdateringer af mailadresser kan således fortsat ske gennem familiens hjemmeside: **[stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk)**, så går der fremover direkte besked til Nikolaj.
+ Som nævnt i nyhedsbrevet for 2016 er Erik Anders Lawaetz A.8.3.1.2 blevet legatets kasserer. Vi har derfor fundet ham en afløser til stamtavlen og e-mailadresserne, som fremover opdateres af Nikolaj Lorentzen A.8.3.4.1. Rettelser til stamtavlen samt opdateringer af mailadresser kan således fortsat ske gennem familiens hjemmeside: **stamtavle@familien-lawaetz.dk**, så går der fremover direkte besked til Nikolaj.
 
 Mange hilsener fra Legatbestyrelsen:
 

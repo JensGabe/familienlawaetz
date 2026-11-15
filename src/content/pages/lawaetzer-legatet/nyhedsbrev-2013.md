@@ -83,7 +83,7 @@ Erik Anders Lawaetz har stadig det store og vigtige hverv med at opdatere stamta
 
 **Har du opdateringer, så send meddelelserne til Erik** – for eksempel gennem hjemmesidens skrivefelt.
 
-En komplet stamtavle i pdf-format kan rekvireres mod et beskedent beløb ved at sende en meddelelse til Erik på mail: **[stamtavle@familien-lawaetz.dk](mailto:stamtavle@familien-lawaetz.dk)**
+En komplet stamtavle i pdf-format kan rekvireres mod et beskedent beløb ved at sende en meddelelse til Erik på mail: **stamtavle@familien-lawaetz.dk**
 
 **Ændring i legatbestyrelsens sammensætning:**
 

@@ -22,4 +22,4 @@ Her er et par udvalgte billeder fra dagen:
 ![](/pics/IMG_2431.JPG){width=288}
 ![](/pics/IMG_2466.JPG){width=288}
 
-Du kan kontakte festudvalget på email: [festudvalg@familien-lawaetz.dk](mailto:festudvalg@familien-lawaetz.dk)
+Du kan kontakte festudvalget på email: festudvalg@familien-lawaetz.dk

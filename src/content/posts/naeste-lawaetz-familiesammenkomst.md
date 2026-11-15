@@ -4,8 +4,6 @@ title: "Næste Lawaetz-familiesammenkomst"
 wpId: 2439
 date: "2026-05-07T16:31:08"
 modified: "2026-05-07T16:31:09"
-categories: [1]
-tags: []
 permalink: "/naeste-lawaetz-familiesammenkomst/"
 ---
 

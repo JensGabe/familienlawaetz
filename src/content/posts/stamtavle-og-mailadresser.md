@@ -4,8 +4,6 @@ title: "Stamtavle og mailadresser"
 wpId: 2014
 date: "2022-10-17T07:32:23"
 modified: "2022-10-17T07:35:25"
-categories: [1]
-tags: []
 permalink: "/stamtavle-og-mailadresser/"
 ---
 
