@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
+                "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -185,11 +185,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "publish:Publish changes...": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "e5fd8e8a33ac091c",
   "lastOpenFiles": [
+    "posts/posts.11tydata.js",
+    "pages/pages.11tydata.js",
     "pages/familiesammenkomster/lawaetzerdag-2013.md",
     "pages/familiesammenkomster/test.md",
     "pages/familiesammenkomster/e-mail-indsamling.md",
