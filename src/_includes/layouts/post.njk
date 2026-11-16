@@ -3,7 +3,6 @@ layout: layouts/base.njk
 ---
 {%- set prev = collections.posts | getNextCollectionItem(page) %}
 {%- set next = collections.posts | getPreviousCollectionItem(page) %}
-{%- set cats = wp.categories | categoriesFor(categories) %}
 <article class="entry" data-pagefind-body>
   <header class="entry-header">
     <nav class="crumbs" aria-label="Du er her" data-pagefind-ignore><ol><li><a href="/">Nyt fra familien</a></li></ol></nav>
@@ -13,9 +12,6 @@ layout: layouts/base.njk
   <div class="prose">
 {{ content | safe }}
   </div>
-  {%- if cats.length %}
-  <p class="entry-footer" data-pagefind-ignore>Kategori: {% for c in cats %}<a href="/category/{{ c.slug }}/" rel="category tag">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
-  {%- endif %}
 </article>
 {%- if prev or next %}
 <nav class="post-nav" aria-label="Andre indlæg">
@@ -23,4 +19,3 @@ layout: layouts/base.njk
   <div>{% if next %}<a class="next" href="{{ next.url }}" rel="next"><span>Nyere →</span><span class="post-nav-title">{{ next.data.title }}</span></a>{% endif %}</div>
 </nav>
 {%- endif %}
-{% include "partials/comments.njk" %}

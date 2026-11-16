@@ -1,5 +1,5 @@
 {%- from "partials/section-nav.njk" import sectionList -%}
-{%- set tree = collections.wpPages | navTree -%}
+{%- set tree = collections.pages | navTree -%}
 {%- set section = tree | sectionFor(page.url) -%}
 {%- set hasSection = section and section.children.length -%}
 <!DOCTYPE html>

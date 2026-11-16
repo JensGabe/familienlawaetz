@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-{%- set crumbs = collections.wpPages | navTree | ancestorsOf(page.url) %}
+{%- set crumbs = collections.pages | navTree | ancestorsOf(page.url) %}
 <article class="entry" data-pagefind-body>
   <header class="entry-header">
     {%- if crumbs.length %}
@@ -15,6 +15,3 @@ layout: layouts/base.njk
 {{ content | safe }}
   </div>
 </article>
-{%- if (wp.comments | commentsFor(wpId)).length %}
-{% include "partials/comments.njk" %}
-{%- endif %}

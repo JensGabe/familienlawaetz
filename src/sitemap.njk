@@ -11,9 +11,6 @@ eleventyExcludeFromCollections: true
   {%- set skip = false %}
   {%- if item.url == "/" %}
     {%- set lastmod = collections.posts[0].data.modified %}
-  {%- elif item.data.cat %}
-    {%- set newest = (collections.posts | postsInCategory(item.data.cat.id))[0] %}
-    {%- if newest %}{% set lastmod = newest.data.modified %}{% else %}{% set skip = true %}{% endif %}
   {%- endif %}
   {%- if not skip %}
   <url>

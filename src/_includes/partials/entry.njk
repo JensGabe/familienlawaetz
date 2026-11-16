@@ -1,6 +1,4 @@
 {#- One post as it appears in a listing (front page, category archive). Expects `p`. -#}
-{%- set cats = wp.categories | categoriesFor(p.data.categories) %}
-{%- set n = (wp.comments | commentsFor(p.data.wpId)).length %}
 <article class="entry">
   <h2 class="entry-title"><a href="{{ p.url }}" rel="bookmark">{{ p.data.title }}</a></h2>
   <p class="meta"><time datetime="{{ p.date | sitemapDate }}">{{ p.date | daDate }}</time>{% if p.data.author %}<span class="sep">·</span>{{ p.data.author }}{% endif %}</p>
