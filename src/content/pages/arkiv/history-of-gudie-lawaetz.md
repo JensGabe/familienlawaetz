@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "History of Gudie Lawaetz"
-wpId: 789
-parent: 795
-menuOrder: 4
 date: "2015-01-10T11:53:35"
 modified: "2016-02-08T11:52:46"
-permalink: "/arkiv/history-of-gudie-lawaetz/"
 ---
 
 GUDiE LAWAETZ

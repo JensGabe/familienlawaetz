@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat dec. 2024"
-wpId: 2132
-parent: 18
-menuOrder: 0
 date: "2024-12-09T14:21:29"
 modified: "2026-05-07T16:28:47"
-permalink: "/lawaetzer-legatet/nyhedsbrev-fra-det-otto-lawaetz-eske-familielegat-dec-2024/"
 ---
 
 Kære familiemedlemmer

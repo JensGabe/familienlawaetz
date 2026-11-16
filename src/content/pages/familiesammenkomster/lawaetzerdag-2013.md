@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Familiesammenkomst 2013"
-wpId: 740
-parent: 5
-menuOrder: 99
 date: "2013-06-27T21:17:44"
 modified: "2026-02-11T08:08:20"
-permalink: "/familiesammenkomster/lawaetzerdag-2013/"
 ---
 
 Festudvalget takker for en hyggelig dag på Kaalund Kloster d. 25. maj 2013.

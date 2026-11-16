@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Nyhedsbrev 2013 fra legatbestyrelsen"
-wpId: 776
-parent: 18
-menuOrder: 1000
 date: "2014-02-11T11:03:31"
 modified: "2024-01-31T21:10:36"
-permalink: "/lawaetzer-legatet/nyhedsbrev-2013/"
 ---
 
 **Kære familiemedlem**

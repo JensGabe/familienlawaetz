@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "1844 Forpagtningscontract"
-wpId: 2419
-parent: 795
-menuOrder: 0
 date: "2026-05-07T16:02:10"
 modified: "2026-07-07T00:14:02"
-permalink: "/arkiv/1844-forpagtningscontract/"
 ---
 
 <p style="text-align: center;">oprettet<br>imellem</p>

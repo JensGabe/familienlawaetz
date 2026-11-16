@@ -1,13 +1,9 @@
 ---
-layout: "layouts/page.njk"
 title: "Slægten Lawaetz’s historie"
+order: 5
 navTitle: "Historie"
-wpId: 25
-parent: 0
-menuOrder: 0
 date: "2011-10-14T11:31:51"
 modified: "2026-07-08T10:19:05"
-permalink: "/slaegten-lawaetzs-forhistorie/"
 ---
 
 _I Gyldendals Store Danske Encyclopædi beskrives slægten således:_

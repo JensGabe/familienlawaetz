@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Carl Lawaetz fortæller"
-wpId: 770
-parent: 795
-menuOrder: 3
 date: "2014-01-11T19:38:09"
 modified: "2019-02-16T22:31:49"
-permalink: "/arkiv/carl-lawaetz-fortaeller/"
 ---
 
 <u>Carl Lawaetz f. 27. Marts 1868 fortæller</u>

@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Familiesammenkomst 2022"
-wpId: 1841
-parent: 5
-menuOrder: 2
 date: "2022-02-11T14:43:19"
 modified: "2025-01-27T21:38:26"
-permalink: "/familiesammenkomster/familiesammenkomst-2022/"
 ---
 
 ## Lawaetz familiesammenkomst på Refsnæsgård

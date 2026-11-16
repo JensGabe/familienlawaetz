@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "The fairytale of Herman Lawaetz and Ingeborg"
-wpId: 928
-parent: 795
-menuOrder: 0
 date: "2016-02-08T14:30:38"
 modified: "2016-02-09T09:50:55"
-permalink: "/arkiv/the-fairytale-of-herman-lawaetz-and-ingeborg/"
 ---
 
 (article for Sct Croix Landmarks, 2012 by Niels Lawaetz)
@@ -17,7 +12,7 @@ Ingeborg and Herman were from their very childhood related in various ways. Herm
 
 Ingeborg had lost her mother as an only 2½ year old girl and was taken care of by her grandparents Rønnenkamp, her grandfather being the tenant of Juellinge Manor. This is where Herman and Ingeborg meet for the first time in the summer of 1875. They were only eleven year old children, Herman impressed by what he saw and quite shy, Ingeborg calm and very sure of herself.
 
-[![juellinge](/wp-content/uploads/2016/02/juellinge.jpg){width=175}](/wp-content/uploads/2016/02/juellinge.jpg)  [![refsnæsgaard](/wp-content/uploads/2016/02/refsn%C3%A6sgaard.jpg){width=169}](/wp-content/uploads/2016/02/refsn%C3%A6sgaard.jpg)   [![hermann ingeborg](/wp-content/uploads/2016/02/hermann-ingeborg.jpg){width=141}](/wp-content/uploads/2016/02/hermann-ingeborg.jpg)
+![juellinge](/wp-content/uploads/2016/02/juellinge.jpg){width=175}  ![refsnæsgaard](/wp-content/uploads/2016/02/refsn%C3%A6sgaard.jpg){width=169}   ![hermann ingeborg](/wp-content/uploads/2016/02/hermann-ingeborg.jpg){width=141}
 
 **Juellinge                           Refsnæsgaard                   Herman and Ingeborg**
 

@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Nyhedsbrev 2014 fra Legatbestyrelsen"
-wpId: 785
-parent: 18
-menuOrder: 950
 date: "2014-12-22T15:14:19"
 modified: "2024-01-31T21:10:19"
-permalink: "/lawaetzer-legatet/nyhedsbrev-2014/"
 ---
 
 December 2014

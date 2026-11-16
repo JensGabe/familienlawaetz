@@ -1,15 +1,10 @@
 ---
-layout: "layouts/page.njk"
 title: "Nyhedsbrev fra legatbestyrelsen dec. 2022"
-wpId: 2022
-parent: 18
-menuOrder: 649
 date: "2022-12-31T10:07:02"
 modified: "2024-01-31T21:04:08"
-permalink: "/lawaetzer-legatet/nyhedsbrev-2022/"
 ---
 
-![](/wp-content/uploads/2024/01/vaabenskjold.png){.alignleft width=40}
+![](/wp-content/uploads/2024/01/vaabenskjold.png){.alignleft width=80}
 
 **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat dec. 2022**
 

@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "EKSTRAORDINÆRT nyhedsbrev fra Legatbestyrelsen august 2017"
-wpId: 1177
-parent: 18
-menuOrder: 900
 date: "2017-08-12T16:58:33"
 modified: "2022-02-07T09:09:48"
-permalink: "/lawaetzer-legatet/ekstraordinaert-nyhedsbrev-fra-legatbestyrelsen-august-2017/"
 ---
 
 **EKSTRAORDINÆRT** **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat AUGUST 2017**

@@ -1,19 +1,15 @@
 ---
-layout: "layouts/page.njk"
 title: "Hermann Lawaetz"
-wpId: 112
-parent: 36
-menuOrder: 1
 date: "2011-10-21T14:38:19"
 modified: "2026-02-07T02:28:25"
-permalink: "/slaegten-lawaetzs-forhistorie/otto-lawaetz/herman-lawaetz/"
 ---
 
 _Hermann Carl Johannes Lawaetz_,  1864-1949, dr. theo., præst.
 
 Født på Kalundborg Slots Ladegård. Herman Lawaetz blev cand.teol. i 1888 og præst i Christianssted på Sct. Croix året efter. Hermann Lawaetz rejste hjem til Danmark i 1890 for at gifte sig med Ingeborg Wahl.
 
-![](/wp-content/uploads/2011/10/Hermann-Lawaetz-og-Ingeborg-Wahl.jpg){.alignleft width=160}[![](/wp-content/uploads/2011/10/Hermann-Lawaetz.jpg){width=159}](/wp-content/uploads/2011/10/Hermann-Lawaetz.jpg)
+![](/wp-content/uploads/2011/10/Hermann-Lawaetz-og-Ingeborg-Wahl.jpg){width=160}
+![](/wp-content/uploads/2011/10/Hermann-Lawaetz.jpg){width=160}
 
 I perioden 1893–1902 var han kongevalgt medlem af øens kolonialråd. Han var en bestemt modstander af De vestindiske øers salg og udgav 1900–01 bladet _The Danish West-Indian_ hvori han bekæmpede salget. H. Lawaetz’s interesse for Vestindien førte ham også ind på studier over øernes historie: “_Brødremenighedens Mission i dansk Vestindien 1769–1848″,_ der 1899 blev antaget til forsvar for den teologiske doktorgrad, og som udkom 1902. H. Lawaetz vendte tilbage til Danmark i 1904.
 

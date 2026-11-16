@@ -1,12 +1,8 @@
 ---
-layout: "layouts/page.njk"
 title: "Gravstedet på Gjellerup Kirkegård"
-wpId: 2033
-parent: 68
-menuOrder: 0
+order: 1
 date: "2023-01-03T12:43:20"
 modified: "2026-07-07T00:37:39"
-permalink: "/gravstederne-pa-refnaes-og-kalundborg-kirkegarde/gravstedet-paa-gjellerup-kirkegaard/"
 ---
 
 ![](/wp-content/uploads/2024/01/gravkors1.jpg "Støbejernskors på Gjellerup Kirkegård: Carl Wilhelm Lawaetz – den første Lawaetz’er der bosatte sig i Kongeriget.")

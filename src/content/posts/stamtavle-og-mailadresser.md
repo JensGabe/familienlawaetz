@@ -1,10 +1,7 @@
 ---
-layout: "layouts/post.njk"
 title: "Stamtavle og mailadresser"
-wpId: 2014
 date: "2022-10-17T07:32:23"
 modified: "2022-10-17T07:35:25"
-permalink: "/stamtavle-og-mailadresser/"
 ---
 
 Under fanebladet [Stamtavlen](/stamtavlen/) findes en mailkontakt til Nikolaj Lorentzen, der står for Lawaetzfamiliens stamtavle samt for indsamling af E-mail adresser.\

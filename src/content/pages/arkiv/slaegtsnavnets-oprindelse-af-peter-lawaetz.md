@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Slægtsnavnets oprindelse af Peter Lawætz"
-wpId: 923
-parent: 795
-menuOrder: 0
 date: "2016-02-08T13:59:35"
 modified: "2016-02-09T09:51:04"
-permalink: "/arkiv/slaegtsnavnets-oprindelse-af-peter-lawaetz/"
 ---
 
 **Slægtsnavnets oprindelse**

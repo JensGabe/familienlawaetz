@@ -1,12 +1,8 @@
 ---
-layout: "layouts/page.njk"
 title: "Legatansøgning"
-wpId: 1141
-parent: 18
-menuOrder: 40
+order: 1
 date: "2021-12-09T22:11:57"
 modified: "2026-10-15T08:05:36"
-permalink: "/lawaetzer-legatet/legatansoegning/"
 ---
 
 **Det Otto Lawaetz’eske Familielegat**\

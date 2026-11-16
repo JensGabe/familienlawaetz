@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Redningsaktion for den første Lawaetz’ers gravminde."
-wpId: 2080
-parent: 2033
-menuOrder: 0
 date: "2024-01-31T21:13:15"
 modified: "2026-05-07T16:10:35"
-permalink: "/gravstederne-pa-refnaes-og-kalundborg-kirkegarde/gravstedet-paa-gjellerup-kirkegaard/gravminde-redningsaktion/"
 ---
 
 ![](/wp-content/uploads/2024/01/vaabenskjold.png){.alignleft}

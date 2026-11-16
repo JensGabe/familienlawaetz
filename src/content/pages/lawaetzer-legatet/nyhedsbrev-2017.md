@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Nyhedsbrev 2017 fra Legatbestyrelsen"
-wpId: 1230
-parent: 18
-menuOrder: 850
 date: "2017-12-22T02:13:57"
 modified: "2024-01-31T21:09:30"
-permalink: "/lawaetzer-legatet/nyhedsbrev-2017/"
 ---
 
 **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat dec. 2017**

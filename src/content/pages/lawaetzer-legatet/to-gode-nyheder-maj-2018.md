@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "To gode nyheder maj 2018"
-wpId: 1248
-parent: 18
-menuOrder: 800
 date: "2018-06-26T15:03:55"
 modified: "2022-02-07T09:09:58"
-permalink: "/lawaetzer-legatet/to-gode-nyheder-maj-2018/"
 ---
 
 **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat maj 2018**

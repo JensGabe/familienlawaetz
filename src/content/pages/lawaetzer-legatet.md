@@ -1,13 +1,9 @@
 ---
-layout: "layouts/page.njk"
 title: "Det Otto Lawaetz’ske familielegat"
+order: 2
 navTitle: "Legatet"
-wpId: 18
-parent: 0
-menuOrder: 0
 date: "2011-10-14T09:49:09"
 modified: "2026-02-11T08:12:49"
-permalink: "/lawaetzer-legatet/"
 ---
 
 Legatet blev stiftet i anledning af Otto Friedereich Christian Anton Lawaetz’s 75-årige fødselsdag den 16. Oktober 1904 af hans børn og svigerbørn.

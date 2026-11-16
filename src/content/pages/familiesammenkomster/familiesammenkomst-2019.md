@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Familiesammenkomst 2019"
-wpId: 1255
-parent: 5
-menuOrder: 97
 date: "2018-06-26T15:37:58"
 modified: "2023-01-02T08:11:08"
-permalink: "/familiesammenkomster/familiesammenkomst-2019/"
 ---
 
 ## Lawaetz familiesammenkomst på Refsnæsgård

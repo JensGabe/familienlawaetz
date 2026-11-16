@@ -1,12 +1,8 @@
 ---
-layout: "layouts/page.njk"
 title: "Stamtavlen"
-wpId: 119
-parent: 0
-menuOrder: 0
+order: 6
 date: "2011-11-27T13:23:28"
 modified: "2026-02-11T08:05:32"
-permalink: "/stamtavlen/"
 ---
 
 Har du tilføjelser eller rettelser til stamtavlen, **eller har du fået ny mailadresse**, kan du kontakte Nikolaj Lorentzen på nedenstående mailadresse. Du bedes oplyse fulde navne – og familienumre, hvis du er bekendt med disse – på de personer, rettelserne har relation til.

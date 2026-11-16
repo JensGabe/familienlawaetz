@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Nyhedsbrev fra legatbestyrelsen dec. 2021"
-wpId: 1755
-parent: 18
-menuOrder: 650
 date: "2021-11-30T11:35:26"
 modified: "2024-01-31T21:04:46"
-permalink: "/lawaetzer-legatet/nyhedssbrev-2021/"
 ---
 
 Kære familiemedlemmer

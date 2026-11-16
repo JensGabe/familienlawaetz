@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Familiesammenkomst 2025"
-wpId: 2396
-parent: 5
-menuOrder: 0
 date: "2026-02-11T07:49:39"
 modified: "2026-05-17T17:26:50"
-permalink: "/familiesammenkomster/familiesammenkomst-2025/"
 ---
 
 ## Lawaetz familiesammenkomst på Falkensteen

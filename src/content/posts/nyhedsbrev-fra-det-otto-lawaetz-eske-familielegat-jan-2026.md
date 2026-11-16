@@ -1,10 +1,7 @@
 ---
-layout: "layouts/post.njk"
 title: "Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat jan. 2026"
-wpId: 2432
 date: "2026-05-07T16:28:03"
 modified: "2026-05-07T16:28:05"
-permalink: "/nyhedsbrev-fra-det-otto-lawaetz-eske-familielegat-jan-2026/"
 ---
 
 ![](/wp-content/uploads/2026/05/image.png)
@@ -29,13 +26,13 @@ Der er begået groft hærværk og tyveri på familiegravstedet på Kalundborg Ki
 Det er gået ud over den smukke og forholdsvis nyistandsatte gravsten over Sophie Lawaetz (hustru til Carl Wilhelm Lawaetz, der som bekendt er begravet på Gjellerup Kirkegård).
 På stenen er også navnene på to af deres sønner: Fritz Lawaetz (stamfader til Sct.Croix-grenen) samt unge Hermann Lawaetz.
 
-[![](/wp-content/uploads/2026/05/image-1.png "Før")](/wp-content/uploads/2026/05/image-1.png)
+![](/wp-content/uploads/2026/05/image-1.png "Før")
 
-[![](/wp-content/uploads/2026/05/image-2.png)](/wp-content/uploads/2026/05/image-2.png)
+![](/wp-content/uploads/2026/05/image-2.png)
 
-[![](/wp-content/uploads/2026/05/image-3.png)](/wp-content/uploads/2026/05/image-3.png)
+![](/wp-content/uploads/2026/05/image-3.png)
 
-[![](/wp-content/uploads/2026/05/image-4.png "Efter")](/wp-content/uploads/2026/05/image-4.png)
+![](/wp-content/uploads/2026/05/image-4.png "Efter")
 
 \
 Som det ses af billederne, er stenen væltet omkuld og marmorkorset er knækket af og forsvundet. Gravstenen, der er fra 1863, havde legatet i 2016 fået mulighed for at få en meget dygtig stenhugger til at restaurere – takket være en stor anonym gave – og stenen stod meget smukt på gravstedet på Kalundborg Kirkegård (første billede) Da vi opdagede hærværket, fik vi omgående Stenhuggeren, som også havde udført den fine istandsættelse i 2016, til at rejse stenen op igen, så den ikke tog yderligere skade. Hærværket er meldt til politiet, som efter diverse undersøgelser i deres arkiver har meddelt, at det er nytteløst lige nu at gå videre med sagen.\

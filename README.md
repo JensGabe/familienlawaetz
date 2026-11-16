@@ -18,11 +18,11 @@ work with the dev server. Set `SKIP_IMAGES=1` to skip image processing entirely 
 
 | Path | What |
 |---|---|
-| `src/content/pages/**.md` | WordPress pages. The folder structure mirrors the URL; `parent` + `menuOrder` in front matter drive the menu (same order as WordPress). |
+| `src/content/pages/**.md` | WordPress pages. The folder structure mirrors the URL and builds the menu tree; see *Adding content* for the order. |
 | `src/content/posts/*.md` | WordPress posts (shown on the front page, newest first). |
 | `src/_data/site.json` | Site title, tagline, header image, Facebook group link. |
-| `src/_data/wp.json` | Categories, tags and approved comments from WordPress. |
-| `src/_includes/` | Layouts (`base`, `page`, `post`) and partials (section navigation, post listing entry, comments). |
+| `src/_data/wp.json` | Approved comments from WordPress. |
+| `src/_includes/` | Layouts (`base`, `page`, `post`) and partials (section navigation, post listing entry). |
 | `src/css/theme.css` | The "Slægtsbog" theme: colours and fonts as variables at the top, then layout, text, images, footnotes, footer. |
 | `src/static/images/vaaben.svg` | Coat of arms, used as logo and favicon. |
 | `src/wp-content/uploads/`, `src/pics/` | All media, at the same URLs as on the WordPress site. |
@@ -57,8 +57,13 @@ Other bare domains like `example.dk` are not (that would also catch "7.000.kr");
 ![Kaalund Kloster](/wp-content/uploads/2013/01/kaaludkloster.jpg)                       plain image
 ![Kaalund Kloster](/wp-content/uploads/2013/01/kaaludkloster.jpg "Kaalund Kloster ca. 1935")   with caption
 ![Charlotte Burcardi](/wp-content/uploads/2013/05/Charlotte-Burcardi.png){.alignleft width=150}  floated left, shown 150 px wide
-[![Brevkort](/wp-content/uploads/2015/02/poskort.jpg)](/wp-content/uploads/2015/02/poskort.jpg)  click opens the original
+[![Før](/wp-content/uploads/2024/11/foer-768x1024.jpeg)](/wp-content/uploads/2024/11/foer.jpeg)  link to another file
+![Våbenskjold](/wp-content/uploads/2024/01/vaabenskjold.png){.nolink}                   not clickable
 ```
+
+- Every image links to its own file automatically, so clicking it opens the full image. Write a link around it only
+  when it should go somewhere else (e.g. the full-size original of a reduced `-768x1024` version); add `{.nolink}`
+  to an image that shouldn't be clickable.
 
 - An image on its own line becomes a `<figure>`; the quoted title becomes the caption ([markdown-it-image-figures](https://github.com/Antonio-Laguna/markdown-it-image-figures)).
 - `{…}` after an image adds classes/attributes ([markdown-it-attrs](https://github.com/arve0/markdown-it-attrs)): `.alignleft`, `.alignright`, `.aligncenter` and `width=…`. Avoid `{#id}`: `{#` starts a Nunjucks comment.
@@ -78,14 +83,19 @@ Inline-fodnoter skrives sådan^[Fodnotens tekst direkte i teksten.].
 ```
 
 Footnotes are numbered in order of first use (labels like `legat` are only names) and listed under "Fodnoter" at the end
-of the page or post. Footnote ids are prefixed with the page's `wpId`, so posts shown together on the front page don't clash.
+of the page or post. Footnote ids are prefixed with the file name, so posts shown together on the front page don't clash.
 Footnotes only work in Markdown text, not inside kept HTML blocks (e.g. inside a `<p style="…">`).
 
 ### Adding content
 
-- **New page:** add a `.md` file under `src/content/pages/` with front matter
-  `layout: layouts/page.njk`, `title`, `wpId` (any unique number), `parent` (the `wpId` of the parent page, or 0), `menuOrder`, `permalink`.
-- **New post:** add a file under `src/content/posts/` with `layout: layouts/post.njk`, `title`, `date`, `wpId`, `permalink`.
+- **New page:** add a `.md` file under `src/content/pages/` with front matter `title` and `date`.
+  Put it in the folder of its parent page: `lawaetzer-legatet/nyhedsbrev-2026.md` gets the URL
+  `/lawaetzer-legatet/nyhedsbrev-2026/` and appears under `lawaetzer-legatet.md` in the menu.
+- **Menu order:** pages with `order: 1`, `order: 2`, … come first; the rest follow by `date`, newest first.
+  So new newsletters and gatherings sort themselves; use `order` only for pages with a fixed place.
+- **New post:** add a file under `src/content/posts/` with `title` and `date`; `posts/x.md` gets the URL `/x/`.
+- Layout and URL come from the folder's data file (`pages.11tydata.js` / `posts.11tydata.js`). Set `layout` or
+  `permalink` in front matter only to override them for one file. Renaming or moving a file changes its URL.
 - Set `modified: "2026-11-15T10:00:00"` when you change a page; it becomes the page's `<lastmod>` in the sitemap.
 
 ### Sitemap and robots.txt
@@ -96,11 +106,3 @@ pages do). `/robots.txt` (from `src/robots.njk`) allows everything except the Pa
 Both use absolute URLs built from `site.url` in `src/_data/site.json` plus any path prefix. Note that crawlers only
 read `robots.txt` at the root of a domain, so it only takes effect when the site is served without a path prefix.
 
-## What changed compared to WordPress
-
-- All URLs are unchanged (pages, posts, `/category/…/`, `/wp-content/uploads/…`). The RSS feed is at `/feed/index.xml`.
-- Search uses [Pagefind](https://pagefind.app/) at `/soeg/` (built by `npm run build`).
-- Comments are shown read-only; new comments are closed.
-- The Twenty Ten theme is replaced by a new, responsive theme (see Theme above).
-- The Facebook widget is a plain link (no Facebook SDK/tracking). Jetpack, CampTix, Wordfence and WPtouch are gone.
-- Drafts, private pages, unapproved comments and CampTix attendee records were not migrated.

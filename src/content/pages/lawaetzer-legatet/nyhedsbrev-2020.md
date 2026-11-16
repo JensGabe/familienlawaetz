@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Nyhedsbrev fra legatbestyrelsen nov 2020"
-wpId: 1745
-parent: 18
-menuOrder: 700
 date: "2021-08-29T19:58:16"
 modified: "2024-01-31T21:05:13"
-permalink: "/lawaetzer-legatet/nyhedsbrev-2020/"
 ---
 
 **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat nov. 2020**

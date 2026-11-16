@@ -1,10 +1,7 @@
 ---
-layout: "layouts/post.njk"
 title: "Som noget nyt sendes slægtsbogen nu fragtfrit til familiemedlemmer."
-wpId: 1292
 date: "2019-01-26T19:43:48"
 modified: "2024-11-24T16:19:09"
-permalink: "/slaegtsbogen-kan-nu-atter-koebes/"
 ---
 
 **Slægtsbogen “Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaetz’s Historie” er nu genoptrykt for anden gang**

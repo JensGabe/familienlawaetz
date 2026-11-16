@@ -1,15 +1,10 @@
 ---
-layout: "layouts/page.njk"
 title: "Nyhedsbrev fra legatbestyrelsen dec. 2023"
-wpId: 2067
-parent: 18
-menuOrder: 0
 date: "2024-01-31T20:32:27"
 modified: "2026-05-07T16:19:50"
-permalink: "/lawaetzer-legatet/nyhedsbrev-2023/"
 ---
 
-![](/wp-content/uploads/2024/01/vaabenskjold.png){.alignleft width=40}
+![](/wp-content/uploads/2024/01/vaabenskjold.png){.alignleft width=80}
 
 **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat dec. 2023**
 

@@ -1,12 +1,7 @@
 ---
-layout: "layouts/page.njk"
 title: "Familiesammenkomst 2016"
-wpId: 810
-parent: 5
-menuOrder: 98
 date: "2016-01-02T15:12:14"
 modified: "2023-01-02T08:11:50"
-permalink: "/familiesammenkomster/familiesammenkomst-2016/"
 ---
 
 ## Lawaetz familiesammenkomst på Refsnæsgård

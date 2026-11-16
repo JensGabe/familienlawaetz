@@ -1,12 +1,8 @@
 ---
-layout: "layouts/page.njk"
 title: "Legatbestyrelsen"
-wpId: 42
-parent: 18
-menuOrder: 50
+order: 2
 date: "2011-10-17T13:57:07"
 modified: "2026-02-11T08:10:48"
-permalink: "/lawaetzer-legatet/legatbestyrelsen/"
 ---
 
 Det Otto Lawaetz’ske familielegat bestyres af:

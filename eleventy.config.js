@@ -75,6 +75,36 @@ export default function (eleventyConfig) {
         },
       });
     md.use(markdownItAttrs);
+    // Every image links to itself (click to see it full size), unless it is already inside a link:
+    //   ![alt](/x-768x1024.jpg)              → links to /x-768x1024.jpg
+    //   [![alt](/x-768x1024.jpg)](/x.jpg)    → keeps its own link (here: the full-size original)
+    //   ![alt](/logo.png){.nolink}           → no link
+    // Runs after markdown-it-attrs (so {…} is already on the image) and before image-figures
+    // (so a standalone linked image still becomes <figure><a><img></a></figure>).
+    md.core.ruler.after("curly_attributes", "image_autolink", (state) => {
+      for (const block of state.tokens) {
+        if (block.type !== "inline" || !block.children) continue;
+        const out = [];
+        let inLink = 0;
+        for (const t of block.children) {
+          if (t.type === "link_open") inLink++;
+          if (t.type === "link_close") inLink--;
+          if (t.type !== "image" || inLink) { out.push(t); continue; }
+          const cls = (t.attrGet("class") || "").split(/\s+/).filter(Boolean);
+          if (cls.includes("nolink")) {
+            const rest = cls.filter((c) => c !== "nolink").join(" ");
+            if (rest) t.attrSet("class", rest);
+            else t.attrs = t.attrs.filter(([k]) => k !== "class");
+            out.push(t);
+            continue;
+          }
+          const open = new state.Token("link_open", "a", 1);
+          open.attrSet("href", t.attrGet("src"));
+          out.push(open, t, new state.Token("link_close", "a", -1));
+        }
+        block.children = out;
+      }
+    });
     md.use(markdownItImageFigures, { figcaption: "title", copyAttrs: "class" });
   });
 
@@ -83,11 +113,11 @@ export default function (eleventyConfig) {
   eleventyConfig.amendLibrary("md", (md) => {
     md.use(markdownItFootnote);
     const r = md.renderer.rules;
-    // 11ty passes the page data as markdown-it `env`. Prefix ids with the page's wpId so several
-    // posts rendered on one page (front page, archives) never share footnote ids.
+    // 11ty passes the page data as markdown-it `env`. Prefix ids with the file name so several
+    // posts rendered on one page (front page) never share footnote ids.
     r.footnote_anchor_name = (tokens, idx, options, env) => {
       const n = tokens[idx].meta.id + 1;
-      const doc = env?.wpId ?? env?.page?.fileSlug;
+      const doc = env?.page?.fileSlug;
       return doc ? `-${doc}-${n}` : String(n);
     };
     r.footnote_caption = (tokens, idx) => {
@@ -115,7 +145,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 
   // ---------- collections ----------
-  eleventyConfig.addCollection("wpPages", (api) => api.getFilteredByGlob("src/content/pages/**/*.{md,html}"));
+  eleventyConfig.addCollection("pages", (api) => api.getFilteredByGlob("src/content/pages/**/*.{md,html}"));
   eleventyConfig.addCollection("posts", (api) =>
     api.getFilteredByGlob("src/content/posts/*.{md,html}").sort((a, b) => b.date - a.date)
   );
@@ -147,24 +177,31 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.addFilter("head", (arr, n) => arr.slice(0, n));
 
-  // Page tree in the same order as WordPress' wp_page_menu (menu_order, then title).
+  // Page tree from the folder structure: /arkiv/carl-lawaetz-fortaeller/ is a child of /arkiv/.
+  // Order within a level: pages with an `order` in front matter first (ascending),
+  // then the rest by `date`, newest first.
   let navCache;
   eleventyConfig.addFilter("navTree", (pages) => {
     if (navCache) return navCache;
     const items = pages.map((p) => ({
-      id: p.data.wpId,
-      parent: p.data.parent || 0,
-      order: p.data.menuOrder || 0,
+      order: p.data.order,
+      date: p.date,
       title: p.data.title,
       navTitle: p.data.navTitle || p.data.title, // short label for the top menu
       url: p.url,
       children: [],
     }));
-    const byId = new Map(items.map((i) => [i.id, i]));
+    const byUrl = new Map(items.map((i) => [i.url, i]));
+    const parentUrl = (url) => url.replace(/[^/]+\/$/, "");
     const roots = [];
-    for (const i of items) (byId.get(i.parent)?.children ?? roots).push(i);
+    for (const i of items) (byUrl.get(parentUrl(i.url))?.children ?? roots).push(i);
+    const hasOrder = (i) => typeof i.order === "number";
     const sort = (list) => {
-      list.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title, "da"));
+      list.sort((a, b) =>
+        hasOrder(a) && hasOrder(b) ? a.order - b.order
+        : hasOrder(a) ? -1
+        : hasOrder(b) ? 1
+        : b.date - a.date);
       list.forEach((i) => sort(i.children));
       return list;
     };
@@ -187,10 +224,6 @@ export default function (eleventyConfig) {
     };
     return walk(tree, []) || [];
   });
-
-  eleventyConfig.addFilter("commentsFor", (comments, id) => comments.filter((c) => c.post === id));
-  eleventyConfig.addFilter("categoriesFor", (cats, ids = []) => cats.filter((c) => ids.includes(c.id)));
-  eleventyConfig.addFilter("postsInCategory", (posts, id) => posts.filter((p) => (p.data.categories || []).includes(id)));
 
   // ---------- feed (same URL as WordPress: /feed/) ----------
   eleventyConfig.addPlugin(feedPlugin, {
