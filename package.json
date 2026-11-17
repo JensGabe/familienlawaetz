@@ -5,11 +5,11 @@
   "description": "Familien Lawaetz – static 11ty site migrated from WordPress",
   "type": "module",
   "scripts": {
-    "build": "eleventy && pagefind --site _site --silent",
+    "build": "eleventy",
     "start": "eleventy --serve",
     "serve": "npm run build && npx @11ty/eleventy-dev-server --dir=_site",
-    "build:eleventy:github-pages": "cross-env ELEVENTY_ENV=test eleventy --pathprefix=/familienlawaetz/ && pagefind --site _site --silent",
-    "build:eleventy:prod": "cross-env ELEVENTY_ENV=production eleventy && pagefind --site _site --silent"
+    "build:eleventy:github-pages": "cross-env ELEVENTY_ENV=test eleventy --pathprefix=/familienlawaetz/",
+    "build:eleventy:prod": "cross-env ELEVENTY_ENV=production eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.8",

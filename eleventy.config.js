@@ -1,3 +1,4 @@
+import path from "node:path";
 import { HtmlBasePlugin } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
@@ -223,6 +224,18 @@ export default function (eleventyConfig) {
       return null;
     };
     return walk(tree, []) || [];
+  });
+
+  // ---------- search index (Pagefind) ----------
+  // Rebuilt after every build, also with `npm start`, so /soeg/ works in the dev server too.
+  // Only the text inside data-pagefind-body (the article in page.njk / post.njk) is indexed.
+  eleventyConfig.on("eleventy.after", async ({ directories }) => {
+    const pagefind = await import("pagefind");
+    const { index } = await pagefind.createIndex();
+    const { errors } = await index.addDirectory({ path: directories.output });
+    await index.writeFiles({ outputPath: path.join(directories.output, "pagefind") });
+    await pagefind.close();
+    if (errors.length) console.error("[pagefind]", errors.join("\n"));
   });
 
   // ---------- feed (same URL as WordPress: /feed/) ----------

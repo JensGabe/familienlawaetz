@@ -6,9 +6,12 @@ Static version of https://familien-lawaetz.dk, migrated from WordPress (Twenty T
 
 ```bash
 npm install
-npm start          # dev server with live reload (no search index; images generated on request)
-npm run build      # build to _site/ (incl. optimised images in /img/) and the Pagefind search index
+npm start          # dev server with live reload (images generated on request)
+npm run build      # build to _site/ (incl. optimised images in /img/)
 ```
+
+Both also build the Pagefind search index (`_site/pagefind/`, used by `/soeg/`) after every build;
+see `eleventy.after` in `eleventy.config.js`.
 
 Deploy by uploading the contents of `_site/` to any static host. **Always run `npm run build` right before
 uploading:** while `npm start` runs, `_site/` contains development-only image URLs (`/.11ty/image/…`) that only

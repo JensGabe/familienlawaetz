@@ -111,7 +111,6 @@ img, video { max-width: 100%; height: auto; }
   object-fit: cover; object-position: center 60%;
   border-radius: 6px;
 }
-x.hero--small img { height: clamp(4.5rem, 9vw, 7rem); }
 
 /* ---------- Layout ---------- */
 .layout {
@@ -188,7 +187,6 @@ x.hero--small img { height: clamp(4.5rem, 9vw, 7rem); }
 .prose th { font: 600 0.8125rem var(--sans); color: var(--muted); }
 .prose sup, .prose sub { line-height: 0; }
 .prose mark { background: var(--highlight); }
-html :where([style^=border-width], [style*=";border-width"], [style*="; border-width"]) { border-style: solid; }
 
 /* Images. A standalone Markdown image is a <figure>; its title is the caption.
    Several images in one paragraph sit side by side. */
@@ -220,16 +218,13 @@ html :where([style^=border-width], [style*=";border-width"], [style*="; border-w
 .footnote-item:target, .footnote-ref a:target { background: var(--highlight); }
 .footnote-backref { text-decoration: none; }
 
-/* ---------- Post listings (front page, categories) ---------- */
+/* ---------- Post listing (front page) ---------- */
 .post-list > .entry { padding-bottom: 2.75rem; margin-bottom: 2.75rem; border-bottom: 1px solid var(--rule); }
 .post-list > .entry:last-child { border-bottom: 0; margin-bottom: 0; }
 .post-list .entry-title { font-size: clamp(1.4rem, 1.2rem + 0.9vw, 1.8rem); margin-bottom: 0.35rem; }
 .post-list .entry-title a { color: var(--ink); text-decoration: none; }
 .post-list .entry-title a:hover { color: var(--accent); }
 .post-list .meta { margin-bottom: 1.25rem; }
-.entry-footer { margin: 1.5rem 0 0; color: var(--muted); font: 0.8125rem/1.5 var(--sans); }
-.entry-footer a { color: inherit; }
-.empty { color: var(--muted); font: 0.95rem var(--sans); }
 
 /* Previous / next post */
 .post-nav {
@@ -241,18 +236,6 @@ html :where([style^=border-width], [style*=";border-width"], [style*="; border-w
 .post-nav a:hover .post-nav-title { color: var(--accent); text-decoration: underline; }
 .post-nav span { display: block; color: var(--muted); font-size: 0.8rem; margin-bottom: 0.15rem; }
 .post-nav .next { text-align: right; }
-
-/* ---------- Comments ---------- */
-.comments { margin-top: 3.5rem; }
-.comments-title { margin: 0 0 1rem; color: var(--ink); font-size: 1.25rem; font-weight: 600; line-height: 1.3; }
-.comment-list { margin: 0; padding: 0; list-style: none; }
-.comment { padding: 1.25rem 0; border-top: 1px solid var(--rule); }
-.comment-header { margin: 0 0 0.5rem; font: 0.875rem/1.5 var(--sans); color: var(--muted); }
-.comment-author { color: var(--ink); font-style: normal; font-weight: 600; }
-.comment-header a { color: inherit; text-decoration: none; }
-.comment-body { font-size: 1rem; }
-.comment-body p { margin: 0 0 0.8em; }
-.comments-closed { margin: 1rem 0 0; color: var(--muted); font: 0.875rem var(--sans); }
 
 /* ---------- Search page (Pagefind UI) ---------- */
 #search {
