@@ -1,7 +1,6 @@
 ---
 title: "Hermann Lawaetz"
 date: "2011-10-21T14:38:19"
-modified: "2026-02-07T02:28:25"
 ---
 
 _Hermann Carl Johannes Lawaetz_,  1864-1949, dr. theo., præst.

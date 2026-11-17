@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat dec. 2024"
 date: "2024-12-09T14:21:29"
-modified: "2026-05-07T16:28:47"
 ---
 
 Kære familiemedlemmer

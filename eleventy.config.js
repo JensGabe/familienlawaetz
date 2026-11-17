@@ -5,6 +5,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import markdownItAttrs from "markdown-it-attrs";
 import markdownItFootnote from "markdown-it-footnote";
 import markdownItImageFigures from "markdown-it-image-figures";
+import { gitCreated, resetGitDates } from "./lib/git-dates.js";
 import site from "./src/_data/site.json" with { type: "json" };
 
 const pad = (n) => String(n).padStart(2, "0");
@@ -182,6 +183,14 @@ export default function (eleventyConfig) {
     if (d instanceof Date) return d.toISOString().slice(0, 10);
     const m = String(d).match(/^\d{4}-\d{2}-\d{2}/);
     return m ? m[0] : "";
+  });
+  // Git dates (lib/git-dates.js). `date: "git Created"` is the content data files' default when front matter has
+  // no `date`; resolved here (eleventyComputed can't set `date`), with the current date for an uncommitted file.
+  eleventyConfig.on("eleventy.before", resetGitDates);
+  eleventyConfig.addDateParsing(function (date) {
+    if (typeof date === "string" && date.toLowerCase() === "git created") {
+      return new Date(gitCreated(this.page.inputPath) ?? Date.now());
+    }
   });
   eleventyConfig.addFilter("head", (arr, n) => arr.slice(0, n));
 

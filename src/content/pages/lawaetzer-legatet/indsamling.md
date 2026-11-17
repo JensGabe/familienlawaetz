@@ -2,7 +2,6 @@
 title: "Bidrag til legatet"
 navOrder: 3
 date: "2011-10-17T14:40:56"
-modified: "2026-02-06T23:06:58"
 ---
 
 Det Otto Lawaetz-eske Familielegatet er afhængig af **familiens bidrag** for at kunne opfylde sit formål – især i disse tide, hvor afkast af værdipapirer er meget små.

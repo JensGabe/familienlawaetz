@@ -2,7 +2,6 @@
 title: "Otto Lawaetz"
 navOrder: 1
 date: "2011-10-14T11:56:52"
-modified: "2026-02-07T02:36:55"
 ---
 
 **Otto Friederich Christian Anton Lawaetz** blev født 16. oktober 1829 som ældste søn af mejeriforpagter Carl Wilhelm Lawaetz i Bünzen i Holsten.

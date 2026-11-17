@@ -2,8 +2,6 @@
 title: "Familiesammenkomster"
 navOrder: 4
 navTitle: "Sammenkomster"
-date: "2011-08-24T21:27:38"
-modified: "2026-02-11T08:11:17"
 ---
 
 ## Lawaetz familiesammenkomst på Refsnæsgård

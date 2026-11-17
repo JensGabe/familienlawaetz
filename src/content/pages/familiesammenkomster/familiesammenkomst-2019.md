@@ -1,7 +1,6 @@
 ---
 title: "Familiesammenkomst 2019"
 date: "2018-06-26T15:37:58"
-modified: "2023-01-02T08:11:08"
 ---
 
 ## Lawaetz familiesammenkomst på Refsnæsgård

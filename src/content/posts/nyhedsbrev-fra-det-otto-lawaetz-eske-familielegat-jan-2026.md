@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat jan. 2026"
 date: "2026-05-07T16:28:03"
-modified: "2026-05-07T16:28:05"
 ---
 
 ![](/wp-content/uploads/2026/05/image.png)

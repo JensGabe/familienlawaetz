@@ -2,7 +2,6 @@
 title: "Legatbestyrelsen"
 navOrder: 2
 date: "2011-10-17T13:57:07"
-modified: "2026-02-11T08:10:48"
 ---
 
 Det Otto Lawaetz’ske familielegat bestyres af:

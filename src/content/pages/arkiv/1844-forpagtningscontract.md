@@ -1,7 +1,6 @@
 ---
 title: "1844 Forpagtningscontract"
 date: "2026-05-07T16:02:10"
-modified: "2026-07-07T00:14:02"
 ---
 
 <p style="text-align: center;">oprettet<br>imellem</p>

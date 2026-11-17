@@ -1,7 +1,6 @@
 ---
 title: "Familiesammenkomst 2022"
 date: "2022-02-11T14:43:19"
-modified: "2025-01-27T21:38:26"
 ---
 
 ## Lawaetz familiesammenkomst på Refsnæsgård

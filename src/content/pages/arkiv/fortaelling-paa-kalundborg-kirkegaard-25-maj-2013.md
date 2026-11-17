@@ -1,7 +1,6 @@
 ---
 title: "Fortælling på Kalundborg Kirkegård 25. maj 2013"
 date: "2026-05-07T16:04:14"
-modified: "2026-05-07T16:04:15"
 ---
 
 Af Marianne Lawaetz

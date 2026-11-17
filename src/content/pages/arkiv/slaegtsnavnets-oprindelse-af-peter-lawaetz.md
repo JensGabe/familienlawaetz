@@ -1,7 +1,6 @@
 ---
 title: "Slægtsnavnets oprindelse af Peter Lawætz"
 date: "2016-02-08T13:59:35"
-modified: "2016-02-09T09:51:04"
 ---
 
 **Slægtsnavnets oprindelse**

@@ -1,7 +1,6 @@
 ---
 title: "History of Gudie Lawaetz"
 date: "2015-01-10T11:53:35"
-modified: "2016-02-08T11:52:46"
 ---
 
 GUDiE LAWAETZ

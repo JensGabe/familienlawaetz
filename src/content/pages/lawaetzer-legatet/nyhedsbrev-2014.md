@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrev 2014 fra Legatbestyrelsen"
 date: "2014-12-22T15:14:19"
-modified: "2024-01-31T21:10:19"
 ---
 
 December 2014

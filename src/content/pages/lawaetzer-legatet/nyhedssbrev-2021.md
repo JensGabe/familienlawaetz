@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrev fra legatbestyrelsen dec. 2021"
 date: "2021-11-30T11:35:26"
-modified: "2024-01-31T21:04:46"
 ---
 
 Kære familiemedlemmer

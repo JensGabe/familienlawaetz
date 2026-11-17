@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrev 2017 fra Legatbestyrelsen"
 date: "2017-12-22T02:13:57"
-modified: "2024-01-31T21:09:30"
 ---
 
 **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat dec. 2017**

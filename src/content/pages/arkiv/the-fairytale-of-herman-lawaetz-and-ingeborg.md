@@ -1,7 +1,6 @@
 ---
 title: "The fairytale of Herman Lawaetz and Ingeborg"
 date: "2016-02-08T14:30:38"
-modified: "2016-02-09T09:50:55"
 ---
 
 (article for Sct Croix Landmarks, 2012 by Niels Lawaetz)

@@ -2,7 +2,6 @@
 title: "St. Croix – Mindelunden på Little La Grange"
 navOrder: 4
 date: "2011-12-11T18:12:30"
-modified: "2013-01-16T16:50:20"
 ---
 
 Billederne er taget i efteråret 2011 af Niels og Estrid Lawaetz ved deres besøg på Little La Grange, hvor Hans Lawaetz viste rundt.

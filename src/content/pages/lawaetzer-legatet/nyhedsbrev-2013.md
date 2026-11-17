@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrev 2013 fra legatbestyrelsen"
 date: "2014-02-11T11:03:31"
-modified: "2024-01-31T21:10:36"
 ---
 
 **Kære familiemedlem**

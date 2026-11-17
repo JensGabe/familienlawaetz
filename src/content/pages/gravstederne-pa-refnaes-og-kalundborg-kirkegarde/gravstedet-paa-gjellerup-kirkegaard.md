@@ -2,7 +2,6 @@
 title: "Gravstedet på Gjellerup Kirkegård"
 navOrder: 1
 date: "2023-01-03T12:43:20"
-modified: "2026-07-07T00:37:39"
 ---
 
 ![](/wp-content/uploads/2024/01/gravkors1.jpg "Støbejernskors på Gjellerup Kirkegård: Carl Wilhelm Lawaetz – den første Lawaetz’er der bosatte sig i Kongeriget.")

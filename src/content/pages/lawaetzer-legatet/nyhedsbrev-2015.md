@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrev 2015 fra Legatbestyrelsen"
 date: "2016-02-08T11:56:28"
-modified: "2024-01-31T21:10:04"
 ---
 
 Kære familiemedlemmer

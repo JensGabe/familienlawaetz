@@ -2,7 +2,6 @@
 title: "Refnæs kirkegård"
 navOrder: 3
 date: "2011-12-11T17:55:29"
-modified: "2013-01-16T16:49:06"
 ---
 
 Billederne er taget på Refnæs kirkegård af legatbestyrelsen 19. juli 2011

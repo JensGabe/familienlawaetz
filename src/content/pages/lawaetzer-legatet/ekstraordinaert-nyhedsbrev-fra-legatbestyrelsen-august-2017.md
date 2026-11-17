@@ -1,7 +1,6 @@
 ---
 title: "EKSTRAORDINÆRT nyhedsbrev fra Legatbestyrelsen august 2017"
 date: "2017-08-12T16:58:33"
-modified: "2022-02-07T09:09:48"
 ---
 
 **EKSTRAORDINÆRT** **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat AUGUST 2017**

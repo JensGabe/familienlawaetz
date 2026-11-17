@@ -2,8 +2,6 @@
 title: "Familiegravstederne"
 navOrder: 3
 navTitle: "Gravsteder"
-date: "2011-10-17T15:09:42"
-modified: "2013-01-16T16:48:36"
 ---
 
 Billederne på de følgende sider er fra familiens gravsteder på Kalundbrog Kirkegård, Refnæs Kirkegård og St. Croix. Familiemedlemmer er meget velkomne til at bidrage med flere billeder.

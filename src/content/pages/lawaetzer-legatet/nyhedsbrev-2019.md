@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrevfra legatbestyrelsen dec. 2019"
 date: "2019-12-04T10:49:03"
-modified: "2024-01-31T21:05:42"
 ---
 
 **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat dec. 2019**

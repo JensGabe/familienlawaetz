@@ -2,7 +2,6 @@
 title: "Legatansøgning"
 navOrder: 1
 date: "2021-12-09T22:11:57"
-modified: "2026-10-15T08:05:36"
 ---
 
 **Det Otto Lawaetz’eske Familielegat**\

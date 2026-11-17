@@ -1,7 +1,6 @@
 ---
 title: "Som noget nyt sendes slægtsbogen nu fragtfrit til familiemedlemmer."
 date: "2019-01-26T19:43:48"
-modified: "2024-11-24T16:19:09"
 ---
 
 **Slægtsbogen “Otto Lawaetz, hans Liv og Gerning tillige med Blade af Slægten Lawaetz’s Historie” er nu genoptrykt for anden gang**

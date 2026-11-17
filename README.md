@@ -2,6 +2,8 @@
 
 Static version of https://familien-lawaetz.dk, migrated from WordPress (Twenty Ten theme) to [Eleventy](https://www.11ty.dev/).
 
+For editors: [VEJLEDNING.md](VEJLEDNING.md) is a Danish guide to adding and maintaining pages and posts.
+
 ## Commands
 
 ```bash
@@ -93,7 +95,7 @@ Footnotes only work in Markdown text, not inside kept HTML blocks (e.g. inside a
 
 ### Adding content
 
-- **New page:** add a `.md` file under `src/content/pages/` with front matter `title` and `date`.
+- **New page:** add a `.md` file under `src/content/pages/` with front matter `title` (and optionally `date`).
   Put it in the folder of its parent page: `lawaetzer-legatet/nyhedsbrev-2026.md` gets the URL
   `/lawaetzer-legatet/nyhedsbrev-2026/` and appears under `lawaetzer-legatet.md` in the menu.
 - **Menu order:** pages with `navOrder: 1`, `navOrder: 2`, … come first; the rest follow by `date`, newest first.
@@ -104,15 +106,19 @@ Footnotes only work in Markdown text, not inside kept HTML blocks (e.g. inside a
   menu too. To not build a file at all, use `permalink: false`.
   `npm run start:all` / `npm run build:all` ignore `hide` and show everything, to preview hidden pages in place
   (same as setting `SHOW_HIDDEN=1`). Don't deploy a `build:all` build.
-- **New post:** add a file under `src/content/posts/` with `title` and `date`; `posts/x.md` gets the URL `/x/`.
+- **New post:** add a file under `src/content/posts/` with `title` (and optionally `date`); `posts/x.md` gets the URL `/x/`.
 - Layout and URL come from the folder's data file (`pages.11tydata.js` / `posts.11tydata.js`). Set `layout` or
   `permalink` in front matter only to override them for one file. Renaming or moving a file changes its URL.
-- Set `modified: "2026-11-15T10:00:00"` when you change a page; it becomes the page's `<lastmod>` in the sitemap.
+- **Dates:** `date` and `modified` in front matter win. Without them, a file gets the date of the commit that
+  added it (following renames and moves) and of its last commit; a file that isn't committed yet gets the
+  current date. Both come from `lib/git-dates.js` (one `git log` per build): `modified` via `eleventyComputed` in
+  the folder data files, `date` via their `date: "git Created"`, which `addDateParsing` in `eleventy.config.js`
+  resolves (`eleventyComputed` can't set `date`). `modified` becomes the page's `<lastmod>` in the sitemap.
 
 ### Sitemap and robots.txt
 
 `/sitemap.xml` (from `src/sitemap.njk`) lists every page and post, the front page and category pages that have posts,
-with `<lastmod>` from `modified`. Add `sitemap: false` to a page's front matter to leave it out (the 404 and search
+with `<lastmod>` from `modified` (front matter, else the file's last git commit; the workflows check out the full history for this). Add `sitemap: false` to a page's front matter to leave it out (the 404 and search
 pages do). `/robots.txt` (from `src/robots.njk`) allows everything except the Pagefind index and points to the sitemap.
 Both use absolute URLs built from `site.url` in `src/_data/site.json` plus any path prefix. Note that crawlers only
 read `robots.txt` at the root of a domain, so it only takes effect when the site is served without a path prefix.

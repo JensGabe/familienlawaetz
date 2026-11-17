@@ -2,7 +2,6 @@
 title: "Friederich (Fritz) August Lawaetz"
 navOrder: 2
 date: "2011-12-11T22:11:58"
-modified: "2026-02-06T23:29:55"
 ---
 
 Fritz Lawaetz var den 3. søn, født i 1834. Fritz og hustuen Amalie fik 8 børn. Slægten kan følges i stamtavle C. 

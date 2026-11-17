@@ -2,7 +2,6 @@
 title: "Kalundborg kirkegård"
 navOrder: 2
 date: "2011-12-11T17:41:34"
-modified: "2013-01-16T16:48:49"
 ---
 
 Billederne er taget den 19.juli 2011, da legatbestyrelsen var på rundtur til gravstederne.

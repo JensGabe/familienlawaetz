@@ -1,7 +1,6 @@
 ---
 title: "Næste Lawaetz-familiesammenkomst"
 date: "2026-05-07T16:31:08"
-modified: "2026-05-07T16:31:09"
 ---
 
 Festudvalget er gået i gang med at planlægge næste Lawaetz-\

@@ -5,20 +5,15 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {%- for item in collections.all | sitemapItems %}
-  {#- Front page and category pages list posts: they change when their newest post does.
-      Category pages without posts exist (as on WordPress) but are left out of the sitemap. #}
-  {%- set lastmod = item.data.modified %}
-  {%- set skip = false %}
-  {%- if item.url == "/" %}
-    {%- set lastmod = collections.posts[0].data.modified %}
-  {%- endif %}
-  {%- if not skip %}
+  {#- <lastmod> is `modified`: from front matter, else the file's last git commit, else now (see the content data files).
+      The front page lists posts: it changes when its newest post does. #}
+  {%- set src = collections.posts[0] if item.url == "/" else item %}
+  {%- set lastmod = src.data.modified or src.date %}
   <url>
     <loc>{{ item.url | htmlBaseUrl(site.url) | escape }}</loc>
     {%- if lastmod %}
     <lastmod>{{ lastmod | sitemapDate }}</lastmod>
     {%- endif %}
   </url>
-  {%- endif %}
 {%- endfor %}
 </urlset>

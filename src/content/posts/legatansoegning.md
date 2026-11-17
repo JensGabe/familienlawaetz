@@ -1,7 +1,6 @@
 ---
 title: "Legatansøgning"
 date: "2026-10-15T08:11:38"
-modified: "2026-10-15T08:11:40"
 ---
 
 **Det Otto Lawaetz’eske Familielegat**\

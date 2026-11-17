@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrev fra legatbestyrelsen dec. 2023"
 date: "2024-01-31T20:32:27"
-modified: "2026-05-07T16:19:50"
 ---
 
 ![](/wp-content/uploads/2024/01/vaabenskjold.png){.alignleft width=80}

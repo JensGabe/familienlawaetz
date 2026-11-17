@@ -1,7 +1,6 @@
 ---
 title: "Familiesammenkomst 2013"
 date: "2013-06-27T21:17:44"
-modified: "2026-02-11T08:08:20"
 ---
 
 Festudvalget takker for en hyggelig dag på Kaalund Kloster d. 25. maj 2013.

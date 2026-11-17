@@ -1,7 +1,6 @@
 ---
 title: "Redningsaktion for den første Lawaetz’ers gravminde."
 date: "2024-01-31T21:13:15"
-modified: "2026-05-07T16:10:35"
 ---
 
 ![](/wp-content/uploads/2024/01/vaabenskjold.png){.alignleft}

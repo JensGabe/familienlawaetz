@@ -1,7 +1,6 @@
 ---
 title: "Brevkort fra Marie Lawaetz"
 date: "2015-02-23T11:09:47"
-modified: "2015-02-23T11:10:29"
 ---
 
 Legatets bestyrelse har modtaget disse billeder fra slægtsforsker Erik Frederiksen. Brevkortet er forfattet af Marie Lawaetz fra Sct. Croix og er dateret i 1921.

@@ -1,7 +1,6 @@
 ---
 title: "Nyhedsbrev fra legatbestyrelsen nov 2020"
 date: "2021-08-29T19:58:16"
-modified: "2024-01-31T21:05:13"
 ---
 
 **Nyhedsbrev fra Det Otto Lawaetz-eske Familielegat nov. 2020**

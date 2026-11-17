@@ -1,7 +1,6 @@
 ---
 title: "Familiesammenkomst 2010"
 date: "2011-08-24T21:25:49"
-modified: "2026-02-11T08:08:48"
 ---
 
 Festudvalget takker for en hyggelig dag på Fuglsang d. 29. maj 2010.

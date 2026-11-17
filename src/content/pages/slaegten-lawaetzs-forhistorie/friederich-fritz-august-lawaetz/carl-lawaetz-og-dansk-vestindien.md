@@ -1,7 +1,6 @@
 ---
 title: "Carl Lawaetz"
 date: "2011-12-11T18:44:05"
-modified: "2013-01-16T16:53:12"
 ---
 
 _Carl August Heinrich Lawaetz_ er søn af Friederich (Fritz) August Lawaetz. Carl Lawaetz flyttede med sine søskende til Refnæsgården efter forældrenes død. Carl Lawaetz fulgte efter sin fætter Hermann Lawaetz til St. Croix i 1890. Her arbejdede han for de lokale farmere til han fik samlet tilstrækkelige midler samen til at købe Jolly Hill og Little La Grange i 1895.

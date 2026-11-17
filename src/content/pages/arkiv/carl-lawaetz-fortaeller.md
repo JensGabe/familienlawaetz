@@ -1,7 +1,6 @@
 ---
 title: "Carl Lawaetz fortæller"
 date: "2014-01-11T19:38:09"
-modified: "2019-02-16T22:31:49"
 ---
 
 <u>Carl Lawaetz f. 27. Marts 1868 fortæller</u>
