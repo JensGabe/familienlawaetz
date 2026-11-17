@@ -1,6 +1,6 @@
 ---
 title: "Slægten Lawaetz’s historie"
-order: 5
+navOrder: 5
 navTitle: "Historie"
 date: "2011-10-14T11:31:51"
 modified: "2026-07-08T10:19:05"

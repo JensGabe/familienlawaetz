@@ -1,6 +1,6 @@
 ---
 title: "St. Croix – Mindelunden på Little La Grange"
-order: 4
+navOrder: 4
 date: "2011-12-11T18:12:30"
 modified: "2013-01-16T16:50:20"
 ---

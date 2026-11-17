@@ -1,6 +1,6 @@
 ---
 title: "Det Otto Lawaetz’ske familielegat"
-order: 2
+navOrder: 2
 navTitle: "Legatet"
 date: "2011-10-14T09:49:09"
 modified: "2026-02-11T08:12:49"

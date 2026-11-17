@@ -1,6 +1,6 @@
 ---
 title: "Stamtavlen"
-order: 6
+navOrder: 6
 date: "2011-11-27T13:23:28"
 modified: "2026-02-11T08:05:32"
 ---

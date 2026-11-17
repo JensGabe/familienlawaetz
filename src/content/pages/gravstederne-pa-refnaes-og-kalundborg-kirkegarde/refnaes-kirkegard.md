@@ -1,6 +1,6 @@
 ---
 title: "Refnæs kirkegård"
-order: 3
+navOrder: 3
 date: "2011-12-11T17:55:29"
 modified: "2013-01-16T16:49:06"
 ---

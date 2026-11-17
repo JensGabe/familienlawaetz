@@ -8,6 +8,8 @@ Static version of https://familien-lawaetz.dk, migrated from WordPress (Twenty T
 npm install
 npm start          # dev server with live reload (images generated on request)
 npm run build      # build to _site/ (incl. optimised images in /img/)
+npm run start:all  # like start/build, but including pages and posts with `hide: true`
+npm run build:all
 ```
 
 Both also build the Pagefind search index (`_site/pagefind/`, used by `/soeg/`) after every build;
@@ -94,8 +96,14 @@ Footnotes only work in Markdown text, not inside kept HTML blocks (e.g. inside a
 - **New page:** add a `.md` file under `src/content/pages/` with front matter `title` and `date`.
   Put it in the folder of its parent page: `lawaetzer-legatet/nyhedsbrev-2026.md` gets the URL
   `/lawaetzer-legatet/nyhedsbrev-2026/` and appears under `lawaetzer-legatet.md` in the menu.
-- **Menu order:** pages with `order: 1`, `order: 2`, … come first; the rest follow by `date`, newest first.
-  So new newsletters and gatherings sort themselves; use `order` only for pages with a fixed place.
+- **Menu order:** pages with `navOrder: 1`, `navOrder: 2`, … come first; the rest follow by `date`, newest first.
+  So new newsletters and gatherings sort themselves; use `navOrder` only for pages with a fixed place.
+- **Hidden page or post:** `hide: true` keeps it out of the menu, section navigation, front page, latest
+  posts, RSS feed, sitemap and search, and tells search engines not to index it (`noindex`). It is still built,
+  so anyone with the link can open it (handy for drafts to share). Pages below a hidden page are hidden from the
+  menu too. To not build a file at all, use `permalink: false`.
+  `npm run start:all` / `npm run build:all` ignore `hide` and show everything, to preview hidden pages in place
+  (same as setting `SHOW_HIDDEN=1`). Don't deploy a `build:all` build.
 - **New post:** add a file under `src/content/posts/` with `title` and `date`; `posts/x.md` gets the URL `/x/`.
 - Layout and URL come from the folder's data file (`pages.11tydata.js` / `posts.11tydata.js`). Set `layout` or
   `permalink` in front matter only to override them for one file. Renaming or moving a file changes its URL.

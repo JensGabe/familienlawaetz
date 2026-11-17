@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 {%- set prev = collections.posts | getNextCollectionItem(page) %}
 {%- set next = collections.posts | getPreviousCollectionItem(page) %}
-<article class="entry" data-pagefind-body>
+<article class="entry"{% if not hide or showHidden %} data-pagefind-body{% endif %}>
   <header class="entry-header">
     <nav class="crumbs" aria-label="Du er her" data-pagefind-ignore><ol><li><a href="/">Nyt fra familien</a></li></ol></nav>
     <h1 class="entry-title">{{ title }}</h1>

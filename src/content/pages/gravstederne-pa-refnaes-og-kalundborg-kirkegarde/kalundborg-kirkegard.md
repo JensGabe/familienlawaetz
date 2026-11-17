@@ -1,6 +1,6 @@
 ---
 title: "Kalundborg kirkegård"
-order: 2
+navOrder: 2
 date: "2011-12-11T17:41:34"
 modified: "2013-01-16T16:48:49"
 ---

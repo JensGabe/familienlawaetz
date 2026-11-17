@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 {%- set crumbs = collections.pages | navTree | ancestorsOf(page.url) %}
-<article class="entry" data-pagefind-body>
+<article class="entry"{% if not hide or showHidden %} data-pagefind-body{% endif %}>
   <header class="entry-header">
     {%- if crumbs.length %}
     <nav class="crumbs" aria-label="Du er her" data-pagefind-ignore>

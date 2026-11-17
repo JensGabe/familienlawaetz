@@ -1,6 +1,6 @@
 ---
 title: "Friederich (Fritz) August Lawaetz"
-order: 2
+navOrder: 2
 date: "2011-12-11T22:11:58"
 modified: "2026-02-06T23:29:55"
 ---

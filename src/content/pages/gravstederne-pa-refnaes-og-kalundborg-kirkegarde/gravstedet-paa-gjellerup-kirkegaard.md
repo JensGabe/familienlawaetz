@@ -1,6 +1,6 @@
 ---
 title: "Gravstedet på Gjellerup Kirkegård"
-order: 1
+navOrder: 1
 date: "2023-01-03T12:43:20"
 modified: "2026-07-07T00:37:39"
 ---

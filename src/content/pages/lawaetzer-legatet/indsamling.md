@@ -1,6 +1,6 @@
 ---
 title: "Bidrag til legatet"
-order: 3
+navOrder: 3
 date: "2011-10-17T14:40:56"
 modified: "2026-02-06T23:06:58"
 ---

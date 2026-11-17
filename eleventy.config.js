@@ -146,9 +146,16 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 
   // ---------- collections ----------
-  eleventyConfig.addCollection("pages", (api) => api.getFilteredByGlob("src/content/pages/**/*.{md,html}"));
+  // `hide: true` in front matter: the page is still built and reachable by its URL, but it is left out
+  // of the menu, section navigation, front page, latest posts, RSS feed, sitemap and search.
+  // SHOW_HIDDEN=1 (npm run start:all / build:all) ignores `hide`, to preview the site with everything in it.
+  const showHidden = process.env.SHOW_HIDDEN === "1";
+  eleventyConfig.addGlobalData("showHidden", showHidden);
+  const isHidden = (data) => Boolean(data.hide) && !showHidden;
+  const visible = (items) => items.filter((p) => !isHidden(p.data));
+  eleventyConfig.addCollection("pages", (api) => visible(api.getFilteredByGlob("src/content/pages/**/*.{md,html}")));
   eleventyConfig.addCollection("posts", (api) =>
-    api.getFilteredByGlob("src/content/posts/*.{md,html}").sort((a, b) => b.date - a.date)
+    visible(api.getFilteredByGlob("src/content/posts/*.{md,html}")).sort((a, b) => b.date - a.date)
   );
 
   // ---------- filters ----------
@@ -164,10 +171,10 @@ export default function (eleventyConfig) {
   });
 
   // ---------- sitemap ----------
-  // Pages for sitemap.xml: every HTML page except those with `sitemap: false` in front matter.
+  // Pages for sitemap.xml: every HTML page except those with `sitemap: false` or `hide: true`.
   eleventyConfig.addFilter("sitemapItems", (items) =>
     items
-      .filter((i) => i.url && i.outputPath?.endsWith(".html") && i.data.sitemap !== false)
+      .filter((i) => i.url && i.outputPath?.endsWith(".html") && i.data.sitemap !== false && !isHidden(i.data))
       .sort((a, b) => (a.url === "/" ? -1 : b.url === "/" ? 1 : a.url.localeCompare(b.url)))
   );
   // W3C date (YYYY-MM-DD) for <lastmod>; WordPress dates are local times without offset.
@@ -179,13 +186,14 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("head", (arr, n) => arr.slice(0, n));
 
   // Page tree from the folder structure: /arkiv/carl-lawaetz-fortaeller/ is a child of /arkiv/.
-  // Order within a level: pages with an `order` in front matter first (ascending),
-  // then the rest by `date`, newest first.
+  // Order within a level: pages with a `navOrder` in front matter first (ascending),
+  // then the rest by `date`, newest first. Pages below a hidden page are left out too.
+  const parentUrl = (url) => url.replace(/[^/]+\/$/, "");
   let navCache;
   eleventyConfig.addFilter("navTree", (pages) => {
     if (navCache) return navCache;
     const items = pages.map((p) => ({
-      order: p.data.order,
+      order: p.data.navOrder,
       date: p.date,
       title: p.data.title,
       navTitle: p.data.navTitle || p.data.title, // short label for the top menu
@@ -193,9 +201,12 @@ export default function (eleventyConfig) {
       children: [],
     }));
     const byUrl = new Map(items.map((i) => [i.url, i]));
-    const parentUrl = (url) => url.replace(/[^/]+\/$/, "");
     const roots = [];
-    for (const i of items) (byUrl.get(parentUrl(i.url))?.children ?? roots).push(i);
+    for (const i of items) {
+      const parent = parentUrl(i.url);
+      if (parent === "/") roots.push(i);
+      else byUrl.get(parent)?.children.push(i); // no parent in the list: it is hidden
+    }
     const hasOrder = (i) => typeof i.order === "number";
     const sort = (list) => {
       list.sort((a, b) =>
@@ -213,17 +224,19 @@ export default function (eleventyConfig) {
 
   // Top-level section (from navTree) that contains the page, e.g. "Arkiv" for /arkiv/carl-lawaetz-fortaeller/
   eleventyConfig.addFilter("sectionFor", (tree, url) => tree.find((s) => url.startsWith(s.url)) || null);
-  // Breadcrumb trail: the pages above the current one, top-level first
+  // Breadcrumb trail: the pages above the current one, top-level first.
+  // A hidden page isn't in the tree, so its trail is that of the nearest visible page above it.
   eleventyConfig.addFilter("ancestorsOf", (tree, url) => {
-    const walk = (items, trail) => {
+    const pathTo = (target, items = tree, trail = []) => {
       for (const i of items) {
-        if (i.url === url) return trail;
-        const found = walk(i.children, [...trail, i]);
+        if (i.url === target) return [...trail, i];
+        const found = pathTo(target, i.children, [...trail, i]);
         if (found) return found;
       }
       return null;
     };
-    return walk(tree, []) || [];
+    const trailTo = (u) => (u === "/" ? [] : pathTo(u) ?? trailTo(parentUrl(u)));
+    return pathTo(url)?.slice(0, -1) ?? trailTo(parentUrl(url));
   });
 
   // ---------- search index (Pagefind) ----------

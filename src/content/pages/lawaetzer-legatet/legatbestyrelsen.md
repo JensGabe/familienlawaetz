@@ -1,6 +1,6 @@
 ---
 title: "Legatbestyrelsen"
-order: 2
+navOrder: 2
 date: "2011-10-17T13:57:07"
 modified: "2026-02-11T08:10:48"
 ---

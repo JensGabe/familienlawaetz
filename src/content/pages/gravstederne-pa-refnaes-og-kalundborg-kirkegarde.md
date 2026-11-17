@@ -1,6 +1,6 @@
 ---
 title: "Familiegravstederne"
-order: 3
+navOrder: 3
 navTitle: "Gravsteder"
 date: "2011-10-17T15:09:42"
 modified: "2013-01-16T16:48:36"

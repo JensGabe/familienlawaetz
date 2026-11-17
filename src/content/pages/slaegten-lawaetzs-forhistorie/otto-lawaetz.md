@@ -1,6 +1,6 @@
 ---
 title: "Otto Lawaetz"
-order: 1
+navOrder: 1
 date: "2011-10-14T11:56:52"
 modified: "2026-02-07T02:36:55"
 ---
