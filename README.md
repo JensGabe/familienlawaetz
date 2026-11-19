@@ -109,6 +109,10 @@ Footnotes only work in Markdown text, not inside kept HTML blocks (e.g. inside a
   `npm run start:all` / `npm run build:all` ignore `hide` and show everything, to preview hidden pages in place
   (same as setting `SHOW_HIDDEN=1`). Don't deploy a `build:all` build.
 - **New post:** add a file under `src/content/posts/` with `title` (and optionally `date`); `posts/x.md` gets the URL `/x/`.
+- **Page shown as a post too:** `post: true` on a page also puts it on the front page, in the posts menu, the
+  footer's latest posts and the RSS feed, by its `date`. It keeps its URL, layout and place in the page menu.
+  `post: "2026-11-19"` (a date instead of `true`) shows and sorts it by that date in those lists; the page itself
+  and the page menu keep its `date`.
 - Layout and URL come from the folder's data file (`pages.11tydata.js` / `posts.11tydata.js`). Set `layout` or
   `permalink` in front matter only to override them for one file. Renaming or moving a file changes its URL.
 - **Dates:** `date` and `modified` in front matter win. Without them, a file gets the date of the commit that

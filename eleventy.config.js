@@ -166,9 +166,28 @@ export default function (eleventyConfig) {
   const isHidden = (data) => Boolean(data.hide) && !showHidden;
   const visible = (items) => items.filter((p) => !isHidden(p.data));
   eleventyConfig.addCollection("pages", (api) => visible(api.getFilteredByGlob("src/content/pages/**/*.{md,html}")));
-  eleventyConfig.addCollection("posts", (api) =>
-    visible(api.getFilteredByGlob("src/content/posts/*.{md,html}")).sort((a, b) => b.date - a.date)
-  );
+  // Posts: the files in posts/, plus pages with `post: true`. Those keep their page URL, layout and menu place,
+  // and are also shown on the front page, in the posts menu, the footer and the RSS feed.
+  // `post: true` lists a page by its own date; `post: "2026-11-19"` (a date) lists it by that date instead: the
+  // copy in the post lists gets that `date` (shown and sorted by), the page itself keeps its own.
+  const postDate = (v) => {
+    if (v instanceof Date) return v; // unquoted YAML date
+    if (typeof v !== "string") return;
+    const d = new Date(/T[^Z+-]*$/.test(v) ? v + "Z" : v); // times without offset are UTC, as 11ty reads `date`
+    return isNaN(d) ? undefined : d;
+  };
+  const asPost = (item) => {
+    const d = postDate(item.data.post);
+    return d ? Object.create(item, { date: { value: d } }) : item;
+  };
+  const posts = (api) =>
+    visible([
+      ...api.getFilteredByGlob("src/content/posts/*.{md,html}"),
+      ...api.getFilteredByGlob("src/content/pages/**/*.{md,html}").filter((p) => p.data.post).map(asPost),
+    ]).sort((a, b) => b.date - a.date);
+  eleventyConfig.addCollection("posts", posts); // newest first
+  // The RSS plugin expects oldest first (it reverses the list before taking the newest `limit`).
+  eleventyConfig.addCollection("feedPosts", (api) => posts(api).reverse());
 
   // ---------- filters ----------
   eleventyConfig.addFilter("wpTime", (d) => {
@@ -282,7 +301,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(feedPlugin, {
     type: "rss",
     outputPath: "/feed/index.xml",
-    collection: { name: "posts", limit: 10 },
+    collection: { name: "feedPosts", limit: 10 },
     metadata: {
       language: "da",
       title: site.title,

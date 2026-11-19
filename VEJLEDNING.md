@@ -9,7 +9,7 @@ teksteditor.
 | | **Side** | **Indlæg** |
 |---|---|---|
 | Bruges til | Fast indhold: legatet, gravstederne, arkivet, nyhedsbreve, familiesammenkomster … | Nyheder: "Næste familiesammenkomst", "Slægtsbogen kan nu atter købes" … |
-| Vises | I menuen og i sektionens sideliste | På forsiden (nyeste først) og under "Nyt fra familien" nederst på alle sider |
+| Vises | I menuen og i sektionens sideliste | På forsiden (nyeste først), i listen over indlæg ved siden af indlæggene og under "Nyt fra familien" nederst på alle sider |
 | Mappe | `src/content/pages/` | `src/content/posts/` |
 
 ## Hvor skal filen ligge?
@@ -71,6 +71,7 @@ Her begynder selve teksten …
 | `modified` | nej | Dato for seneste ændring, samme format. Normalt kan den udelades: så bruges datoen for, hvornår filen sidst blev gemt i git. Angiv den kun, hvis du vil styre datoen selv. |
 | `navOrder` | nej (kun sider) | Fast plads i menuen: `navOrder: 1`, `navOrder: 2` … Sider med `navOrder` kommer først, i nummerorden; resten følger efter dato, nyeste først. Brug den kun til sider, der skal have en fast plads – nye nyhedsbreve og familiesammenkomster sorterer sig selv. |
 | `navTitle` | nej (kun sider i topmenuen) | Kortere navn i topmenuen, fx `navTitle: "Legatet"` for "Lawaetzer-legatet". |
+| `post` | nej (kun sider) | `post: true` viser siden som et indlæg *også*: på forsiden, i listen over indlæg og under "Nyt fra familien", sorteret efter `date`. Siden beholder sin adresse og sin plads i menuen. Praktisk til fx et nyt nyhedsbrev, der også skal være en nyhed. Skriv en dato i stedet for `true`, fx `post: "2026-11-19"`, så vises og sorteres siden efter den dato blandt indlæggene – i menuen bruges stadig `date`. |
 | `hide` | nej | `hide: true` skjuler siden/indlægget – se nedenfor. |
 
 Sæt tekstværdier i anførselstegn (`"…"`), især hvis de indeholder kolon, fx `title: "Lørdag: program"`.
@@ -211,4 +212,4 @@ Skriv ikke `{{`, `{%` eller `{#` i teksten – de tegnkombinationer har en særl
 2. Øverst: `title` (`date` kan udelades – så bruges dagens dato, når filen gemmes i git).
 3. Læg eventuelle billeder i `src/wp-content/uploads/2027/MM/`.
 4. Skriv teksten. Nyhedsbrevet placerer sig selv øverst blandt nyhedsbrevene i menuen.
-5. Skal der også være en nyhed på forsiden, så opret et kort indlæg i `src/content/posts/` med et link til nyhedsbrevet.
+5. Skal nyhedsbrevet også være en nyhed på forsiden, så tilføj `post: true` øverst.
