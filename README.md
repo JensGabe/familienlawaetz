@@ -74,7 +74,7 @@ Other bare domains like `example.dk` are not (that would also catch "7.000.kr");
 
 - An image on its own line becomes a `<figure>`; the quoted title becomes the caption ([markdown-it-image-figures](https://github.com/Antonio-Laguna/markdown-it-image-figures)).
 - `{…}` after an image adds classes/attributes ([markdown-it-attrs](https://github.com/arve0/markdown-it-attrs)): `.alignleft`, `.alignright`, `.aligncenter` and `width=…`. Avoid `{#id}`: `{#` starts a Nunjucks comment.
-- Every image is processed by [@11ty/eleventy-img](https://www.11ty.dev/docs/plugins/image/): width/height, lazy loading, and WebP + original format at up to 640 and 1280 px (never upscaled). Without `width=` the image is shown at its natural size, at most the 640 px column.
+- Every image is processed by [@11ty/eleventy-img](https://www.11ty.dev/docs/plugins/image/): width/height, lazy loading, and WebP + original format at up to 640 and 1280 px (never upscaled). The files in `/img/` are named after the source path without `wp-content/uploads/`: `uploads/2013/01/kaaludkloster.jpg` → `2013-01-kaaludkloster-640.webp`. An image replaced under the same name keeps its URL, so browsers may show the old version until their cache expires. Without `width=` the image is shown at its natural size, at most the 640 px column.
 - Several images in one paragraph are shown inline, side by side.
 
 ### Footnotes

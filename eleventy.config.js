@@ -29,12 +29,23 @@ export default function (eleventyConfig) {
 
   // Every <img> in the output (Markdown images included) gets width/height, lazy loading
   // and responsive WebP + original-format versions. An explicit width (e.g. {width=150})
-  // is kept as the output width. Generated files go to /img/.
+  // is kept as the output width. Generated files go to /img/, named after the source path:
+  //   src/wp-content/uploads/2013/01/kaaludkloster.jpg → /img/2013-01-kaaludkloster-640.webp
+  //   src/pics/foo.jpg                                 → /img/pics-foo-640.webp
   // SKIP_IMAGES=1 skips this (faster while writing; images are then served unprocessed).
   if (process.env.SKIP_IMAGES !== "1") {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
       formats: ["webp", "auto"],
       widths: [640, 1280],
+      filenameFormat: (id, src, width, format) => {
+        if (/^https?:/.test(src)) return; // remote image: default <hash>-<width> name
+        const name = path.relative("src", src)
+          .split(path.sep).join("/")
+          .replace(/^wp-content\/uploads\//, "")
+          .replace(/\.[^./]+$/, "")
+          .replaceAll("/", "-");
+        return `${name}-${width}.${format}`;
+      },
       failOnError: false,
       htmlOptions: {
         imgAttributes: { loading: "lazy", decoding: "async", sizes: "(max-width: 680px) 100vw, 640px" },
