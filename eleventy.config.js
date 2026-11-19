@@ -244,6 +244,13 @@ export default function (eleventyConfig) {
 
   // Top-level section (from navTree) that contains the page, e.g. "Arkiv" for /arkiv/carl-lawaetz-fortaeller/
   eleventyConfig.addFilter("sectionFor", (tree, url) => tree.find((s) => url.startsWith(s.url)) || null);
+  // On a post and on the front page (isHome): the posts as a section of their own ("Nyt fra familien", newest
+  // first), shaped like a navTree section so it gets the same section menu as pages. Null on anything else.
+  eleventyConfig.addFilter("postsSection", (posts, page, isHome) => {
+    if (!isHome && !page.inputPath.replaceAll("\\", "/").includes("/content/posts/")) return null;
+    const title = "Nyt fra familien";
+    return { url: "/", title, navTitle: title, children: posts.map((p) => ({ url: p.url, title: p.data.title, children: [] })) };
+  });
   // Breadcrumb trail: the pages above the current one, top-level first.
   // A hidden page isn't in the tree, so its trail is that of the nearest visible page above it.
   eleventyConfig.addFilter("ancestorsOf", (tree, url) => {

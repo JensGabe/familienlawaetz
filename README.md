@@ -41,6 +41,8 @@ work with the dev server. Set `SKIP_IMAGES=1` to skip image processing entirely 
   Google Fonts); navigation, dates and captions in the visitor's system sans-serif.
 - The top menu lists the top-level pages; `navTitle` in a page's front matter sets a shorter menu label.
   Pages inside a section get the section's page list beside the text (after it on phones) and a breadcrumb.
+  Posts and the front page get the same list with all post titles, newest first, under "Nyt fra familien"
+  (`postsSection` filter).
 - The former sidebar lives in the footer (latest posts, Facebook group, search, RSS); search is also in the top menu.
 
 ### Content and links
