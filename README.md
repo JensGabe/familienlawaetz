@@ -12,6 +12,7 @@ npm start          # dev server with live reload (images generated on request)
 npm run build      # build to _site/ (incl. optimised images in /img/)
 npm run start:all  # like start/build, but including pages and posts with `hide: true`
 npm run build:all
+npm run icons      # remake favicon and app icons from the coat of arms (only after changing vaaben.svg)
 ```
 
 Both also build the Pagefind search index (`_site/pagefind/`, used by `/soeg/`) after every build;
@@ -27,11 +28,14 @@ work with the dev server. Set `SKIP_IMAGES=1` to skip image processing entirely 
 |---|---|
 | `src/content/pages/**.md` | WordPress pages. The folder structure mirrors the URL and builds the menu tree; see *Adding content* for the order. |
 | `src/content/posts/*.md` | WordPress posts (shown on the front page, newest first). |
-| `src/_data/site.json` | Site title, tagline, header image, Facebook group link. |
+| `src/_data/site.json` | Site title, description (front page and fallback), header image, Facebook group link. |
 | `src/_data/wp.json` | Approved comments from WordPress. |
 | `src/_includes/` | Layouts (`base`, `page`, `post`) and partials (section navigation, post listing entry). |
 | `src/css/theme.css` | The "Slægtsbog" theme: colours and fonts as variables at the top, then layout, text, images, footnotes, footer. |
-| `src/static/images/vaaben.svg` | Coat of arms, used as logo and favicon. |
+| `src/static/` | Copied to the site root: coat of arms `images/vaaben.svg` (logo and favicon), and the icons made from it by `npm run icons` (`lib/make-icons.cjs`): `favicon.ico`, `apple-touch-icon.png`, `images/icon-*.png`. |
+| `src/manifest.njk` | Web app manifest (`/manifest.webmanifest`): name, colours, icons. |
+| `lib/` | Helpers: git dates for `date`/`modified`, the icon generator. |
+| `src/.htaccess` | Production (Apache) only: HTTPS and non-www redirects, the 404 page, compression, browser caching. |
 | `src/wp-content/uploads/`, `src/pics/` | All media, at the same URLs as on the WordPress site. |
 
 ### Theme
@@ -120,6 +124,15 @@ Footnotes only work in Markdown text, not inside kept HTML blocks (e.g. inside a
   current date. Both come from `lib/git-dates.js` (one `git log` per build): `modified` via `eleventyComputed` in
   the folder data files, `date` via their `date: "git Created"`, which `addDateParsing` in `eleventy.config.js`
   resolves (`eleventyComputed` can't set `date`). `modified` becomes the page's `<lastmod>` in the sitemap.
+
+### Page head: description, sharing and icons
+
+Every page gets a `<meta name="description">` and Open Graph tags (title, description, image, URL; `article` for
+posts) for search results and link previews on Facebook and elsewhere. The description is `description` from front
+matter, else the start of the page text (about 160 characters; `metaDescription` filter); the front page uses
+`description` in `site.json`. The preview image is the first picture in the text (`firstImage` filter), else the
+header image. Icons: `favicon.ico`, the SVG coat of arms, `apple-touch-icon.png` and the manifest's icons;
+`theme-color` and the manifest colours are `--paper` from `theme.css`.
 
 ### Sitemap and robots.txt
 

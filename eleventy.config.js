@@ -224,6 +224,30 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.addFilter("head", (arr, n) => arr.slice(0, n));
 
+  // <meta name="description"> when front matter has no `description`: the start of the page text
+  // (paragraphs after class="prose", footnote marks removed), cut at a word, at most ~160 characters.
+  const decode = (s) =>
+    s.replace(/&nbsp;/g, " ").replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+  eleventyConfig.addFilter("metaDescription", (html = "") => {
+    const start = html.indexOf('class="prose"');
+    if (start < 0) return "";
+    let text = "";
+    for (const [, p] of html.slice(start).matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)) {
+      const t = decode(p.replace(/<sup class="footnote-ref">[\s\S]*?<\/sup>/g, "").replace(/<br\s*\/?>/g, " ").replace(/<[^>]+>/g, ""))
+        .replace(/\s+/g, " ").trim();
+      if (t) text += (text ? " " : "") + t;
+      if (text.length >= 160) break;
+    }
+    if (text.length <= 160) return text;
+    return text.slice(0, 159).replace(/\s+\S*$/, "") + "…";
+  });
+  // Image for social media previews (og:image): the first picture in the page's text, if any.
+  eleventyConfig.addFilter("firstImage", (html = "") => {
+    const start = html.indexOf('class="prose"');
+    return start < 0 ? undefined : html.slice(start).match(/<img\s[^>]*?src="([^"]+)"/)?.[1];
+  });
+
   // Page tree from the folder structure: /arkiv/carl-lawaetz-fortaeller/ is a child of /arkiv/.
   // Order within a level: pages with a `navOrder` in front matter first (ascending),
   // then the rest by `date`, newest first. Pages below a hidden page are left out too.

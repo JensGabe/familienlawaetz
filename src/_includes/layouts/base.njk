@@ -13,8 +13,30 @@
 {%- if hide and not showHidden %}
 <meta name="robots" content="noindex">
 {%- endif %}
+{#- Description and social media previews: `description` in front matter, else the start of the text;
+    the first picture in the text, else the header image. #}
+{%- set isArticle = "/content/posts/" in page.inputPath or post %}
+{%- set metaTitle = title if title and not isHome else site.title %}
+{%- set metaDesc = description or (site.description if isHome else (content | metaDescription)) or site.description %}
+{%- set metaImage = (not isHome and (content | firstImage)) or site.headerImage %}
+<meta name="description" content="{{ metaDesc }}">
+<meta property="og:type" content="{{ 'article' if isArticle else 'website' }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="da_DK">
+<meta property="og:title" content="{{ metaTitle }}">
+<meta property="og:description" content="{{ metaDesc }}">
+<meta property="og:url" content="{{ page.url | htmlBaseUrl(site.url) }}">
+<meta property="og:image" content="{{ metaImage | htmlBaseUrl(site.url) }}">
+<meta name="twitter:card" content="summary_large_image">
+{%- if isArticle %}
+<meta property="article:published_time" content="{{ page.date.toISOString() }}">
+{%- endif %}
+<meta name="theme-color" content="#faf8f4">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed/index.xml">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/images/vaaben.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
 <link rel="preload" href="/fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/theme.css">
 </head>

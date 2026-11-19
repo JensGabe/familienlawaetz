@@ -71,6 +71,7 @@ Her begynder selve teksten …
 | `modified` | nej | Dato for seneste ændring, samme format. Normalt kan den udelades: så bruges datoen for, hvornår filen sidst blev gemt i git. Angiv den kun, hvis du vil styre datoen selv. |
 | `navOrder` | nej (kun sider) | Fast plads i menuen: `navOrder: 1`, `navOrder: 2` … Sider med `navOrder` kommer først, i nummerorden; resten følger efter dato, nyeste først. Brug den kun til sider, der skal have en fast plads – nye nyhedsbreve og familiesammenkomster sorterer sig selv. |
 | `navTitle` | nej (kun sider i topmenuen) | Kortere navn i topmenuen, fx `navTitle: "Legatet"` for "Lawaetzer-legatet". |
+| `description` | nej | Kort beskrivelse (højst ca. 160 tegn), som vises i Googles søgeresultater og når siden deles på fx Facebook. Udelades den, bruges starten af teksten. |
 | `post` | nej (kun sider) | `post: true` viser siden som et indlæg *også*: på forsiden, i listen over indlæg og under "Nyt fra familien", sorteret efter `date`. Siden beholder sin adresse og sin plads i menuen. Praktisk til fx et nyt nyhedsbrev, der også skal være en nyhed. Skriv en dato i stedet for `true`, fx `post: "2026-11-19"`, så vises og sorteres siden efter den dato blandt indlæggene – i menuen bruges stadig `date`. |
 | `hide` | nej | `hide: true` skjuler siden/indlægget – se nedenfor. |
 
